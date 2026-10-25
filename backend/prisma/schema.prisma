@@ -1,0 +1,64 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+  url      = env("DATABASE_URL")
+}
+
+model User {
+  id            String         @id @default(uuid())
+  email         String         @unique
+  password_hash String
+  role          String         @default("STUDENT") // STUDENT o ADMIN
+  progress      UserProgress[]
+  createdAt     DateTime       @default(now())
+  updatedAt     DateTime       @updatedAt
+}
+
+model Unit {
+  id          String   @id @default(uuid())
+  title       String
+  description String?
+  order       Int
+  lessons     Lesson[]
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model Lesson {
+  id        String         @id @default(uuid())
+  unitId    String
+  unit      Unit           @relation(fields: [unitId], references: [id], onDelete: Cascade)
+  title     String
+  content   String?        
+  type      String         @default("SUMMARY") // SUMMARY o PRACTICAL_WORK
+  order     Int
+  steps     Step[]
+  progress  UserProgress[]
+  createdAt DateTime       @default(now())
+  updatedAt DateTime       @updatedAt
+}
+
+model Step {
+  id          String   @id @default(uuid())
+  lessonId    String
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  order       Int
+  instruction String
+  codeSnippet String?
+  explanation String?
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+}
+
+model UserProgress {
+  userId      String
+  user        User     @relation(fields: [userId], references: [id], onDelete: Cascade)
+  lessonId    String
+  lesson      Lesson   @relation(fields: [lessonId], references: [id], onDelete: Cascade)
+  completedAt DateTime @default(now())
+
+  @@id([userId, lessonId])
+}

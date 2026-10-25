@@ -1,0 +1,1547 @@
+[
+  {
+    "id": "4506acff-c4e6-4a8e-ad01-031102c2a5e3",
+    "title": "Conceptos Generales",
+    "description": null,
+    "order": 1,
+    "createdAt": "2026-09-08T15:56:15.398Z",
+    "updatedAt": "2026-10-25T12:33:12.191Z",
+    "lessons": [
+      {
+        "id": "7d1334b9-d7c5-48ba-ad73-00cebda7ff42",
+        "unitId": "4506acff-c4e6-4a8e-ad01-031102c2a5e3",
+        "title": "SO- Estrcuturas del SO - 2026",
+        "content": "### SO- Estrcuturas del SO - 2026\n\n<iframe src=\"/material/1-%20Conceptos%20Generales/SO-%20Estrcuturas%20del%20SO%20-%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo (Si no podés visualizarlo)](/material/1-%20Conceptos%20Generales/SO-%20Estrcuturas%20del%20SO%20-%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 1,
+        "createdAt": "2026-09-08T15:56:15.860Z",
+        "updatedAt": "2026-09-08T15:56:15.860Z",
+        "steps": []
+      },
+      {
+        "id": "297d311c-584d-4efa-9944-94cfda758df5",
+        "unitId": "4506acff-c4e6-4a8e-ad01-031102c2a5e3",
+        "title": "SO- Introducción- 2026",
+        "content": "### SO- Introducción- 2026\n\n<iframe src=\"/material/1-%20Conceptos%20Generales/SO-%20Introducci%C3%B3n-%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo (Si no podés visualizarlo)](/material/1-%20Conceptos%20Generales/SO-%20Introducci%C3%B3n-%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 2,
+        "createdAt": "2026-09-08T15:56:16.073Z",
+        "updatedAt": "2026-09-08T15:56:16.073Z",
+        "steps": []
+      }
+    ]
+  },
+  {
+    "id": "07f863cd-66d0-408b-8b60-2fe109130dd3",
+    "title": "Procesos",
+    "description": null,
+    "order": 2,
+    "createdAt": "2026-09-08T15:56:16.218Z",
+    "updatedAt": "2026-10-25T12:33:12.445Z",
+    "lessons": [
+      {
+        "id": "dd5f95b2-da50-45f7-91cf-3a60c0d5f9b0",
+        "unitId": "07f863cd-66d0-408b-8b60-2fe109130dd3",
+        "title": "Procesos - Hilos Operaciones SC y Fcs.- 2026",
+        "content": "### Procesos - Hilos Operaciones SC y Fcs.- 2026\n\n<iframe src=\"/material/2-%20Procesos/Procesos%20-%20Hilos%20Operaciones%20SC%20y%20Fcs.-%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo (Si no podés visualizarlo)](/material/2-%20Procesos/Procesos%20-%20Hilos%20Operaciones%20SC%20y%20Fcs.-%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 1,
+        "createdAt": "2026-09-08T15:56:16.355Z",
+        "updatedAt": "2026-09-08T15:56:16.355Z",
+        "steps": []
+      },
+      {
+        "id": "7a0e5cd1-4d89-4ac6-a525-df39a5eb0884",
+        "unitId": "07f863cd-66d0-408b-8b60-2fe109130dd3",
+        "title": "SO- Hilos - 2026",
+        "content": "### SO- Hilos - 2026\n\n<iframe src=\"/material/2-%20Procesos/SO-%20Hilos%20-%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo (Si no podés visualizarlo)](/material/2-%20Procesos/SO-%20Hilos%20-%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 2,
+        "createdAt": "2026-09-08T15:56:16.570Z",
+        "updatedAt": "2026-09-08T15:56:16.570Z",
+        "steps": []
+      },
+      {
+        "id": "de41d043-39e2-4baf-a340-3da6738a32aa",
+        "unitId": "07f863cd-66d0-408b-8b60-2fe109130dd3",
+        "title": "SO- Procesos - 2026",
+        "content": "### SO- Procesos - 2026\n\n<iframe src=\"/material/2-%20Procesos/SO-%20Procesos%20-%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo (Si no podés visualizarlo)](/material/2-%20Procesos/SO-%20Procesos%20-%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 3,
+        "createdAt": "2026-09-08T15:56:16.712Z",
+        "updatedAt": "2026-09-08T15:56:16.712Z",
+        "steps": []
+      },
+      {
+        "id": "f0a2b61e-ae2a-4c64-ab84-fd666b357153",
+        "unitId": "07f863cd-66d0-408b-8b60-2fe109130dd3",
+        "title": "SO-Comunicación Mem-Mensa-2026",
+        "content": "### SO-Comunicación Mem-Mensa-2026\n\n<iframe src=\"/material/2-%20Procesos/SO-Comunicaci%C3%B3n%20Mem-Mensa-2026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/2-%20Procesos/SO-Comunicaci%C3%B3n%20Mem-Mensa-2026.pdf)",
+        "type": "SUMMARY",
+        "order": 4,
+        "createdAt": "2026-09-15T13:50:11.390Z",
+        "updatedAt": "2026-09-15T13:50:11.390Z",
+        "steps": []
+      },
+      {
+        "id": "8821779c-350b-4752-a6cb-aa2a9e574672",
+        "unitId": "07f863cd-66d0-408b-8b60-2fe109130dd3",
+        "title": "ipc_2026",
+        "content": "### ipc_2026\n\n<iframe src=\"/material/2-%20Procesos/ipc_2026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/2-%20Procesos/ipc_2026.pdf)",
+        "type": "SUMMARY",
+        "order": 5,
+        "createdAt": "2026-09-15T13:50:11.785Z",
+        "updatedAt": "2026-09-15T13:50:11.785Z",
+        "steps": []
+      },
+      {
+        "id": "415962f3-533f-4695-839b-ec333dbc783c",
+        "unitId": "07f863cd-66d0-408b-8b60-2fe109130dd3",
+        "title": "procesos_hilos_2026",
+        "content": "### procesos_hilos_2026\n\n<iframe src=\"/material/2-%20Procesos/procesos_hilos_2026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/2-%20Procesos/procesos_hilos_2026.pdf)",
+        "type": "SUMMARY",
+        "order": 6,
+        "createdAt": "2026-09-15T13:50:11.954Z",
+        "updatedAt": "2026-09-15T13:50:11.954Z",
+        "steps": []
+      }
+    ]
+  },
+  {
+    "id": "3a30e3fd-3672-4691-bcbf-199c6c6bc398",
+    "title": "Planificacion",
+    "description": null,
+    "order": 3,
+    "createdAt": "2026-09-15T13:50:12.049Z",
+    "updatedAt": "2026-10-25T12:33:12.595Z",
+    "lessons": [
+      {
+        "id": "34a982db-ac97-45f4-aed4-3f45d5cce45d",
+        "unitId": "3a30e3fd-3672-4691-bcbf-199c6c6bc398",
+        "title": "SO- Planificacion de Procesos - Conceptos Grales - 2026",
+        "content": "### SO- Planificacion de Procesos - Conceptos Grales - 2026\n\n<iframe src=\"/material/3-%20Planificacion/SO-%20Planificacion%20de%20Procesos%20-%20Conceptos%20Grales%20-%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/3-%20Planificacion/SO-%20Planificacion%20de%20Procesos%20-%20Conceptos%20Grales%20-%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 1,
+        "createdAt": "2026-09-15T13:50:12.204Z",
+        "updatedAt": "2026-10-25T12:33:03.436Z",
+        "steps": []
+      },
+      {
+        "id": "3969b1b3-23c3-466b-abfa-4de5c15de86c",
+        "unitId": "3a30e3fd-3672-4691-bcbf-199c6c6bc398",
+        "title": "SO - Ejemplos Procesos y Planificación -  2026",
+        "content": "### SO - Ejemplos Procesos y Planificación -  2026\n\n<iframe src=\"/material/3-%20Planificacion/SO%20-%20Ejemplos%20Procesos%20y%20Planificaci%C3%B3n%20-%20%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/3-%20Planificacion/SO%20-%20Ejemplos%20Procesos%20y%20Planificaci%C3%B3n%20-%20%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 2,
+        "createdAt": "2026-10-25T12:33:03.945Z",
+        "updatedAt": "2026-10-25T12:33:03.945Z",
+        "steps": []
+      },
+      {
+        "id": "5251e868-0c1d-4af9-bf58-adce5e350cab",
+        "unitId": "3a30e3fd-3672-4691-bcbf-199c6c6bc398",
+        "title": "SO- Planificacion de Procesos - Multiprocesadores y Tpo Real - 2026",
+        "content": "### SO- Planificacion de Procesos - Multiprocesadores y Tpo Real - 2026\n\n<iframe src=\"/material/3-%20Planificacion/SO-%20Planificacion%20de%20Procesos%20-%20Multiprocesadores%20y%20Tpo%20Real%20-%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/3-%20Planificacion/SO-%20Planificacion%20de%20Procesos%20-%20Multiprocesadores%20y%20Tpo%20Real%20-%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 3,
+        "createdAt": "2026-10-25T12:33:04.525Z",
+        "updatedAt": "2026-10-25T12:33:04.525Z",
+        "steps": []
+      }
+    ]
+  },
+  {
+    "id": "6e095389-5606-43d3-965e-82edba444d5d",
+    "title": "Sincronización",
+    "description": null,
+    "order": 4,
+    "createdAt": "2026-10-25T12:33:04.876Z",
+    "updatedAt": "2026-10-25T12:33:12.744Z",
+    "lessons": [
+      {
+        "id": "6dd545df-9ea6-4bf1-b02a-1b4e8adbbe52",
+        "unitId": "6e095389-5606-43d3-965e-82edba444d5d",
+        "title": "SO- Sincronización de Procesos - Introducción 2026",
+        "content": "### SO- Sincronización de Procesos - Introducción 2026\n\n<iframe src=\"/material/4-%20Sincronizaci%C3%B3n/SO-%20Sincronizaci%C3%B3n%20de%20Procesos%20-%20Introducci%C3%B3n%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/4-%20Sincronizaci%C3%B3n/SO-%20Sincronizaci%C3%B3n%20de%20Procesos%20-%20Introducci%C3%B3n%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 1,
+        "createdAt": "2026-10-25T12:33:05.779Z",
+        "updatedAt": "2026-10-25T12:33:05.779Z",
+        "steps": []
+      },
+      {
+        "id": "1a044682-c40f-49ca-aab3-3b1672388ffc",
+        "unitId": "6e095389-5606-43d3-965e-82edba444d5d",
+        "title": "SO- Sincronización de Procesos- Soluciones Software y Problemas Genenrales 2026",
+        "content": "### SO- Sincronización de Procesos- Soluciones Software y Problemas Genenrales 2026\n\n<iframe src=\"/material/4-%20Sincronizaci%C3%B3n/SO-%20Sincronizaci%C3%B3n%20de%20Procesos-%20Soluciones%20Software%20y%20Problemas%20Genenrales%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/4-%20Sincronizaci%C3%B3n/SO-%20Sincronizaci%C3%B3n%20de%20Procesos-%20Soluciones%20Software%20y%20Problemas%20Genenrales%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 2,
+        "createdAt": "2026-10-25T12:33:06.738Z",
+        "updatedAt": "2026-10-25T12:33:06.738Z",
+        "steps": []
+      },
+      {
+        "id": "625ddb48-6dca-4ee0-9063-5b8e209c1521",
+        "unitId": "6e095389-5606-43d3-965e-82edba444d5d",
+        "title": "SO- Sincronización de Procesos - Ejemplos SO - 2026",
+        "content": "### SO- Sincronización de Procesos - Ejemplos SO - 2026\n\n<iframe src=\"/material/4-%20Sincronizaci%C3%B3n/SO-%20Sincronizaci%C3%B3n%20de%20Procesos%20-%20Ejemplos%20SO%20-%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/4-%20Sincronizaci%C3%B3n/SO-%20Sincronizaci%C3%B3n%20de%20Procesos%20-%20Ejemplos%20SO%20-%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 3,
+        "createdAt": "2026-10-25T12:33:07.778Z",
+        "updatedAt": "2026-10-25T12:33:07.778Z",
+        "steps": []
+      },
+      {
+        "id": "086487c0-e79d-4047-b842-c1ba98121dca",
+        "unitId": "6e095389-5606-43d3-965e-82edba444d5d",
+        "title": "SO-Interbloqueos - 2026",
+        "content": "### SO-Interbloqueos - 2026\n\n<iframe src=\"/material/4-%20Sincronizaci%C3%B3n/SO-Interbloqueos%20-%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/4-%20Sincronizaci%C3%B3n/SO-Interbloqueos%20-%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 4,
+        "createdAt": "2026-10-25T12:33:08.728Z",
+        "updatedAt": "2026-10-25T12:33:08.728Z",
+        "steps": []
+      },
+      {
+        "id": "552b462c-3140-4ad3-9ea5-8c9978e54f3d",
+        "unitId": "6e095389-5606-43d3-965e-82edba444d5d",
+        "title": "Problema de lectores y escritores animado",
+        "content": "### Problema de lectores y escritores animado\n\n<video controls width=\"100%\" style=\"border-radius: 8px; border: 1px solid #e5e7eb; margin-top: 20px;\" src=\"/material/4-%20Sincronizaci%C3%B3n/Problema%20de%20lectores%20y%20escritores%20animado.mp4\"></video>\n\n<br/>[📥 Descargar Video](/material/4-%20Sincronizaci%C3%B3n/Problema%20de%20lectores%20y%20escritores%20animado.mp4)",
+        "type": "SUMMARY",
+        "order": 5,
+        "createdAt": "2026-10-25T12:33:09.762Z",
+        "updatedAt": "2026-10-25T12:33:09.762Z",
+        "steps": []
+      },
+      {
+        "id": "da4242b4-b819-4240-b6f5-e30fc242ae7b",
+        "unitId": "6e095389-5606-43d3-965e-82edba444d5d",
+        "title": "ejercicio1",
+        "content": "### ejercicio1\n\n```c\n#include <stdio.h>\r\n#include <stdlib.h>\r\n#include <pthread.h>\r\n#include <sys/time.h>\r\n\r\nint contador;               /* contador global compartido */\r\n\r\ntypedef struct threadArgs {\r\n    pthread_t thr_ID;\r\n    int num_of_repeticion;\r\n    int id;\r\n} THREADARGS;\r\n\r\n\r\nvoid *add(void *arg)\r\n{\r\n\r\n    int i;\r\n    struct timeval tinicio, tfinal;\r\n    THREADARGS *a = (THREADARGS *) arg;\r\n\r\n    gettimeofday(&tinicio, NULL);\r\n    for (i = 0; i < a->num_of_repeticion; i++) {\r\n        contador++;\r\n    }\r\n\r\n    gettimeofday(&tfinal, NULL);\r\n    printf(\"Inicio en  %d seg %d micro \\n\", tinicio.tv_sec, tinicio.tv_usec);\r\n    printf(\"Finaliza en  %d seg %d micro \\n\", tfinal.tv_sec, tfinal.tv_usec);\r\n    return NULL;\r\n}\r\n\r\nint main()\r\n{\r\n    int i = 1;\r\n    pthread_attr_t thrAttr;\r\n    THREADARGS threadargs_array[2];\r\n\r\n    pthread_attr_init(&thrAttr);\r\n    pthread_attr_setdetachstate(&thrAttr, PTHREAD_CREATE_JOINABLE);\r\n\r\n    /* creacion del primer hilo */\r\n\r\n    threadargs_array[0].id = 0;\r\n    threadargs_array[0].num_of_repeticion = 1000000;\r\n    \r\n    pthread_create(&threadargs_array[0].thr_ID, &thrAttr, add,\r\n                   &threadargs_array[0]);\r\n\r\n    /* creacion del segundo hilo */\r\n\r\n    threadargs_array[1].id = 1;\r\n    threadargs_array[1].num_of_repeticion = 2000000;\r\n\r\n    pthread_create(&threadargs_array[1].thr_ID, &thrAttr, add,\r\n                   &threadargs_array[1]);\r\n\r\n     pthread_attr_destroy(&thrAttr);\r\n\r\n    /* espera finalizacion primer hilo */\r\n    pthread_join(threadargs_array[0].thr_ID, NULL);\r\n    printf(\"Primer hilo termina.\\n\");\r\n\r\n    /* espera finalizacion segundo hilo */\r\n    pthread_join(threadargs_array[1].thr_ID, NULL);\r\n    printf(\"Segundo hilo termina.\\n\");\r\n\r\n\r\n    printf(\"Valor Contador es: %d \\n\", contador);\r\n    return (EXIT_SUCCESS);\r\n}\r\n\r\n\n```\n\n[📥 Descargar Archivo Fuente](/material/4-%20Sincronizaci%C3%B3n/ejercicio1.c)",
+        "type": "SUMMARY",
+        "order": 6,
+        "createdAt": "2026-10-25T12:33:10.241Z",
+        "updatedAt": "2026-10-25T12:33:10.241Z",
+        "steps": []
+      },
+      {
+        "id": "70421016-8974-44ef-a2da-16a1cf056da2",
+        "unitId": "6e095389-5606-43d3-965e-82edba444d5d",
+        "title": "ejercicio2",
+        "content": "### ejercicio2\n\n```c\n#include <stdio.h>\n#include <stdlib.h>\n#include <pthread.h>\n#include <sys/time.h>\n\nint buffer_compartido = 0;               /* contador global compartido */\npthread_t hprod, hcons;\n\nvoid *productor(void *arg)\n{\n    int i, dato;\n    for (i = 0; i < 100; i++) {\n        dato = i;\n        buffer_compartido = dato;\n        printf(\"Productor dato %d \\n\", dato);\n    }\n\n    return NULL;\n}\nvoid *consumidor(void *arg)\n{\n    int i, dato;\n    for (i = 0; i < 100; i++) {\n        dato = buffer_compartido;\n        printf(\"Consumidor dato %d \\n\", dato);\n    }\n\n    return NULL;\n}\nint main()\n{\n    int i = 1;\n  \n    pthread_create(&hcons, NULL, consumidor, NULL);\n    pthread_create(&hprod, NULL, productor, NULL);\n\n    pthread_join(hprod, NULL);\n    printf(\"Finalizo el productor.\\n\");\n\n    pthread_join(hcons, NULL);\n    printf(\"Finalizo el consumidor.\\n\");\n\n  \n    return (EXIT_SUCCESS);\n}\n\n\n```\n\n[📥 Descargar Archivo Fuente](/material/4-%20Sincronizaci%C3%B3n/ejercicio2.c)",
+        "type": "SUMMARY",
+        "order": 7,
+        "createdAt": "2026-10-25T12:33:10.841Z",
+        "updatedAt": "2026-10-25T12:33:10.841Z",
+        "steps": []
+      }
+    ]
+  },
+  {
+    "id": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+    "title": "Material Adicional y Prácticos",
+    "description": "Archivos sueltos, bibliografía e historia de los SO.",
+    "order": 99,
+    "createdAt": "2026-09-08T15:56:16.835Z",
+    "updatedAt": "2026-10-25T12:33:12.891Z",
+    "lessons": [
+      {
+        "id": "bb559928-b7d0-4466-9b5a-0426352fb6f4",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "0. A Visual History_ Microsoft Windows Over the Decades _ PCMag",
+        "content": "### 0. A Visual History_ Microsoft Windows Over the Decades _ PCMag\n\n<iframe src=\"/material/0.%20A%20Visual%20History_%20Microsoft%20Windows%20Over%20the%20Decades%20_%20PCMag.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/0.%20A%20Visual%20History_%20Microsoft%20Windows%20Over%20the%20Decades%20_%20PCMag.pdf)",
+        "type": "SUMMARY",
+        "order": 1,
+        "createdAt": "2026-09-08T15:56:16.947Z",
+        "updatedAt": "2026-09-08T15:56:16.947Z",
+        "steps": []
+      },
+      {
+        "id": "a42181fc-22bc-446c-ad7c-a59f3e0f650e",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "0. Apple’s Darwin OS and XNU Kernel _ Tanuj Ravi Rao",
+        "content": "### 0. Apple’s Darwin OS and XNU Kernel _ Tanuj Ravi Rao\n\n<iframe src=\"/material/0.%20Apple%E2%80%99s%20Darwin%20OS%20and%20XNU%20Kernel%20_%20Tanuj%20Ravi%20Rao.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/0.%20Apple%E2%80%99s%20Darwin%20OS%20and%20XNU%20Kernel%20_%20Tanuj%20Ravi%20Rao.pdf)",
+        "type": "SUMMARY",
+        "order": 2,
+        "createdAt": "2026-09-08T15:56:17.105Z",
+        "updatedAt": "2026-09-08T15:56:17.105Z",
+        "steps": []
+      },
+      {
+        "id": "cf05a911-4cdb-4a60-97d4-2afe780332cb",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "0. History of UNIX",
+        "content": "### 0. History of UNIX\n\n<iframe src=\"/material/0.%20History%20of%20UNIX.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/0.%20History%20of%20UNIX.pdf)",
+        "type": "SUMMARY",
+        "order": 3,
+        "createdAt": "2026-09-08T15:56:17.271Z",
+        "updatedAt": "2026-09-08T15:56:17.271Z",
+        "steps": []
+      },
+      {
+        "id": "12f02058-35ac-4ac5-99b1-6d5fdcce5c8d",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "0. La historia del sistema operativo Windows desde sus primeras versiones_",
+        "content": "### 0. La historia del sistema operativo Windows desde sus primeras versiones_\n\n<iframe src=\"/material/0.%20La%20historia%20del%20sistema%20operativo%20Windows%20desde%20sus%20primeras%20versiones_.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/0.%20La%20historia%20del%20sistema%20operativo%20Windows%20desde%20sus%20primeras%20versiones_.pdf)",
+        "type": "SUMMARY",
+        "order": 4,
+        "createdAt": "2026-09-08T15:56:17.382Z",
+        "updatedAt": "2026-09-08T15:56:17.382Z",
+        "steps": []
+      },
+      {
+        "id": "29a9b55c-7c79-4d5a-844b-d00f37237db5",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "0. macOS Internals Explained_ A Dive into the Operating System’s Architecture – HackMag",
+        "content": "### 0. macOS Internals Explained_ A Dive into the Operating System’s Architecture – HackMag\n\n<iframe src=\"/material/0.%20macOS%20Internals%20Explained_%20A%20Dive%20into%20the%20Operating%20System%E2%80%99s%20Architecture%20%E2%80%93%20HackMag.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/0.%20macOS%20Internals%20Explained_%20A%20Dive%20into%20the%20Operating%20System%E2%80%99s%20Architecture%20%E2%80%93%20HackMag.pdf)",
+        "type": "SUMMARY",
+        "order": 5,
+        "createdAt": "2026-09-08T15:56:17.501Z",
+        "updatedAt": "2026-09-08T15:56:17.501Z",
+        "steps": []
+      },
+      {
+        "id": "6e7a7a61-1c7b-4d41-bfe3-e926f0897482",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "0. The Evolution of Linux_ From Hobby to Enterprise Giant",
+        "content": "### 0. The Evolution of Linux_ From Hobby to Enterprise Giant\n\n<iframe src=\"/material/0.%20The%20Evolution%20of%20Linux_%20From%20Hobby%20to%20Enterprise%20Giant.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/0.%20The%20Evolution%20of%20Linux_%20From%20Hobby%20to%20Enterprise%20Giant.pdf)",
+        "type": "SUMMARY",
+        "order": 6,
+        "createdAt": "2026-09-08T15:56:17.595Z",
+        "updatedAt": "2026-09-08T15:56:17.595Z",
+        "steps": []
+      },
+      {
+        "id": "f683d45c-2747-49a4-9f32-c405abf4744d",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "0. The evolution of macOS (and Mac OS X) – Computerworld",
+        "content": "### 0. The evolution of macOS (and Mac OS X) – Computerworld\n\n<iframe src=\"/material/0.%20The%20evolution%20of%20macOS%20(and%20Mac%20OS%20X)%20%E2%80%93%20Computerworld.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/0.%20The%20evolution%20of%20macOS%20(and%20Mac%20OS%20X)%20%E2%80%93%20Computerworld.pdf)",
+        "type": "SUMMARY",
+        "order": 7,
+        "createdAt": "2026-09-08T15:56:17.717Z",
+        "updatedAt": "2026-09-08T15:56:17.717Z",
+        "steps": []
+      },
+      {
+        "id": "b768ac01-7def-48de-9147-6dca6b6d412c",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "Act1 - Introducción Linux",
+        "content": "### Act1 - Introducción Linux\n\n<iframe src=\"/material/Act1%20-%20Introducci%C3%B3n%20Linux.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/Act1%20-%20Introducci%C3%B3n%20Linux.pdf)",
+        "type": "PRACTICAL_WORK",
+        "order": 8,
+        "createdAt": "2026-09-08T15:56:17.834Z",
+        "updatedAt": "2026-09-08T15:56:17.834Z",
+        "steps": [
+          {
+            "id": "a98d5f6c-e9a7-4fbd-8ddc-8f45ef78b76d",
+            "lessonId": "b768ac01-7def-48de-9147-6dca6b6d412c",
+            "order": 1,
+            "instruction": "1. Navegación de directorios",
+            "codeSnippet": "pwd\ncd /var/log",
+            "explanation": "El comando pwd imprime el directorio de trabajo actual. cd nos permite cambiar de directorio.",
+            "createdAt": "2026-09-09T12:52:46.318Z",
+            "updatedAt": "2026-09-09T12:52:46.318Z"
+          },
+          {
+            "id": "eb33c3c3-be49-4dfb-bd0f-e2a526c8814c",
+            "lessonId": "b768ac01-7def-48de-9147-6dca6b6d412c",
+            "order": 2,
+            "instruction": "2. Listar archivos",
+            "codeSnippet": "ls -l",
+            "explanation": "En /var/log se encuentran los registros del sistema. Usamos ls -l para ver los archivos con detalles de permisos y dueños.",
+            "createdAt": "2026-09-09T12:52:46.318Z",
+            "updatedAt": "2026-09-09T12:52:46.318Z"
+          }
+        ]
+      },
+      {
+        "id": "999dd7b0-54c4-4e3c-9cfd-5f2d53f8d3dc",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "Cronograma - 2026",
+        "content": "### Cronograma - 2026\n\n<iframe src=\"/material/Cronograma%20-%202026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/Cronograma%20-%202026.pdf)",
+        "type": "SUMMARY",
+        "order": 9,
+        "createdAt": "2026-09-08T15:56:18.019Z",
+        "updatedAt": "2026-09-08T15:56:18.019Z",
+        "steps": []
+      },
+      {
+        "id": "b802081d-f001-4707-8ba6-4960ac67600e",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "Practico1-2026",
+        "content": "### Practico1-2026\n\n<iframe src=\"/material/Practico1-2026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/Practico1-2026.pdf)",
+        "type": "PRACTICAL_WORK",
+        "order": 10,
+        "createdAt": "2026-09-08T15:56:18.213Z",
+        "updatedAt": "2026-09-08T15:56:18.213Z",
+        "steps": [
+          {
+            "id": "a626efc3-d988-4799-94d4-562c5e92c789",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 1,
+            "instruction": "Pregunta 1: Funciones principales de un SO",
+            "codeSnippet": null,
+            "explanation": "Un Sistema Operativo tiene dos funciones principales: \n\n1. **Administrador de Recursos:** Asigna de forma eficiente y segura la CPU, memoria, almacenamiento y dispositivos de E/S entre los distintos programas.\n2. **Máquina Extendida (Abstracción):** Oculta la complejidad del hardware proporcionando una interfaz limpia y sencilla para que los programadores y usuarios interactúen con la máquina.",
+            "createdAt": "2026-09-09T13:35:06.745Z",
+            "updatedAt": "2026-09-09T13:35:06.745Z"
+          },
+          {
+            "id": "f5446cf7-7ca2-492b-886f-cffcc23b55ac",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 2,
+            "instruction": "Pregunta 2: Ejemplos y clasificación de SO",
+            "codeSnippet": null,
+            "explanation": "Ejemplos: Windows, macOS, Linux (Ubuntu, Debian), Android, iOS.\n\nSe pueden clasificar según distintos criterios:\n- **Por lote (batch):** Procesan trabajos sin interacción del usuario (antiguos mainframes).\n- **Interactivos/Tiempo compartido:** Múltiples usuarios interactuando simultáneamente (Linux, Windows).\n- **Tiempo real (RTOS):** Responden a eventos en tiempos estrictos (sistemas médicos, control industrial).\n- **Embebidos:** Integrados en dispositivos específicos (electrodomésticos, routers).",
+            "createdAt": "2026-09-09T13:35:06.745Z",
+            "updatedAt": "2026-09-09T13:35:06.745Z"
+          },
+          {
+            "id": "4aba7816-0ad9-4a78-9851-c77fae4f41dd",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 3,
+            "instruction": "Pregunta 3a: ¿PC sin sistema operativo?",
+            "codeSnippet": null,
+            "explanation": "**Verdadero**. Técnicamente, una computadora puede funcionar sin un SO. Sin embargo, el programador tendría que escribir código máquina o ensamblador interactuando directamente con los registros del hardware, manejando las interrupciones, la memoria de video y los discos manualmente para cada aplicación que desarrolle.",
+            "createdAt": "2026-09-09T13:35:06.745Z",
+            "updatedAt": "2026-09-09T13:35:06.745Z"
+          },
+          {
+            "id": "86447e88-c6ca-4898-a073-513de0361dec",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 4,
+            "instruction": "Pregunta 4: ¿Cómo utiliza el usuario el SO?",
+            "codeSnippet": null,
+            "explanation": "**Directamente:** A través del intérprete de comandos (Shell) o la interfaz gráfica (GUI) para interactuar con los archivos y configuraciones.\n**Indirectamente:** Al usar aplicaciones de usuario (como un navegador o un procesador de texto), estas aplicaciones realizan \"System Calls\" (llamadas al sistema) al SO en nombre del usuario para leer archivos, asignar memoria o enviar datos por red.",
+            "createdAt": "2026-09-09T13:35:06.745Z",
+            "updatedAt": "2026-09-09T13:35:06.745Z"
+          },
+          {
+            "id": "14db989d-595b-4581-bfc1-9feb0b6744ae",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 5,
+            "instruction": "Pregunta 5: Contradicción de objetivos de diseño",
+            "codeSnippet": null,
+            "explanation": "Un ejemplo clásico de contradicción es el **Rendimiento vs. Seguridad/Robustez**. Si un sistema verifica todos los límites de memoria, comprueba parámetros de usuario exhaustivamente y aísla procesos, será muy robusto, pero el procesamiento de todas estas validaciones disminuirá el rendimiento del sistema.\n\nOtro ejemplo es **Facilidad de uso vs. Consumo de recursos** (Ej: Una Interfaz Gráfica (GUI) bonita consume muchísimos más recursos que una interfaz de línea de comandos).",
+            "createdAt": "2026-09-09T13:43:54.337Z",
+            "updatedAt": "2026-09-09T13:43:54.337Z"
+          },
+          {
+            "id": "d45883ec-cbb4-4907-ada7-868b47685835",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 6,
+            "instruction": "Pregunta 6: ¿Cuándo es apropiado sacrificar eficiencia?",
+            "codeSnippet": null,
+            "explanation": "Es apropiado sacrificar la eficiencia máxima de la CPU/Memoria cuando los recursos humanos o de desarrollo son más valiosos, o cuando se busca una **mejor experiencia de usuario (UX)** y **seguridad**. Por ejemplo, los sistemas operativos modernos utilizan interfaces gráficas y animaciones que consumen ciclos de reloj \"innecesarios\", pero son utilizados masivamente porque hacen que las computadoras sean accesibles para el público general.",
+            "createdAt": "2026-09-09T13:43:54.514Z",
+            "updatedAt": "2026-09-09T13:43:54.514Z"
+          },
+          {
+            "id": "1759fab7-29cc-4e48-b5b0-e73f95972a1a",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 7,
+            "instruction": "Pregunta 7: Aplicaciones integradas en el SO (Navegadores, correo)",
+            "codeSnippet": null,
+            "explanation": "**Pros de incluirlos:** Pueden ofrecer un mejor rendimiento percibido ya que tienen integración directa con la API del SO, y facilitan la vida del usuario que tiene \"todo en uno\" al instalar (Ej: Internet Explorer en Windows en su momento).\n\n**Contras de incluirlos:** Representa un riesgo de seguridad gigantesco (una vulnerabilidad en el navegador podría dar acceso al kernel si no están bien separados). Además, \"infla\" el tamaño del SO y va en contra de la filosofía de diseño modular.",
+            "createdAt": "2026-09-09T13:43:54.630Z",
+            "updatedAt": "2026-09-09T13:43:54.630Z"
+          },
+          {
+            "id": "194bfc44-4e46-4a53-aaa4-a733b3112cf2",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 8,
+            "instruction": "Pregunta 8: SO en lenguaje de alto nivel",
+            "codeSnippet": null,
+            "explanation": "**Es totalmente posible y es la norma.** (Ej: C, C++, Rust). \n\n**Ventajas:** Código más fácil y rápido de escribir, entender y mantener. Facilita enormemente la **portabilidad** a otras arquitecturas de procesador (solo hay que recompilar).\n\n**Desventajas:** Menor eficiencia teórica comparada con código en Lenguaje Ensamblador optimizado a mano. Ciertas interacciones de muy bajo nivel con el hardware puro aún requieren porciones en ensamblador.",
+            "createdAt": "2026-09-09T13:43:54.754Z",
+            "updatedAt": "2026-09-09T13:43:54.754Z"
+          },
+          {
+            "id": "6fd0a313-e17f-4ba4-82b7-e9d1c519b731",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 9,
+            "instruction": "Pregunta 9: Propiedades esenciales de sistemas",
+            "codeSnippet": null,
+            "explanation": "- **a) Batch (Por lotes):** Trabajos agrupados que se ejecutan secuencialmente sin interacción del usuario.\n- **b) Interactivo:** El usuario envía instrucciones y recibe respuestas inmediatas.\n- **c) Tiempo compartido (Multitarea):** Intercala la CPU rápidamente entre múltiples usuarios o procesos, dando la ilusión de que todos tienen la CPU en simultáneo.\n- **d) Tiempo real:** Tiene requerimientos de tiempo (deadlines) estrictos; una respuesta tardía se considera un fallo catastrófico (Ej: frenos ABS).",
+            "createdAt": "2026-09-09T13:43:54.864Z",
+            "updatedAt": "2026-09-09T13:43:54.864Z"
+          },
+          {
+            "id": "b2135c0a-d8d4-4ab2-adfe-7a068518c5b1",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 10,
+            "instruction": "Pregunta 10: Multiprogramación vs Tiempo Compartido",
+            "codeSnippet": null,
+            "explanation": "**Multiprogramación:** Mantiene varios procesos en memoria para que cuando uno hace E/S, la CPU ejecute otro, maximizando la utilización del procesador.\n\n**Relación y Diferencia:** El *tiempo compartido* es una extensión lógica de la multiprogramación. Mientras la multiprogramación busca mantener la CPU ocupada, el tiempo compartido busca minimizar el tiempo de respuesta del usuario (interactividad) intercalando la CPU por quantums de tiempo.",
+            "createdAt": "2026-09-09T13:43:55.008Z",
+            "updatedAt": "2026-09-09T13:43:55.008Z"
+          },
+          {
+            "id": "61463dbf-326a-4ca4-b1e4-0c2ed7cf5304",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 11,
+            "instruction": "Pregunta 11: Problemas de seguridad en Tiempo Compartido",
+            "codeSnippet": null,
+            "explanation": "**Problemas:** Un usuario malicioso podría intentar leer datos de otros procesos en memoria, monopolizar el uso de la CPU, o acceder a archivos del disco sin permiso.\n\n¿Se garantiza el mismo grado de seguridad que en máquina dedicada? **No exactamente**. Al compartir hardware, siempre hay vectores de ataque (ej. Side-channel attacks en la caché de CPU). Sin embargo, con protección por hardware (MMU) y modos duales, el SO se aproxima a un entorno seguro.",
+            "createdAt": "2026-09-09T13:43:55.175Z",
+            "updatedAt": "2026-09-09T13:43:55.175Z"
+          },
+          {
+            "id": "8cb0cb3a-e7ff-4a9c-8f1f-cb4d82053cf9",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 12,
+            "instruction": "Pregunta 12: Multiprocesamiento SMP vs AMP",
+            "codeSnippet": null,
+            "explanation": "**Simétrico (SMP):** Todos los procesadores son iguales y cualquiera puede ejecutar código del SO o de usuarios. Es el estándar moderno.\n**Asimétrico (AMP):** Un procesador maestro controla el SO y distribuye tareas a los procesadores \"esclavos\".\n\n**Ventajas del multiprocesador:** Mayor rendimiento, mayor tolerancia a fallos.\n**Desventajas:** Gran complejidad para sincronizar la memoria compartida y evitar condiciones de carrera.",
+            "createdAt": "2026-09-09T13:43:55.267Z",
+            "updatedAt": "2026-09-09T13:43:55.267Z"
+          },
+          {
+            "id": "582b728d-6b15-4485-b6dc-0c539aa7b600",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 13,
+            "instruction": "Pregunta 13: Interrupción vs Trap",
+            "codeSnippet": null,
+            "explanation": "- **Interrupción:** Señal generada asincrónicamente por el **hardware** externo (ej. teclado, disco terminó de leer). Su uso es notificar eventos físicos.\n- **Trap (Excepción):** Señal generada sincrónicamente por el **software** (ej. división por cero, o instrucción deliberada para hacer una Syscall). Se usa para atrapar errores o cambiar a modo Kernel.",
+            "createdAt": "2026-09-09T13:43:55.374Z",
+            "updatedAt": "2026-09-09T13:43:55.374Z"
+          },
+          {
+            "id": "ac6a3c95-1fd2-4259-84c9-5f67dde2a5c0",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 14,
+            "instruction": "Pregunta 14: Operación en modo dual",
+            "codeSnippet": null,
+            "explanation": "Es estrictamente necesaria para proteger al Sistema Operativo (y a otros usuarios) de los errores o programas maliciosos de un usuario. Permite diferenciar entre una ejecución sin privilegios limitados (**Modo Usuario**) y una ejecución con control total del hardware (**Modo Monitor/Kernel**).",
+            "createdAt": "2026-09-09T13:43:55.486Z",
+            "updatedAt": "2026-09-09T13:43:55.486Z"
+          },
+          {
+            "id": "1a422b34-3da4-4fcc-accf-932c8fbcc75c",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 15,
+            "instruction": "Pregunta 15: ¿Cómo sabe el sistema en qué modo está?",
+            "codeSnippet": null,
+            "explanation": "Se determina por hardware utilizando un bit de estado especial dentro del registro de estado del procesador (conocido como **Mode bit**). Si el bit es 0 indica modo kernel, y si es 1 indica modo usuario (o viceversa dependiendo la arquitectura).",
+            "createdAt": "2026-09-09T13:43:55.585Z",
+            "updatedAt": "2026-09-09T13:43:55.585Z"
+          },
+          {
+            "id": "0442b9f0-a24c-418b-bb1f-3c96943cd94c",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 16,
+            "instruction": "Pregunta 16: Propósito de los System Calls",
+            "codeSnippet": null,
+            "explanation": "Las \"Llamadas al Sistema\" son la interfaz o el puente que provee el Sistema Operativo para que los programas de usuario puedan solicitar servicios protegidos (como escribir en disco, asignar RAM, o abrir una conexión de red) de manera segura y controlada.",
+            "createdAt": "2026-09-09T13:43:55.693Z",
+            "updatedAt": "2026-09-09T13:43:55.693Z"
+          },
+          {
+            "id": "9f537c61-4514-4fa7-8378-6bd01df0b351",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 17,
+            "instruction": "Pregunta 17: Protecciones de Hardware",
+            "codeSnippet": null,
+            "explanation": "- **E/S:** Se protege impidiendo usar instrucciones de E/S en modo usuario para que un proceso no pueda leer el teclado de otros o borrar el disco.\n- **Memoria:** Se protege mediante registros base y límite o MMU, evitando que un proceso escriba en la memoria del kernel u otros procesos.\n- **CPU:** Se protege con un temporizador (Timer) que interrumpe al proceso periódicamente para evitar que monopolice el uso (bucles infinitos).",
+            "createdAt": "2026-09-09T13:43:55.787Z",
+            "updatedAt": "2026-09-09T13:43:55.787Z"
+          },
+          {
+            "id": "c59639c7-4683-476d-bfcf-b5212e729fbf",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 18,
+            "instruction": "Pregunta 18: Instrucciones privilegiadas",
+            "codeSnippet": null,
+            "explanation": "Deberían ser privilegiadas (solo modo kernel):\n- **a)** Fijar el timer (evita que un proceso anule su propia interrupción por tiempo).\n- **c)** Borrar la memoria.\n- **d)** Deshabilitar las interrupciones.\n- **g)** Leer un sector físico del disco (esto evita el sistema de permisos de archivos).\n\n*(Leer el reloj \"b\" o cambiar a modo usuario \"e\" suelen no ser privilegiadas porque no representan riesgo de seguridad).*",
+            "createdAt": "2026-09-09T13:43:55.894Z",
+            "updatedAt": "2026-09-09T13:43:55.894Z"
+          },
+          {
+            "id": "c3f881b5-51b7-4042-a287-f1c9ba7383a1",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 19,
+            "instruction": "Pregunta 19: SO Seguro sin modo dual en hardware",
+            "codeSnippet": null,
+            "explanation": "Hacer un SO verdaderamente seguro sin modo dual por hardware es prácticamente **imposible** con programas de código nativo arbitrarios. El usuario podría manipular cualquier dirección física. \nSolo se puede emular seguridad si TODOS los programas corren bajo un intérprete, máquina virtual estricta o son compilados por un lenguaje seguro (como Java/C# gestionado), lo cual resta muchísimo rendimiento.",
+            "createdAt": "2026-09-09T13:43:56.003Z",
+            "updatedAt": "2026-09-09T13:43:56.003Z"
+          },
+          {
+            "id": "e7851314-6c92-4202-875e-8caad689a513",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 20,
+            "instruction": "Pregunta 20: Protección alojándolo en una partición especial",
+            "codeSnippet": null,
+            "explanation": "Si el SO se guarda en una partición fija protegida, las dificultades son:\n- Poca flexibilidad para que el SO crezca o asigne memoria dinámica si necesita más RAM de lo esperado.\n- Fragmentación: El espacio sobrante de esa partición no puede ser usado por los procesos de usuario.",
+            "createdAt": "2026-09-09T13:43:56.118Z",
+            "updatedAt": "2026-09-09T13:43:56.118Z"
+          },
+          {
+            "id": "5026a6ed-9ac9-4211-81ab-99404f6f874d",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 21,
+            "instruction": "Pregunta 21: Operaciones que deben protegerse",
+            "codeSnippet": null,
+            "explanation": "El conjunto mínimo para evitar comprometer el sistema es:\n- **b)** Escribir en la memoria del monitor (un usuario podría sobreescribir código del kernel con código malicioso).\n- **e)** Acceder al área de I/O (lectura o escritura, podría saltarse la protección de archivos).\n\n*(Ejecutar un trap -d- no debe protegerse, porque es el mecanismo mediante el cual el usuario entra legítimamente al modo kernel).*",
+            "createdAt": "2026-09-09T13:43:56.236Z",
+            "updatedAt": "2026-09-09T13:43:56.236Z"
+          },
+          {
+            "id": "e4657eac-b913-4247-b734-031503fbad3c",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 22,
+            "instruction": "Pregunta 22: El intérprete de comandos",
+            "codeSnippet": null,
+            "explanation": "Su propósito es obtener las instrucciones escritas por el usuario y transformarlas en llamadas al sistema o ejecución de binarios.\nUsualmente está **separado del kernel** porque no necesita permisos especiales del núcleo para leer texto. Además, separarlo permite que el sistema tenga múltiples intérpretes (como bash, zsh, cmd, PowerShell) que el usuario puede intercambiar.",
+            "createdAt": "2026-09-09T13:43:56.352Z",
+            "updatedAt": "2026-09-09T13:43:56.352Z"
+          },
+          {
+            "id": "d8664c03-74cf-48c8-9fe7-c873ecd8ecbd",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 23,
+            "instruction": "Pregunta 23: Arquitectura Microkernel",
+            "codeSnippet": null,
+            "explanation": "**Ventaja:** Gran robustez y seguridad. Si un driver de video o sistema de archivos falla, solo crashea ese proceso de usuario, no todo el sistema operativo.\n\n**Interacción:** Los programas interactúan con los servicios del sistema mediante el paso de mensajes (IPC) a través del microkernel.\n\n**Desventaja:** Menor rendimiento debido al gran overhead de hacer \"context switches\" y pase de mensajes constantemente.",
+            "createdAt": "2026-09-09T13:43:56.457Z",
+            "updatedAt": "2026-09-09T13:43:56.457Z"
+          },
+          {
+            "id": "ec86828d-65fc-4355-8600-96fa3df219d6",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 24,
+            "instruction": "Pregunta 24: Modular vs En niveles",
+            "codeSnippet": null,
+            "explanation": "**Semejanza:** Ambas buscan dividir el kernel en partes lógicas manejables para facilitar el desarrollo y el aislamiento de errores.\n\n**Diferencia:** La arquitectura en niveles es estricta (el nivel N solo puede llamar funciones del nivel N-1). La arquitectura modular es más libre; carga módulos dinámicamente según necesidad y cualquier módulo puede invocar funciones de otro.",
+            "createdAt": "2026-09-09T13:43:56.547Z",
+            "updatedAt": "2026-09-09T13:43:56.547Z"
+          },
+          {
+            "id": "03ecfca0-120c-4c1a-90a7-e971a9a112f0",
+            "lessonId": "b802081d-f001-4707-8ba6-4960ac67600e",
+            "order": 25,
+            "instruction": "Pregunta 25: Ventajas de la Máquina Virtual",
+            "codeSnippet": null,
+            "explanation": "**Para el diseñador de SO:** Permite desarrollar, probar y depurar un sistema operativo nuevo en modo seguro sin requerir hardware dedicado ni arriesgar los datos de la máquina host.\n\n**Para el usuario:** Permite ejecutar aplicaciones de otros sistemas operativos (ej: usar Linux dentro de Windows) o aislar entornos para mayor seguridad.",
+            "createdAt": "2026-09-09T13:43:56.657Z",
+            "updatedAt": "2026-09-09T13:43:56.657Z"
+          }
+        ]
+      },
+      {
+        "id": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "Practico2-2026",
+        "content": "### Practico2-2026\n\n<iframe src=\"/material/Practico2-2026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/Practico2-2026.pdf)",
+        "type": "PRACTICAL_WORK",
+        "order": 11,
+        "createdAt": "2026-09-08T15:56:18.336Z",
+        "updatedAt": "2026-09-08T15:56:18.336Z",
+        "steps": [
+          {
+            "id": "6a7c4831-fb9c-4d8b-8ca4-cb6f28121f7a",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 1,
+            "instruction": "Pregunta 1: Intervención del SO en el diagrama de estados",
+            "codeSnippet": null,
+            "explanation": "El Sistema Operativo interviene en **todas las transiciones (flechas)** del diagrama. El SO es quien decide pasar un proceso de \"Listo\" a \"Corriendo\" (Dispatcher), o de \"Corriendo\" a \"Bloqueado\" ante una llamada al sistema. Para ver al SO en el diagrama, deberíamos representarlo como un proceso de control superior (modo kernel) al que se salta temporalmente cada vez que ocurre una transición.",
+            "createdAt": "2026-09-09T14:08:31.320Z",
+            "updatedAt": "2026-09-09T14:08:31.320Z"
+          },
+          {
+            "id": "76f7864a-90e2-4eb7-811a-313a6c279ff8",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 2,
+            "instruction": "Pregunta 2: Sucesos para la creación de un proceso",
+            "codeSnippet": null,
+            "explanation": "**Sucesos:** Arranque del sistema (init), el usuario ejecuta un programa (doble clic), o un proceso pide explícitamente crear otro proceso (syscall `fork` en UNIX).\n\n**Pasos del SO:**\n1. Asigna un identificador (PID).\n2. Crea y ubica su Bloque de Control de Proceso (PCB).\n3. Asigna espacio en memoria para su código, datos y pila.\n4. Lo inserta en la cola de procesos Listos (Ready).",
+            "createdAt": "2026-09-09T14:08:31.445Z",
+            "updatedAt": "2026-09-09T14:18:29.042Z"
+          },
+          {
+            "id": "02b42b2e-ea4c-41fb-90fd-0f717c2d45d2",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 3,
+            "instruction": "Pregunta 3: Estados \"Bloqueado\" y \"Suspendido\"",
+            "codeSnippet": null,
+            "explanation": "**Bloqueado:** El proceso espera un evento (ej. lectura de disco) pero sigue alojado en la RAM principal.\n**Suspendido:** El proceso espera un evento, pero el SO lo movió a la memoria secundaria (Disco/Swap) para liberar RAM.\n\n**Ventaja de separarlos:** Permite al SO gestionar eficientemente la RAM. Si la RAM se llena, el SO puede mover a \"Suspendido\" a aquellos procesos que de todas formas no pueden ejecutar (están bloqueados), haciendo lugar para procesos Listos.",
+            "createdAt": "2026-09-09T14:08:31.553Z",
+            "updatedAt": "2026-09-09T14:08:31.553Z"
+          },
+          {
+            "id": "394ccc9d-01a3-4d33-9906-1f40a3a34984",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 4,
+            "instruction": "Pregunta 4: Planificadores de corto, mediano y largo plazo",
+            "codeSnippet": null,
+            "explanation": "- **Corto plazo (CPU Scheduler):** Muy rápido (milisegundos). Elige qué proceso de la RAM toma la CPU.\n- **Mediano plazo (Swapper):** Retira procesos de la RAM al disco (Swap) para controlar el nivel de multiprogramación y liberar memoria.\n- **Largo plazo (Job/Admission):** Controla qué programas nuevos ingresan al sistema para competir por recursos. (Poco usado en SO interactivos modernos como Windows/Linux).",
+            "createdAt": "2026-09-09T14:08:31.654Z",
+            "updatedAt": "2026-09-09T14:08:31.654Z"
+          },
+          {
+            "id": "5bc13d37-b155-4790-9000-e24c8bc1acbc",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 5,
+            "instruction": "Pregunta 5: Acciones del kernel al cambiar de contexto",
+            "codeSnippet": null,
+            "explanation": "Un \"Context Switch\" requiere que el kernel:\n1. Salve el estado del proceso actual (registros, Program Counter, Stack Pointer) en su PCB.\n2. Actualice el estado de ese PCB a Listo o Bloqueado.\n3. Seleccione el próximo proceso a ejecutar usando el Planificador (Scheduler).\n4. Restaure el estado guardado del PCB del nuevo proceso en el hardware de la CPU.",
+            "createdAt": "2026-09-09T14:08:31.762Z",
+            "updatedAt": "2026-09-09T14:08:31.762Z"
+          },
+          {
+            "id": "d964465c-f5c9-4e69-b5a1-1384bfb99b3a",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 6,
+            "instruction": "Pregunta 6: Diagrama de transición (1, 2, 3 y 4)",
+            "codeSnippet": null,
+            "explanation": "Considerando un diagrama típico (Listo ↔ Corriendo ↔ Bloqueado):\n- **Transición 1 (Listo → Corriendo):** El Dispatcher selecciona al proceso para ejecutarlo.\n- **Transición 2 (Corriendo → Listo):** Fin de Quantum de tiempo (Interrupción del reloj) o proceso de mayor prioridad se vuelve Listo (Preemption).\n- **Transición 3 (Corriendo → Bloqueado):** El proceso realiza una llamada E/S o espera un semáforo.\n- **Transición 4 (Bloqueado → Listo):** Finaliza la operación de E/S (interrupción del disco) y el evento esperado se cumple.",
+            "createdAt": "2026-09-09T14:08:31.882Z",
+            "updatedAt": "2026-09-09T14:08:31.882Z"
+          },
+          {
+            "id": "b6473f09-8c7e-4589-a157-7109261e07b6",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 7,
+            "instruction": "Pregunta 7: Traza de entrelazado de ejecución (Traza)",
+            "codeSnippet": null,
+            "explanation": "El propósito de este ejercicio de escritorio es evidenciar el \"Overhead\". La CPU no pasa del Proceso 1 al 2 mágicamente. Se ejecutan instrucciones del P1, luego ocurre una interrupción. El CPU ejecuta 4 instrucciones del *Dispatcher* (SO) para hacer el cambio de contexto, y luego recién comienza a ejecutar instrucciones del P2. Esto muestra que el SO también consume ciclos de CPU.",
+            "createdAt": "2026-09-09T14:08:32.031Z",
+            "updatedAt": "2026-09-09T14:08:32.031Z"
+          },
+          {
+            "id": "72ef89f5-8610-424a-8e00-8d4f20f80684",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 8,
+            "instruction": "Pregunta 8: ¿Esperar simultáneamente a más de un suceso?",
+            "codeSnippet": null,
+            "explanation": "**Sí, es posible.** Los sistemas operativos modernos proveen llamadas al sistema (como `select()` o `poll()` en UNIX/Linux) que permiten a un proceso bloquearse observando múltiples descriptores de archivo. El proceso despierta si *al menos uno* de los eventos ocurre (por ejemplo, llega un dato por red O el usuario presiona una tecla).",
+            "createdAt": "2026-09-09T14:08:32.150Z",
+            "updatedAt": "2026-09-09T14:08:32.150Z"
+          },
+          {
+            "id": "7beeed65-7ca5-4857-b062-d07eab88cb68",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 9,
+            "instruction": "Pregunta 9: Política para equilibrar prioridad y rendimiento",
+            "codeSnippet": null,
+            "explanation": "Si siempre elegimos prioridad alta, los procesos bajos mueren de inanición (Starvation). Una política intermedia clásica es el **Envejecimiento (Aging)**. Consiste en aumentar gradualmente la prioridad de los procesos a medida que pasan más tiempo esperando en la cola de Listos. Así, un proceso de prioridad baja eventualmente alcanzará una prioridad altísima y logrará ejecutarse.",
+            "createdAt": "2026-09-09T14:08:32.251Z",
+            "updatedAt": "2026-09-09T14:08:32.251Z"
+          },
+          {
+            "id": "4f87e776-47e6-4e8e-bce0-79abbcba584e",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 10,
+            "instruction": "Pregunta 10: Comunicación entre procesos (IPC)",
+            "codeSnippet": null,
+            "explanation": "Se comunican mediante herramientas del SO: Memoria Compartida, Paso de Mensajes, Tuberías (Pipes) o Sockets.\n**Ejemplo:** Un servidor web (como Apache). Un proceso principal (Padre) recibe conexiones de red y se comunica con sus procesos \"trabajadores\" (Hijos) pasándoles la información de la conexión para que procesen las respuestas en paralelo.",
+            "createdAt": "2026-09-09T14:08:32.383Z",
+            "updatedAt": "2026-09-09T14:08:32.383Z"
+          },
+          {
+            "id": "91849e61-02ec-42b0-9a5f-2be10375f482",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 11,
+            "instruction": "Pregunta 11: Comunicación sincrónica y asincrónica",
+            "codeSnippet": null,
+            "explanation": "**Sincrónica (Bloqueante):** El que envía (Send) se bloquea hasta que el receptor recibe el mensaje. Ventaja: Asegura una sincronización estricta. Desventaja: Desperdicia CPU si el receptor tarda.\n**Asincrónica (No bloqueante):** El emisor manda el mensaje y sigue su ejecución. Ventaja: Mayor nivel de concurrencia. Desventaja: Requiere búferes grandes del lado del SO y la lógica de programación es más compleja.",
+            "createdAt": "2026-09-09T14:08:32.484Z",
+            "updatedAt": "2026-09-09T14:08:32.484Z"
+          },
+          {
+            "id": "a4ad7d83-d811-4198-ad9d-8c6a13932854",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 12,
+            "instruction": "Pregunta 12: Esquema basado en mailboxes",
+            "codeSnippet": null,
+            "explanation": "a) Esperar ambos: Se hacen llamadas secuenciales (ej. `receive(A); receive(B);`). Si B llega antes que A, el proceso igual se queda bloqueado en A (ineficiente).\nb) Esperar uno u otro: Se requiere una primitiva no estándar del tipo `receive(cualquiera, A, B)` o usar chequeos asincrónicos (polling) para no quedarse trabado indefinidamente en el buzón vacío.",
+            "createdAt": "2026-09-09T14:08:32.583Z",
+            "updatedAt": "2026-09-09T14:08:32.583Z"
+          },
+          {
+            "id": "3116a056-72ec-49e0-8a4a-600b07061214",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 13,
+            "instruction": "Pregunta 13: Características de los Threads",
+            "codeSnippet": null,
+            "explanation": "Los hilos (threads) son \"procesos ligeros\". Comparten el código, datos globales y archivos abiertos del proceso, pero tienen su propia Pila (Stack) y registros.\n**Diferencia:** \n- *Kernel Threads:* Los gestiona el SO; pueden correr en verdaderos cores paralelos.\n- *User Threads:* Los gestiona una librería; el SO solo ve un proceso normal. Si un User Thread se bloquea por I/O, el SO bloquea todo el proceso.",
+            "createdAt": "2026-09-09T14:08:32.682Z",
+            "updatedAt": "2026-09-09T14:08:32.682Z"
+          },
+          {
+            "id": "62395ff6-28e2-4891-9500-8951c20d4648",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 14,
+            "instruction": "Pregunta 14: Recursos utilizados (Thread vs Proceso)",
+            "codeSnippet": null,
+            "explanation": "Al crear un **Proceso**, se requiere mucho tiempo y memoria: se crea el PCB, nuevas Tablas de Páginas para memoria virtual separada, y se copian estructuras.\nAl crear un **Thread**, es ligerísimo: solo se necesita crear un pequeño TCB (Thread Control Block) para guardar su Program Counter, Registros y un espacio para su Pila de ejecución local.",
+            "createdAt": "2026-09-09T14:08:32.794Z",
+            "updatedAt": "2026-09-09T14:08:32.794Z"
+          },
+          {
+            "id": "5292f241-3ccd-4085-a737-22f221fbc9e3",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 15,
+            "instruction": "Pregunta 15: Cuando multithread NO rinde",
+            "codeSnippet": null,
+            "explanation": "1. **Algoritmos estrictamente secuenciales:** Calcular la serie de Fibonacci, donde el paso N depende críticamente del cálculo del paso N-1. Dividirlo no ayuda.\n2. **Exceso de granularidad fina:** Si las tareas son microscópicas, el tiempo gastado por el procesador en crear el thread, destruirlo y sincronizar candados (Locks/Mutex) será mayor que el tiempo de ejecución útil.",
+            "createdAt": "2026-09-09T14:08:32.882Z",
+            "updatedAt": "2026-09-09T14:08:32.882Z"
+          },
+          {
+            "id": "940b2eba-cef8-48bf-9545-da2e4066674c",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 16,
+            "instruction": "Pregunta 16: User Threads en Multiprocesador",
+            "codeSnippet": null,
+            "explanation": "**No presenta mejor rendimiento.** Como los Threads a nivel Usuario son invisibles para el Kernel del Sistema Operativo, el SO planifica al Proceso completo en UN SOLO procesador físico. Aunque el programa tenga 100 User Threads, la librería las intercalará dentro del único core asignado al proceso.",
+            "createdAt": "2026-09-09T14:08:32.995Z",
+            "updatedAt": "2026-09-09T14:08:32.995Z"
+          },
+          {
+            "id": "ecef08b0-cbb8-4c02-93f5-f6726a31a2e7",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 17,
+            "instruction": "Pregunta 17: Concurrencia pero no paralelismo",
+            "codeSnippet": null,
+            "explanation": "**Totalmente posible.** De hecho, es lo que ocurre en un sistema con un procesador de 1 solo núcleo (Single-core). Existe concurrencia porque el SO intercala rápidamente las tareas (Context Switch) dando la ilusión de avance simultáneo a ojos del usuario. Sin embargo, matemáticamente hablando, en un instante (T) exacto, solo 1 instrucción física se está ejecutando (No hay paralelismo de hardware).",
+            "createdAt": "2026-09-09T14:08:33.101Z",
+            "updatedAt": "2026-09-09T14:08:33.101Z"
+          },
+          {
+            "id": "27deb692-9f06-4c94-a7f7-7a2565ea6f94",
+            "lessonId": "b75a93bc-0067-4986-8299-a6abca2b5f69",
+            "order": 18,
+            "instruction": "Pregunta 18: Modelo de Threads Muchos-a-Muchos",
+            "codeSnippet": null,
+            "explanation": "a) **Kernel T. < Cores:** Desperdicio de hardware. Habrá cores físicos inactivos porque el SO no tiene suficientes unidades de hilo para despachar.\nb) **Kernel T. == Cores:** Balance adecuado solo si no hay llamadas de E/S. Si un thread se bloquea leyendo disco, un core quedará inactivo.\nc) **Kernel T. > Cores (pero < User T.):** El modelo óptimo. Si un kernel thread se bloquea, el SO puede mapear otro a un core libre, maximizando la eficiencia.",
+            "createdAt": "2026-09-09T14:08:33.195Z",
+            "updatedAt": "2026-09-09T14:08:33.195Z"
+          }
+        ]
+      },
+      {
+        "id": "ffd954ba-e694-4620-924e-b7c29f09f44f",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "procesos_hilos_2026",
+        "content": "### procesos_hilos_2026\n\n<iframe src=\"/material/procesos_hilos_2026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/procesos_hilos_2026.pdf)",
+        "type": "SUMMARY",
+        "order": 12,
+        "createdAt": "2026-09-08T15:56:18.601Z",
+        "updatedAt": "2026-09-08T15:56:18.601Z",
+        "steps": []
+      },
+      {
+        "id": "53d7dd0a-ce22-49e2-8dc8-1ada022664a7",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "Practico3-2026",
+        "content": "### Practico3-2026\n\n<iframe src=\"/material/Practico3-2026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/Practico3-2026.pdf)",
+        "type": "PRACTICAL_WORK",
+        "order": 13,
+        "createdAt": "2026-09-15T13:50:12.351Z",
+        "updatedAt": "2026-09-15T13:50:12.351Z",
+        "steps": []
+      },
+      {
+        "id": "581dd1cd-a842-46f5-a2e0-7e6b763a7be6",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "act1-2026.pdf",
+        "content": "### act1-2026.pdf\n\n<iframe src=\"/material/Ejercicios/act1-2026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px;\"></iframe>",
+        "type": "SUMMARY",
+        "order": 14,
+        "createdAt": "2026-09-15T13:51:10.818Z",
+        "updatedAt": "2026-09-15T13:51:10.818Z",
+        "steps": []
+      },
+      {
+        "id": "97b249d9-bb57-4519-9a08-9d11b4c82d61",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "labo1.sh",
+        "content": "### labo1.sh\n\n```bash\n#!/bin/bash\n\n# Proceso 1: En ejecución (Running)\n(\n  while true; do\n    :\n  done\n) &\n\npid1=$!\n\n# Proceso 2: Durmiendo (Sleeping)\n(\n  sleep 300\n) &\n\npid2=$!\n\n# Proceso 3: Detenido (Stopped)\n(\n  while true; do\n    :\n  done\n) &\n\npid3=$!\nsleep 1\nkill -STOP $pid3\necho \"Se han creado tres procesos con distintos estados\"\necho \"PID del proceso en ejecución: $pid1\"\necho \"PID del proceso durmiendo: $pid2\"\necho \"PID del proceso detenido: $pid3\"\n\n\n# Mantener el script en ejecución para poder ver los estados de los procesos\necho \"Presiona Enter para finalizar el script y matar los procesos...\"\nread\n\n# Terminar los procesos\nkill $pid1\nkill $pid2\nkill -CONT $pid3\nkill $pid3\n\n```",
+        "type": "SUMMARY",
+        "order": 15,
+        "createdAt": "2026-09-15T13:51:10.905Z",
+        "updatedAt": "2026-09-15T13:51:10.905Z",
+        "steps": []
+      },
+      {
+        "id": "76ba5f84-d44e-468f-8a85-a99ff91258b1",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "labo1.txt",
+        "content": "### labo1.txt\n\n```text\n﻿#include <stdio.h>\r\n#include <time.h>\r\n\r\nint main() {\r\n   // Obtener la fecha y hora actual\r\n   time_t tiempo = time(NULL);\r\n   struct tm *fecha_hora = localtime(&tiempo);\r\n\r\n   // Imprimir el mensaje de saludo\r\n   printf(\"¡Hola! Bienvenido.\\n\");\r\n\r\n   // Imprimir la fecha y hora actual\r\n   printf(\"La fecha y hora actual es: %s\", asctime(fecha_hora));\r\n\r\n   return 0;\r\n}\r\n\n```",
+        "type": "SUMMARY",
+        "order": 16,
+        "createdAt": "2026-09-15T13:51:11.010Z",
+        "updatedAt": "2026-09-15T13:51:11.010Z",
+        "steps": []
+      },
+      {
+        "id": "526e0639-004a-49ad-822e-7e2cdb134bc7",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "Actividad de laboratorio 3 - Procesos e hilos - Ejercicio 1.c",
+        "content": "### Actividad de laboratorio 3 - Procesos e hilos - Ejercicio 1.c\n\n```c\n// Librerias\r\n#include <stdlib.h>\r\n#include <stdio.h>\r\n#include <pthread.h>\r\n#include <sys/wait.h>\r\n#include <unistd.h>\r\n#include <string.h>\r\n#include <sys/types.h>\r\n#include <sys/ipc.h>\r\n#include <sys/msg.h>\r\n#include <math.h>\r\n#include <time.h>\r\n\r\n// Matriz 15x15 entre 0 y 99\r\n//Padre crea hijos que buscan los primos.\r\n//\r\n//Cada hijo le avisa al padre cuando encuentra un numero primo\r\n//indicando el valor y la posicion\r\n//\r\n//Cuando todos los procesos finalizan, el padre debe mostrar\r\n//la cantidad de numeros primos encontrados.\r\n//\r\n\r\nint main(int argc, char *argv[]) \r\n    {\r\n        \r\n    }\n```",
+        "type": "SUMMARY",
+        "order": 17,
+        "createdAt": "2026-09-15T13:51:11.117Z",
+        "updatedAt": "2026-09-15T13:51:11.117Z",
+        "steps": []
+      },
+      {
+        "id": "33fcacf3-506d-4241-aaa0-cb562cb97c49",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "Actividad de laboratorio 3 - Procesos e hilos.doc",
+        "content": "### Actividad de laboratorio 3 - Procesos e hilos.doc\n\n*Archivo .doc (Formato no visualizable directamente)*",
+        "type": "SUMMARY",
+        "order": 18,
+        "createdAt": "2026-09-15T13:51:11.231Z",
+        "updatedAt": "2026-09-15T13:51:11.231Z",
+        "steps": []
+      },
+      {
+        "id": "caabaff0-b877-4cf7-b510-0964e71f9f84",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "Actividad de laboratorio 3 - Procesos e hilos.docx",
+        "content": "### Actividad de laboratorio 3 - Procesos e hilos.docx\n\n*Archivo .docx (Formato no visualizable directamente)*",
+        "type": "SUMMARY",
+        "order": 19,
+        "createdAt": "2026-09-15T13:51:11.351Z",
+        "updatedAt": "2026-09-15T13:51:11.351Z",
+        "steps": []
+      },
+      {
+        "id": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "Practico4-2026",
+        "content": "### Practico4-2026\n\n<iframe src=\"/material/Practico4-2026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/Practico4-2026.pdf)",
+        "type": "PRACTICAL_WORK",
+        "order": 20,
+        "createdAt": "2026-10-25T12:33:11.711Z",
+        "updatedAt": "2026-10-25T12:33:11.711Z",
+        "steps": [
+          {
+            "id": "cd99981d-7772-4b20-bad3-5397f930b841",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 1,
+            "instruction": "Conceptos 1: Espera Ocupada vs Bloqueo",
+            "codeSnippet": null,
+            "explanation": "**Espera Ocupada (Busy Waiting / Spinlock):**\nEl proceso continúa ejecutando un bucle en la CPU verificando continuamente una condición (por ejemplo, `while (!flag);`).\n- *Ventaja:* No incurre en el costo de cambio de contexto (context switch) ni de planificación del SO.\n- *Desventaja:* Desperdicia ciclos de CPU que otros procesos podrían aprovechar.\n\n**Bloqueo (Sleep / Block):**\nEl proceso suspende su ejecución, cede la CPU voluntariamente, y el SO lo mueve a una cola de espera de eventos hasta que otro proceso lo despierte.\n- *Ventaja:* Libera la CPU para que otros procesos trabajen.\n- *Desventaja:* Incurre en la sobrecarga (overhead) de dos cambios de contexto (bloquear y luego despertar).\n\n**¿Cuándo es preferible cada una?**\n- La *espera ocupada* es preferible en **sistemas multiprocesador (SMP)** cuando el tiempo estimado de espera es **muy corto** (menor al tiempo que toma hacer dos context switches), como en la implementación interna de spinlocks en el kernel.\n- El *bloqueo* es preferible en **monoprocesadores** (donde la espera ocupada bloquea al único hilo que podría liberar el recurso) o cuando la espera es larga o impredecible (como operaciones de E/S).",
+            "createdAt": "2026-10-25T12:35:59.166Z",
+            "updatedAt": "2026-10-25T12:35:59.166Z"
+          },
+          {
+            "id": "3b25e3cd-2c1b-4761-a5a0-875e3d4ea4a4",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 2,
+            "instruction": "Conceptos 2: Atomicidad de wait y signal",
+            "codeSnippet": null,
+            "explanation": "Para que los semáforos garanticen exclusión mutua, las operaciones `wait(S)` y `signal(S)` deben ser **indivisibles (atómicas)**.\n\n**Demostración de violación si no son atómicas:**\nSupongamos un semáforo binario inicializado en `S = 1` y dos procesos P1 y P2 compitiendo por la sección crítica:\n\n```c\nvoid wait(int &S) {\n    while (S <= 0); // Paso 1: evaluar\n    S--;            // Paso 2: decrementar\n}\n```\n\n1. P1 ejecuta el Paso 1: evalúa `S <= 0` (falso, porque `S = 1`).\n2. En ese instante exacto ocurre una interrupción del reloj y el planificador cambia a P2 antes de que P1 decremente `S`.\n3. P2 ejecuta el Paso 1: evalúa `S <= 0` (sigue siendo falso, `S = 1`).\n4. P2 ejecuta el Paso 2: hace `S--` (`S = 0`) y entra a la Sección Crítica.\n5. El planificador vuelve a dar la CPU a P1. P1 retoma en el Paso 2: hace `S--` (`S = -1`) y **también entra a la Sección Crítica**.\n\n**Conclusión:** Ambos procesos están en la sección crítica simultáneamente, **violando la exclusión mutua**.",
+            "createdAt": "2026-10-25T12:35:59.359Z",
+            "updatedAt": "2026-10-25T12:35:59.359Z"
+          },
+          {
+            "id": "2b1de30b-7310-4b8c-80fa-2439c162f28f",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 3,
+            "instruction": "Conceptos 3: Implementación con desactivación de interrupciones",
+            "codeSnippet": null,
+            "explanation": "**Implementación en Monoprocesador:**\nEl SO desactiva las interrupciones justo antes de inspeccionar/modificar el valor del semáforo y la lista de bloqueados, y las vuelve a activar inmediatamente después:\n\n```c\nvoid wait(semaphore *s) {\n    disable_interrupts();\n    s->value--;\n    if (s->value < 0) {\n        add_to_queue(s->queue, current_process);\n        block(); // cede CPU reactivando interrupciones al cambiar de contexto\n    }\n    enable_interrupts();\n}\n```\n\n**¿Por qué NO es recomendable en Multiprocesador?**\n1. Desactivar interrupciones solo afecta al procesador (núcleo) que ejecuta la instrucción. Los demás núcleos siguen corriendo y pueden acceder a las mismas variables compartidas en memoria al mismo tiempo.\n2. Desactivar interrupciones en todos los procesadores requeriría enviar mensajes inter-procesador (IPI), lo cual es extremadamente lento, complejo y degrada el rendimiento de todo el sistema.\n3. Por ello, en multiprocesadores se utilizan instrucciones atómicas de hardware como `Test-and-Set` o `Compare-and-Swap` combinadas con spinlocks.",
+            "createdAt": "2026-10-25T12:35:59.562Z",
+            "updatedAt": "2026-10-25T12:35:59.562Z"
+          },
+          {
+            "id": "fade4af7-e711-4cdf-a569-0a65a1b0b5cf",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 4,
+            "instruction": "Conceptos 4: Barreras de Sincronización",
+            "codeSnippet": null,
+            "explanation": "**Definición:**\nUna **barrera** es un mecanismo de sincronización para un grupo de procesos o hilos. Ningún proceso puede avanzar más allá del punto de la barrera hasta que **todos** los procesos participantes del grupo hayan alcanzado dicha barrera. Una vez que el último proceso llega, todos son liberados para continuar.\n\n**Ejemplo de uso beneficioso:**\nEn **computación científica paralela** (por ejemplo, simulación de dinámica de fluidos o predicción meteorológica por diferencias finitas):\n- El espacio se divide en una cuadrícula distribuida entre $N$ hilos.\n- En cada paso temporal $t$, cada hilo calcula el nuevo estado de su región.\n- Para avanzar al paso $t+1$, cada hilo necesita los valores de frontera calculados por sus hilos vecinos en el paso $t$.\n- Se coloca una **barrera**: ningún hilo puede comenzar el paso $t+1$ hasta que todos hayan concluido el paso $t$.",
+            "createdAt": "2026-10-25T12:35:59.749Z",
+            "updatedAt": "2026-10-25T12:35:59.749Z"
+          },
+          {
+            "id": "061bc0e5-089a-49b6-814e-320e550f8093",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 5,
+            "instruction": "Conceptos 5: Sincronización con semáforo de kernel (KLT vs ULT)",
+            "codeSnippet": null,
+            "explanation": "**1. Hilos a Nivel de Kernel (KLT - Kernel-Level Threads):**\n- **Sí pueden sincronizarse.** El kernel conoce la existencia de cada hilo de forma individual.\n- Cuando el hilo H1 hace `wait()` sobre un semáforo de kernel y el valor es $\\le 0$, el kernel bloquea únicamente al hilo H1 y puede planificar al hilo H2 del mismo proceso para que siga ejecutando y posteriormente haga `signal()`.\n\n**2. Hilos a Nivel de Usuario (ULT - User-Level Threads):**\n- **No es recomendable o puede fallar.** Para el kernel, todo el proceso es una única entidad de ejecución.\n- Si el hilo de usuario H1 invoca una llamada al sistema para hacer `wait()` en un semáforo de kernel y debe bloquearse, el kernel **bloqueará al proceso completo (junto con todos sus hilos de usuario)**.\n- Como H2 queda también bloqueado sin poder ejecutar, jamás podrá emitir el `signal()`, produciendo un interbloqueo.\n- *Conclusión:* En ULT, la sincronización entre hilos del mismo proceso debe manejarse con primitivas internas de la biblioteca de hilos en espacio de usuario.",
+            "createdAt": "2026-10-25T12:35:59.945Z",
+            "updatedAt": "2026-10-25T12:35:59.945Z"
+          },
+          {
+            "id": "d2b27a33-7405-48b5-b63c-2c5a85165e05",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 6,
+            "instruction": "Conceptos 6: Semáforo Binario vs Mutex",
+            "codeSnippet": null,
+            "explanation": "**1. Mutex (Mutual Exclusion Lock):**\n- Posee el concepto de **propiedad (ownership)**: el hilo que adquiere el mutex (lock) es el **único** que puede y debe liberarlo (unlock).\n- Su objetivo es pura y exclusivamente garantizar **Exclusión Mutua** en secciones críticas.\n- Permite mecanismos de seguridad como evitar desbloqueos accidentales por terceros y soporte para protocolos de herencia de prioridad (para mitigar inversión de prioridades).\n\n**2. Semáforo Binario:**\n- Toma valores 0 o 1, pero **no tiene concepto de propiedad**.\n- Un hilo puede ejecutar `down()` y un hilo completamente diferente (o incluso una rutina de interrupción de hardware) puede ejecutar `up()`.\n- Su uso principal, además de exclusión mutua básica, es la **señalización y sincronización de eventos** entre procesos o manejadores de interrupciones.",
+            "createdAt": "2026-10-25T12:36:00.215Z",
+            "updatedAt": "2026-10-25T12:36:00.215Z"
+          },
+          {
+            "id": "4adf409b-d934-40bc-9755-155955806f6c",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 7,
+            "instruction": "Conceptos 7: Modificación de diagrama de transiciones por Semáforos",
+            "codeSnippet": null,
+            "explanation": "**a) Semáforos para canal de cintas y canal de disco:**\n- *Nuevos estados:* En lugar de un estado genérico \"Bloqueado\", se agregan estados específicos: **\"Bloqueado esperando canal de Cinta\"** y **\"Bloqueado esperando canal de Disco\"** (o colas asociadas a cada semáforo).\n- *Nuevas transiciones y rutinas:* \n  - Al invocar `wait(sem_cinta)` o `wait(sem_disco)`, si el canal está ocupado, el proceso transiciona de *Ejecutando* a *Bloqueado en Semáforo*.\n  - La rutina de interrupción de fin de transferencia de E/S del dispositivo invoca `signal(sem_canal)`, moviendo al proceso de la cabeza de la cola a la cola de **Listos**.\n\n**b) Semáforo para obtención dinámica de memoria:**\n- Si un proceso solicita memoria dinámica (`malloc`) y no hay marcos disponibles, se bloquea en el semáforo de memoria (*Bloqueado por Memoria*).\n- Esto dispara la necesidad de planificadores de mediano plazo (*Swapping*): el proceso puede pasar a **Bloqueado/Suspendido** enviándose a disco para liberar memoria para otros.\n- Cuando otro proceso libera memoria (`free`), la rutina hace `signal()`, permitiendo despertar o recargar al proceso en memoria.",
+            "createdAt": "2026-10-25T12:36:00.381Z",
+            "updatedAt": "2026-10-25T12:36:00.381Z"
+          },
+          {
+            "id": "2ff77d16-1268-40f1-b488-d3d3d669ed63",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 8,
+            "instruction": "Problema 1: Tweedledum y Tweedledee (Wakeup Perdido)",
+            "codeSnippet": null,
+            "explanation": "**a) Escenario de falla (Lost Wakeup):**\n1. Supongamos que Tweedledum ejecuta primero y llega a `Sleep()`. Queda bloqueado.\n2. Tweedledee ejecuta `x = Quarrel(x)` y luego `Wakeup(Tweedledum)`, despertando a Tweedledum.\n3. Tweedledee se prepara para llamar a `Sleep()`, pero antes de que se complete el cambio a dormido, la CPU conmuta a Tweedledum.\n4. Tweedledum ejecuta `x = Quarrel(x)` y llama a `Wakeup(Tweedledee)`.\n5. Como Tweedledee **aún no estaba en la cola de dormidos**, la señal de `Wakeup` **se pierde**.\n6. Tweedledum ejecuta `Sleep()` y se duerme.\n7. Tweedledee retoma y completa su llamada `Sleep()`, durmiéndose también.\n8. **Resultado:** Ambos procesos quedan dormidos para siempre (Interbloqueo).\n\n**b) Solución con Semáforos:**\nLos semáforos tienen memoria (acumulan señales en su contador), evitando la pérdida de despertadores:\n\n```c\nsemaphore s_dum = 0; // Tweedledum espera primero\nsemaphore s_dee = 1; // Tweedledee empieza primero (o viceversa)\n\nvoid Tweedledum() {\n    while (1) {\n        wait(&s_dum);\n        x = Quarrel(x);\n        signal(&s_dee);\n    }\n}\n\nvoid Tweedledee() {\n    while (1) {\n        wait(&s_dee);\n        x = Quarrel(x);\n        signal(&s_dum);\n    }\n}\n```",
+            "createdAt": "2026-10-25T12:36:00.531Z",
+            "updatedAt": "2026-10-25T12:36:00.531Z"
+          },
+          {
+            "id": "c6a5f2dc-9880-45d8-8573-afcbe25607d6",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 9,
+            "instruction": "Problema 2: Productor y Consumidor (Deadlock por orden)",
+            "codeSnippet": null,
+            "explanation": "**Código evaluado:**\n- Productor: `down(&mutex); down(&vacio); entrar_msg(mensaje); up(&mutex); up(&lleno);`\n- Consumidor: `down(&lleno); down(&mutex); remover_msg(mensaje); up(&mutex); up(&vacio);`\n\n**¿Es válida la solución?**\n**NO es válida.** Presenta un riesgo inminente de **Interbloqueo (Deadlock)**.\n\n**Explicación:**\n1. Supongamos que el buffer está completamente lleno (`vacio == 0`, `lleno == N`).\n2. El Productor intenta producir un nuevo elemento:\n   - Ejecuta `down(&mutex)` con éxito (adquiere la exclusión mutua, `mutex = 0`).\n   - Luego ejecuta `down(&vacio)`: como `vacio == 0`, el Productor se **bloquea** dentro del semáforo `vacio`... **¡pero sigue reteniendo el mutex!**\n3. El Consumidor se planifica e intenta consumir:\n   - Ejecuta `down(&lleno)` con éxito (hay elementos).\n   - Luego intenta ejecutar `down(&mutex)`: como el Productor retiene el mutex, el Consumidor se **bloquea** esperando el mutex.\n4. **Deadlock:** El Consumidor nunca podrá liberar un espacio (`up(&vacio)`) porque no puede obtener el mutex; y el Productor nunca liberará el mutex porque está esperando que haya espacio libre.\n\n**Corrección:**\nInvertir el orden de los `down` en el Productor:\n```c\ndown(&vacio);  // Primero asegurar que hay lugar\ndown(&mutex);  // Luego entrar a la sección crítica\n```",
+            "createdAt": "2026-10-25T12:36:00.677Z",
+            "updatedAt": "2026-10-25T12:36:00.677Z"
+          },
+          {
+            "id": "b484f943-be2b-4009-b01c-1676f140e1a0",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 10,
+            "instruction": "Problema 3: Cena de los Filósofos",
+            "codeSnippet": null,
+            "explanation": "**Análisis de los problemas en el código propuesto:**\n\n1. **Error aritmético de Macro en C (Índice Negativo):**\n   La macro `#define Izquierdo (i-1)%N` produce un valor negativo en lenguaje C cuando `i = 0` (`(0-1)%6 = -1`). Al evaluar `estado[Izquierdo]`, accede a memoria fuera de los límites del arreglo (`estado[-1]`).\n   *Solución:* `#define Izquierdo (i + N - 1) % N`\n\n2. **Condición de Carrera en `dejar_tenedores`:**\n   En el código de la consigna:\n   ```c\n   void dejar_tenedores(int i) {\n       down(&mutex);\n       estado[i] = Pensando;\n       up(&mutex); // <-- ¡Libera el mutex prematuramente!\n       test(Izquierdo);\n       test(Derecho);\n   }\n   ```\n   Las funciones `test(Izquierdo)` y `test(Derecho)` leen y modifican `estado[i]` de los vecinos sin estar protegidas por `mutex`. Si dos vecinos terminan a la vez, se produce una condición de carrera.\n   *Solución:* Mover `up(&mutex)` al final de la función:\n   ```c\n   void dejar_tenedores(int i) {\n       down(&mutex);\n       estado[i] = Pensando;\n       test(Izquierdo);\n       test(Derecho);\n       up(&mutex);\n   }\n   ```\n\n3. **Inicialización de semáforos:**\n   Los semáforos del arreglo `s[N]` deben inicializarse explícitamente en `0` para que el filósofo que no pueda comer se bloquee en `down(&s[i])`.",
+            "createdAt": "2026-10-25T12:36:00.844Z",
+            "updatedAt": "2026-10-25T12:36:00.844Z"
+          },
+          {
+            "id": "e2b9952a-abad-449f-a25f-aba1c8d668b9",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 11,
+            "instruction": "Problema 4: Secuencias de Hilos (A, B, C, D, E)",
+            "codeSnippet": null,
+            "explanation": "**a) Secuencia: ABCDE ABCDE ...**\n- Semáforos: `sA=1, sB=0, sC=0, sD=0, sE=0`\n- Hilo A: `wait(sA); print(A); signal(sB);`\n- Hilo B: `wait(sB); print(B); signal(sC);`\n- Hilo C: `wait(sC); print(C); signal(sD);`\n- Hilo D: `wait(sD); print(D); signal(sE);`\n- Hilo E: `wait(sE); print(E); signal(sA);`\n\n**b) Secuencia: ACDE BCDE ACDE BCDE ...**\n- Semáforos: `sA=1, sB=0, sC=0, sD=0, sE=0; int turno_B = 0;`\n- Hilo A: `wait(sA); print(A); signal(sC);`\n- Hilo B: `wait(sB); print(B); signal(sC);`\n- Hilo C: `wait(sC); print(C); signal(sD);`\n- Hilo D: `wait(sD); print(D); signal(sE);`\n- Hilo E: `wait(sE); print(E); if (turno_B) { turno_B=0; signal(sA); } else { turno_B=1; signal(sB); }`\n\n**c) Secuencia: (A o B)CDE (A o B)CDE ...**\n- Semáforos: `sAB=1, sC=0, sD=0, sE=0`\n- Hilo A: `wait(sAB); print(A); signal(sC);`\n- Hilo B: `wait(sAB); print(B); signal(sC);`\n- Hilos C, D, E encadenados: C despierta a D, D a E, y E ejecuta `signal(sAB)`.\n\n**d) Secuencia: (A o B)CE (A o B)(A o B)DE ...**\n- Se sincroniza mediante alternancia de banderas o semáforos entre la rama C-E y la rama D-E.",
+            "createdAt": "2026-10-25T12:36:01.049Z",
+            "updatedAt": "2026-10-25T12:36:01.049Z"
+          },
+          {
+            "id": "b86aaab5-e998-42b1-867b-aceb8ee49e34",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 12,
+            "instruction": "Problema 5: Fábrica de Bicicletas (OP1, OP2, OP3, Montador)",
+            "codeSnippet": null,
+            "explanation": "**Componentes:** OP1 (ruedas), OP2 (cuadro), OP3 (manillar), Montador (2 ruedas + 1 cuadro + 1 manillar).\n\n**a) Sin almacenamiento intermedio (capacidad 1 fabricando):**\n- Semáforos de permiso para fabricar: `puedo_rueda=1, puedo_cuadro=1, puedo_manillar=1`\n- Semáforos de piezas listas: `hay_rueda=0, hay_cuadro=0, hay_manillar=0`\n\n```c\n// OP1 (Ruedas - ejecuta dos veces por bici)\nwhile(1) {\n    wait(puedo_rueda);\n    fabricar_rueda();\n    signal(hay_rueda);\n}\n\n// OP2 (Cuadro)\nwhile(1) {\n    wait(puedo_cuadro);\n    fabricar_cuadro();\n    signal(hay_cuadro);\n}\n\n// OP3 (Manillar)\nwhile(1) {\n    wait(puedo_manillar);\n    fabricar_manillar();\n    signal(hay_manillar);\n}\n\n// Montador\nwhile(1) {\n    wait(hay_rueda); wait(hay_rueda); // Toma 2 ruedas\n    wait(hay_cuadro); wait(hay_manillar);\n    armar_bicicleta();\n    signal(puedo_rueda); signal(puedo_rueda);\n    signal(puedo_cuadro); signal(puedo_manillar);\n}\n```\n\n**b) OP1 con espacio para fabricar 2 ruedas:**\n- Basta inicializar `puedo_rueda = 2`.",
+            "createdAt": "2026-10-25T12:36:01.192Z",
+            "updatedAt": "2026-10-25T12:36:01.192Z"
+          },
+          {
+            "id": "5c1f632a-1336-48af-bb5c-a25ef15901b2",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 13,
+            "instruction": "Problema 6: Fumadores de Cigarrillos (Patil)",
+            "codeSnippet": null,
+            "explanation": "**Ingredientes:** Tabaco (0), Papel (1), Fósforos (2). El agente coloca dos en la mesa.\n\n```c\nsemaphore agente = 1;\nsemaphore tabaco_papel = 0, papel_fosforos = 0, tabaco_fosforos = 0;\n\n// Agente\nwhile(1) {\n    wait(agente);\n    int r = rand() % 3;\n    if (r == 0) signal(papel_fosforos);   // Falta tabaco -> fuma F1\n    else if (r == 1) signal(tabaco_fosforos); // Falta papel -> fuma F2\n    else signal(tabaco_papel);           // Faltan fósforos -> fuma F3\n}\n\n// Fumador con Tabaco (espera papel y fósforos)\nwhile(1) {\n    wait(papel_fosforos);\n    armar_y_fumar();\n    signal(agente);\n}\n\n// Fumador con Papel\nwhile(1) {\n    wait(tabaco_fosforos);\n    armar_y_fumar();\n    signal(agente);\n}\n\n// Fumador con Fósforos\nwhile(1) {\n    wait(tabaco_papel);\n    armar_y_fumar();\n    signal(agente);\n}\n```",
+            "createdAt": "2026-10-25T12:36:01.333Z",
+            "updatedAt": "2026-10-25T12:36:01.333Z"
+          },
+          {
+            "id": "d4571326-ff71-4111-955d-ee888f24d819",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 14,
+            "instruction": "Problema 7: El Barbero Dormilón (Dijkstra)",
+            "codeSnippet": null,
+            "explanation": "**Variables y Semáforos:**\n```c\n#define SILLAS n\nint esperando = 0;\nsemaphore mutex = 1;\nsemaphore clientes = 0; // Clientes listos esperando\nsemaphore barbero = 0;  // Barbero listo para cortar\n\nvoid Barbero() {\n    while(1) {\n        wait(clientes); // Duerme si no hay clientes\n        wait(mutex);\n        esperando--;\n        signal(barbero); // Invita al cliente a la silla\n        signal(mutex);\n        cortar_pelo();\n    }\n}\n\nvoid Cliente() {\n    wait(mutex);\n    if (esperando < SILLAS) {\n        esperando++;\n        signal(clientes); // Despierta al barbero si duerme\n        signal(mutex);\n        wait(barbero);    // Espera a que el barbero lo llame\n        obtener_corte();\n    } else {\n        signal(mutex);    // Sala llena, se va\n    }\n}\n```",
+            "createdAt": "2026-10-25T12:36:01.557Z",
+            "updatedAt": "2026-10-25T12:36:01.557Z"
+          },
+          {
+            "id": "d44d78dd-b2be-44ed-a485-6a0f3173c3a0",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 15,
+            "instruction": "Problema 8: Lectores y Escritores con Semáforos",
+            "codeSnippet": null,
+            "explanation": "**Política:** Varios lectores simultáneos, o un solo escritor exclusivo (Preferencia Lectores):\n\n```c\nint read_count = 0;\nsemaphore mutex = 1; // Protege read_count\nsemaphore db = 1;    // Acceso exclusivo a la base de datos\n\nvoid Lector() {\n    while(1) {\n        wait(mutex);\n        read_count++;\n        if (read_count == 1) wait(db); // El primer lector bloquea a los escritores\n        signal(mutex);\n\n        leer_datos();\n\n        wait(mutex);\n        read_count--;\n        if (read_count == 0) signal(db); // El último lector habilita a los escritores\n        signal(mutex);\n    }\n}\n\nvoid Escritor() {\n    while(1) {\n        wait(db); // Exclusión mutua total\n        escribir_datos();\n        signal(db);\n    }\n}\n```",
+            "createdAt": "2026-10-25T12:36:01.732Z",
+            "updatedAt": "2026-10-25T12:36:01.732Z"
+          },
+          {
+            "id": "a4e380be-fd27-457c-bef2-a0bc6e5479c6",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 16,
+            "instruction": "Problema 9: Lectores y Escritores con Monitores",
+            "codeSnippet": null,
+            "explanation": "**a) Políticas de prioridad utilizadas en el código:**\n- Posee **prioridad para Escritores**.\n- En `inicio-leer`: la condición `if (escribiendo || !empty(ok_escribir)) ok_leer.wait;` verifica si hay algún escritor esperando en la cola `ok_escribir`. Si hay al menos un escritor esperando, los nuevos lectores se bloquean, permitiendo que el escritor tome el recurso apenas terminen los lectores actuales.\n- En `fin-escribir`: si hay lectores esperando les da paso (`ok_leer.signal`), de lo contrario pasa a otro escritor.\n\n**b) ¿Existe la posibilidad de inanición?**\n- **Sí, existe riesgo de inanición para los Lectores:** si constantemente siguen llegando solicitudes de procesos escritores (`!empty(ok_escribir)` se mantiene verdadero), los lectores nunca podrán ingresar a leer y sufrirán *starvation*.",
+            "createdAt": "2026-10-25T12:36:01.868Z",
+            "updatedAt": "2026-10-25T12:36:01.868Z"
+          },
+          {
+            "id": "65e2065d-c9f7-47ca-a467-d2df7144fe67",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 17,
+            "instruction": "Problema 10: Productor-Consumidor con Monitores",
+            "codeSnippet": null,
+            "explanation": "```c\nmonitor ProductorConsumidor {\n    condition no_lleno, no_vacio;\n    int buffer[N];\n    int in = 0, out = 0, count = 0;\n\n    public entry void insertar(int item) {\n        while (count == N)\n            no_lleno.wait();\n        buffer[in] = item;\n        in = (in + 1) % N;\n        count++;\n        no_vacio.signal();\n    }\n\n    public entry int remover() {\n        int item;\n        while (count == 0)\n            no_vacio.wait();\n        item = buffer[out];\n        out = (out + 1) % N;\n        count--;\n        no_lleno.signal();\n        return item;\n    }\n}\n```",
+            "createdAt": "2026-10-25T12:36:01.998Z",
+            "updatedAt": "2026-10-25T12:36:01.998Z"
+          },
+          {
+            "id": "98609260-9311-454b-87a1-22f8b827de3c",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 18,
+            "instruction": "Problema 11: El Oso y las Abejas",
+            "codeSnippet": null,
+            "explanation": "**Reglas:** Tarro con capacidad M. Las abejas colocan porciones de a una. La que pone la porción M despierta al oso. El oso se come todo y vuelve a dormir.\n\n```c\nint porciones = 0;\nsemaphore mutex = 1;     // Protege el tarro\nsemaphore oso = 0;       // Oso dormido\n\nvoid Abeja() {\n    while(1) {\n        producir_miel();\n        wait(mutex);\n        porciones++;\n        if (porciones == M) {\n            signal(oso); // Despierta al oso\n            // El mutex se mantiene o se cede al oso\n        } else {\n            signal(mutex);\n        }\n    }\n}\n\nvoid Oso() {\n    while(1) {\n        wait(oso);\n        comer_miel(); // Se come las M porciones\n        porciones = 0;\n        signal(mutex); // Libera el tarro vacío para las abejas\n    }\n}\n```",
+            "createdAt": "2026-10-25T12:36:02.145Z",
+            "updatedAt": "2026-10-25T12:36:02.145Z"
+          },
+          {
+            "id": "c5631d05-d8fa-497d-afff-82b785eac52c",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 19,
+            "instruction": "Problema 12: Limitación de Conexiones en Servidor",
+            "codeSnippet": null,
+            "explanation": "**Uso de semáforos para limitar $N$ conexiones simultáneas:**\n\n1. Se inicializa un **semáforo contador** en $N$ (`sem_init(&limite_conexiones, 0, N)`).\n2. El hilo principal o hilo despachador que escucha en el socket ejecuta:\n   ```c\n   while(1) {\n       int nuevo_socket = accept(server_fd, ...);\n       sem_wait(&limite_conexiones); // Si hay N abiertas, se bloquea aquí\n       crear_hilo_cliente(nuevo_socket);\n   }\n   ```\n3. Cuando el hilo trabajador termina de atender al cliente y cierra la conexión:\n   ```c\n   close(nuevo_socket);\n   sem_post(&limite_conexiones); // Incrementa el semáforo y permite una nueva conexión\n   ```\n- De esta forma, si hay $N$ conexiones activas, el valor del semáforo es 0 y cualquier intento de aceptar una nueva conexión esperará hasta que una existente se libere.",
+            "createdAt": "2026-10-25T12:36:02.268Z",
+            "updatedAt": "2026-10-25T12:36:02.268Z"
+          },
+          {
+            "id": "55c61d81-6856-4f13-9a36-fc40736734a4",
+            "lessonId": "6e8ca19e-d258-4ad4-bd58-bdd81ca77131",
+            "order": 20,
+            "instruction": "Problema 13: Usuarios Compartiendo 2 Impresoras",
+            "codeSnippet": null,
+            "explanation": "**a) Sincronización con Semáforos (Usuarios como Threads):**\n```c\nsemaphore impresoras_disponibles = 2;\nsemaphore mutex_impresoras = 1;\nint libre[2] = {1, 1}; // Estado de cada impresora\n\nint requerir_impresora() {\n    wait(impresoras_disponibles);\n    wait(mutex_impresoras);\n    int id = (libre[0]) ? 0 : 1;\n    libre[id] = 0;\n    signal(mutex_impresoras);\n    return id;\n}\n\nvoid liberar_impresora(int id) {\n    wait(mutex_impresoras);\n    libre[id] = 1;\n    signal(mutex_impresoras);\n    signal(impresoras_disponibles);\n}\n```\n\n**b) Con Prioridad Única:**\nSe utiliza una cola de prioridad protegida por mutex y semáforos privados por hilo. Al liberar una impresora, el hilo busca al usuario esperando con **mayor prioridad** y le hace `signal()` a su semáforo privado.",
+            "createdAt": "2026-10-25T12:36:02.415Z",
+            "updatedAt": "2026-10-25T12:36:02.415Z"
+          }
+        ]
+      },
+      {
+        "id": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+        "unitId": "90c3b0b1-e12e-4ac9-b77f-2d569507c3f5",
+        "title": "Practico5-2026",
+        "content": "### Practico5-2026\n\n<iframe src=\"/material/Practico5-2026.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Archivo](/material/Practico5-2026.pdf)",
+        "type": "PRACTICAL_WORK",
+        "order": 21,
+        "createdAt": "2026-10-25T12:33:11.908Z",
+        "updatedAt": "2026-10-25T12:33:11.908Z",
+        "steps": [
+          {
+            "id": "419737ea-5b42-40de-bb2a-984c75dba395",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 1,
+            "instruction": "Problema 1: Deadlock sin recursos del sistema",
+            "codeSnippet": null,
+            "explanation": "**¿Se puede producir deadlock sin recursos del sistema?**\n**SÍ, es totalmente posible.**\n\n**Explicación y Ejemplo:**\nLos interbloqueos pueden ocurrir puramente por **dependencias lógicas de sincronización o comunicación (Message Deadlocks)** entre procesos, sin que intervengan recursos de hardware (como cintas, impresoras o memoria):\n\n*Ejemplo clásico:* Dos procesos P1 y P2 que se comunican mediante paso de mensajes bloqueante:\n- P1 ejecuta: `receive(P2)` (espera recibir un mensaje de P2 antes de continuar o enviar nada).\n- P2 ejecuta: `receive(P1)` (espera recibir un mensaje de P1 antes de continuar o enviar nada).\n\nAmbos procesos quedan bloqueados esperando un evento que únicamente el otro proceso puede desencadenar. Ningún recurso físico está saturado, pero el sistema está en **deadlock** permanente.",
+            "createdAt": "2026-10-25T12:36:02.573Z",
+            "updatedAt": "2026-10-25T12:36:02.573Z"
+          },
+          {
+            "id": "4db6c843-44d6-4e57-ab94-e0d0005492d0",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 2,
+            "instruction": "Problema 2: Estado Inseguro vs Interbloqueo",
+            "codeSnippet": null,
+            "explanation": "**Un estado inseguro NO es un estado de interbloqueo.**\nUn estado es *inseguro* simplemente si el sistema no puede garantizar que todos los procesos terminarán si cada uno solicita su demanda máxima de recursos simultáneamente.\n\n**Demostración de que pueden completar su ejecución:**\nSupongamos 1 recurso con 10 instancias disponibles. Proceso P1 tiene asignadas 4 y su máximo es 8. P2 tiene asignadas 3 y su máximo es 7. Quedan 3 recursos libres:\n- Si ambos solicitan su máximo (P1 pide 4 más y P2 pide 4 más), ninguno puede completarse y hay deadlock (estado inseguro).\n- **Sin embargo**, si en la ejecución real P1 solo necesita solicitar 1 recurso más para terminar su tarea, P1 toma 1 recurso (quedan 2 libres), finaliza su trabajo y **libera sus 5 recursos**. Ahora hay $2 + 5 = 7$ libres, con los cuales P2 puede satisfacer cualquier demanda, terminar y liberar todo.\n- Por lo tanto, los procesos completaron su ejecución sin entrar en deadlock.",
+            "createdAt": "2026-10-25T12:36:02.748Z",
+            "updatedAt": "2026-10-25T12:36:02.748Z"
+          },
+          {
+            "id": "d2874259-607e-44a9-8010-4dd0497ca037",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 3,
+            "instruction": "Problema 3: 6 Unidades de Cinta y n Procesos (Máx 2)",
+            "codeSnippet": null,
+            "explanation": "**Planteo:**\n- Total de recursos de cinta: $R = 6$\n- Cada proceso necesita como máximo: $Max = 2$ unidades de cinta.\n- ¿Para qué valores de $n$ el sistema está garantizado **libre de interbloqueo**?\n\n**Demostración matemática:**\nEl peor escenario para generar deadlock ocurre cuando cada uno de los $n$ procesos adquiere $(Max - 1)$ recursos y solicita el último. Aquí cada proceso retendría $2 - 1 = 1$ cinta.\n\nPara garantizar que al menos **un** proceso pueda obtener su última cinta y terminar, el número total de cintas debe ser estrictamente mayor a la suma de las retenciones en el peor caso:\n\n$$R \\ge n \\cdot (Max - 1) + 1$$\n$$6 \\ge n \\cdot (2 - 1) + 1$$\n$$6 \\ge n + 1 \\implies n \\le 5$$\n\n**Respuesta:**\nEl sistema está garantizado **libre de bloqueo para todo $n \\le 5$** (hasta 5 procesos concurrentes). Si $n \\ge 6$, 6 procesos podrían tomar 1 cinta cada uno y bloquearse indefinidamente esperando la segunda.",
+            "createdAt": "2026-10-25T12:36:02.883Z",
+            "updatedAt": "2026-10-25T12:36:02.883Z"
+          },
+          {
+            "id": "e1edd948-3ea2-4ac5-80a9-624f1f79892b",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 4,
+            "instruction": "Problema 4: Situación entre Procesos P y Q",
+            "codeSnippet": null,
+            "explanation": "**Código analizado:**\n```\nProceso P:       Proceso Q:\nRequerir A       Requerir B\nLiberar A        Requerir A\nRequerir B       Liberar B\nLiberar B        Liberar A\n```\n\n**¿Puede ocurrir deadlock?**\n**NO, es imposible que ocurra deadlock.**\n\n**Justificación formal:**\nPara que exista interbloqueo debe cumplirse la condición de **Espera Circular** y **Retención y Espera (Hold and Wait)**.\n- Para que ocurra un ciclo, P debería retener el recurso A mientras solicita el recurso B, y Q debería retener el recurso B mientras solicita el recurso A.\n- Sin embargo, observemos el código de **P**: P **libera A antes de requerir B** (`Liberar A` precede a `Requerir B`).\n- Por lo tanto, en ningún momento P retiene A mientras compite por B. Si Q tiene B y pide A, o bien A ya está libre (porque P ya lo liberó) o bien P lo tiene pero lo liberará inmediatamente sin bloquearse. No existe posibilidad de espera circular.",
+            "createdAt": "2026-10-25T12:36:03.013Z",
+            "updatedAt": "2026-10-25T12:36:03.013Z"
+          },
+          {
+            "id": "708d08e4-6026-4019-a435-8a3690abeacf",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 5,
+            "instruction": "Problema 5: Algoritmo de Detección de Deadlock",
+            "codeSnippet": null,
+            "explanation": "**¿En qué momento se ejecutaría?**\nExisten dos políticas principales:\n1. **En cada solicitud de recurso que no pueda satisfacerse de inmediato:** Detecta el interbloqueo tan pronto como ocurre y permite saber qué proceso lo causó. *Desventaja:* Alto costo de CPU por ejecución constante.\n2. **A intervalos regulares de tiempo (ej. cada hora o 15 minutos) o cuando la utilización de la CPU caiga por debajo de un umbral:** Si la CPU cae mientras hay procesos listos, sugiere que los procesos están bloqueados esperando recursos.\n\n**¿Qué haría el algoritmo si detecta deadlock?**\nEl SO debe aplicar técnicas de recuperación:\n- **Terminación de procesos:** Abortar todos los procesos interbloqueados (muy drástico), o abortar uno a uno (por orden de prioridad, tiempo transcurrido o recursos retenidos) hasta romper el ciclo.\n- **Expropiación de recursos (Preemption):** Quitar recursos asignados a uno de los procesos y hacer un *Rollback* (reversión) de su estado a un punto de control seguro (checkpoint).",
+            "createdAt": "2026-10-25T12:36:03.166Z",
+            "updatedAt": "2026-10-25T12:36:03.166Z"
+          },
+          {
+            "id": "1de26ba2-f97e-4d8a-8b6d-ae6d6e8649b0",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 6,
+            "instruction": "Problema 6: Prevención vs Detección de Bloqueos",
+            "codeSnippet": null,
+            "explanation": "**Algoritmos de Prevención:**\n- Diseñan el sistema para invalidar estructuralmente al menos una de las cuatro condiciones de Coffman (Exclusión mutua, Retención y espera, No expropiación, Espera circular).\n- *Utilidad y Limitación:* Son muy conservadores; garantizan que nunca habrá deadlock pero reducen significativamente el uso eficiente de los dispositivos y la concurrencia (ej. exigir que todos los recursos se soliciten de golpe al inicio o en estricto orden numérico).\n\n**Algoritmos de Detección:**\n- Permiten que los procesos soliciten recursos libremente según sus necesidades reales. El SO monitorea periódicamente la matriz de asignación y solicitudes buscando ciclos en el Grafo de Asignación de Recursos.\n- *Utilidad y Limitación:* Permiten máxima flexibilidad y alta utilización de recursos, pero tienen costo computacional para la detección y conllevan el costo de tener que abortar procesos o revertir cómputos realizados.",
+            "createdAt": "2026-10-25T12:36:03.310Z",
+            "updatedAt": "2026-10-25T12:36:03.310Z"
+          },
+          {
+            "id": "3b019ec5-0a9b-4e4a-97d2-6c7ea5ebb740",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 7,
+            "instruction": "Problema 7: Análisis Costo-Beneficio de Evasión",
+            "codeSnippet": null,
+            "explanation": "**Datos del problema:**\n- 5.000 trabajos por mes.\n- Deadlock ocurre 2 veces al mes; cancela 10 trabajos cada vez.\n- Costo por trabajo cancelado: $1 dólar (están a mitad de su costo de $2).\n- Costo mensual actual por deadlocks: $2 \\times 10 \\times \\$1 = \\$20\\text{ USD/mes}$.\n\n**Impacto del Algoritmo de Evasión (Banquero):**\n- Aumenta 10% el tiempo de ejecución de TODOS los trabajos (5.000 trabajos).\n- Aumenta el tiempo de respuesta promedio en un 20%.\n\n**a) Argumentos para instalar el algoritmo:**\n- Previsibilidad y consistencia: Garantiza que ningún trabajo de cómputo crítico sea abortado intempestivamente a mitad de camino.\n- La máquina cuenta con 30% de tiempo ocioso, por lo que absorbe el 10% de cálculo adicional sin saturar el procesador.\n\n**b) Argumentos en contra de instalar el algoritmo (Decisión técnica):**\n- **Inviabilidad económica flagrante:** El costo actual de los interbloqueos es de apenas **$20 dólares al mes**. Pagar una penalidad del 10% de CPU en 5.000 trabajos equivale a desperdiciar 500 trabajos equivalentes en tiempo de CPU (aprox. $1.000 USD).\n- Penaliza la experiencia de todos los usuarios con un 20% más de tiempo de espera para ahorrarse $20 al mes.",
+            "createdAt": "2026-10-25T12:36:03.457Z",
+            "updatedAt": "2026-10-25T12:36:03.457Z"
+          },
+          {
+            "id": "672a18b1-6611-4219-8dd2-f307383b2a85",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 8,
+            "instruction": "Problema 8: Tres Maneras de Eliminar un Bloqueo",
+            "codeSnippet": null,
+            "explanation": "Una vez detectado un interbloqueo, las tres formas estándar de resolverlo son:\n\n1. **Abortar todos los procesos interbloqueados:** Rompe el ciclo inmediatamente, pero es la opción más destructiva ya que se pierde todo el progreso de todos los trabajos involucrados.\n2. **Abortar procesos uno a la vez:** Se selecciona un proceso víctima según un criterio de costo mínimo (prioridad más baja, menos tiempo computado, menos recursos retenidos), se lo aborta y se reejecuta el algoritmo de detección hasta que el ciclo desaparezca.\n3. **Expropiación de recursos con Rollback (Puntos de control):** Se despoja a un proceso de sus recursos y se revierte (*rollback*) su estado a un *checkpoint* guardado previamente, poniéndolo en espera hasta que los recursos se liberen.",
+            "createdAt": "2026-10-25T12:36:03.633Z",
+            "updatedAt": "2026-10-25T12:36:03.633Z"
+          },
+          {
+            "id": "ca8e0869-676c-4508-9923-8ee1c3edf52b",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 9,
+            "instruction": "Problema 9: Definición de Estado Seguro",
+            "codeSnippet": null,
+            "explanation": "**Definición Formal:**\nUn estado es **seguro** si el sistema puede asignar recursos a cada proceso (hasta su máximo declarado) en algún orden específico, sin que se produzca un interbloqueo.\n\nMás formalmente, un estado es seguro si existe al menos una **Secuencia Segura** de procesos:\n\n$$\\langle P_1, P_2, P_3, \\dots, P_n \\rangle$$\n\ntal que para cada $P_i$, la cantidad de recursos que aún puede solicitar ($Need_i$) puede ser satisfecha con los recursos actualmente disponibles en el sistema más los recursos retenidos por todos los procesos anteriores $P_j$ con $j < i$.\n\nSi existe dicha secuencia, cada proceso $P_i$ puede terminar con certeza, liberar sus recursos y permitir que el siguiente proceso avance.",
+            "createdAt": "2026-10-25T12:36:03.775Z",
+            "updatedAt": "2026-10-25T12:36:03.775Z"
+          },
+          {
+            "id": "a7a6662b-fa4b-4d5d-9656-e47d4cf17e03",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 10,
+            "instruction": "Problema 10: Diferencia entre Deadlock y Starvation",
+            "codeSnippet": null,
+            "explanation": "**Deadlock (Interbloqueo):**\n- Dos o más procesos están **permanentemente bloqueados** porque cada uno espera un evento que solo otro proceso del conjunto puede generar.\n- Ningún proceso del conjunto puede avanzar; el estado no cambiará sin intervención externa (del SO o del operador).\n- No hay consumo de ciclos de CPU por parte de los procesos bloqueados.\n\n**Starvation (Inanición / Postergación Indefinida):**\n- Un proceso está en estado **Listo (Ready)** o esperando un recurso, pero el planificador o el asignador de recursos **lo posterga indefinidamente** porque siempre le da preferencia a otros procesos (por ejemplo, por prioridades más altas o algoritmos FIFO desfavorables).\n- A diferencia del deadlock, **el sistema sí está realizando trabajo útil** y otros procesos continúan avanzando.\n- Se soluciona mediante técnicas de envejecimiento (*aging*).",
+            "createdAt": "2026-10-25T12:36:03.959Z",
+            "updatedAt": "2026-10-25T12:36:03.959Z"
+          },
+          {
+            "id": "aa0cf3fd-fc60-4889-93e5-be80d8b8da79",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 11,
+            "instruction": "Problema 11: Algoritmo del Banquero (Figura 1)",
+            "codeSnippet": null,
+            "explanation": "**Datos del problema:**\nRecursos: 4 tipos. Disponible = `[1, 5, 2, 0]`\n\n**a) Matriz de Necesidad ($Need = Max - Allocation$):**\n- $P_0 = [0, 0, 1, 2] - [0, 0, 1, 2] = [0, 0, 0, 0]$\n- $P_1 = [1, 7, 5, 0] - [1, 0, 0, 0] = [0, 7, 5, 0]$\n- $P_2 = [2, 3, 5, 6] - [1, 3, 5, 4] = [1, 0, 0, 2]$\n- $P_3 = [0, 6, 5, 2] - [0, 6, 3, 2] = [0, 0, 2, 0]$\n- $P_4 = [0, 6, 5, 6] - [0, 0, 1, 4] = [0, 6, 4, 2]$\n\n**b) ¿Se encuentra en estado seguro?**\n**SÍ, es seguro.** Existe secuencia segura $\\langle P_0, P_2, P_3, P_4, P_1 \\rangle$:\n1. Disponible = `[1, 5, 2, 0]`. $Need_0 = [0, 0, 0, 0] \\le Disp \\implies P_0$ termina. Disp pasa a `[1, 5, 3, 2]`.\n2. $Need_2 = [1, 0, 0, 2] \\le [1, 5, 3, 2] \\implies P_2$ termina. Disp pasa a `[2, 8, 8, 6]`.\n3. $Need_3 = [0, 0, 2, 0] \\le [2, 8, 8, 6] \\implies P_3$ termina. Disp pasa a `[2, 14, 11, 8]`.\n4. $Need_4 = [0, 6, 4, 2] \\le [2, 14, 11, 8] \\implies P_4$ termina. Disp pasa a `[2, 14, 12, 12]`.\n5. $Need_1 = [0, 7, 5, 0] \\le [2, 14, 12, 12] \\implies P_1$ termina.\n\n**c) Si $P_1$ solicita `[0, 4, 2, 0]`, ¿puede satisfacerse de inmediato?**\n**SÍ.** \n- `Request <= Need_1` (`[0, 4, 2, 0] <= [0, 7, 5, 0]`)\n- `Request <= Disponible` (`[0, 4, 2, 0] <= [1, 5, 2, 0]`)\n- Al simular la asignación, el nuevo Disponible queda en `[1, 1, 0, 0]`. Se puede hallar la secuencia segura $\\langle P_0, P_2, P_3, P_4, P_1 \\rangle$. Por lo tanto, la solicitud se concede inmediatamente.",
+            "createdAt": "2026-10-25T12:36:04.100Z",
+            "updatedAt": "2026-10-25T12:36:04.100Z"
+          },
+          {
+            "id": "1186297c-3e3d-447f-ab77-32ef23dadb91",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 12,
+            "instruction": "Problema 12: Dificultades y Ventajas del Rollback",
+            "codeSnippet": null,
+            "explanation": "**Dificultades del Rollback:**\n1. **Sobrecarga de almacenamiento y cómputo:** Requiere que el sistema guarde periódicamente puntos de control (*checkpoints*) en disco con el estado completo del proceso y sus archivos.\n2. **Operaciones irreversibles:** Si el proceso realizó operaciones hacia el exterior (enviar un paquete de red a un servidor externo, dispensar dinero o imprimir una hoja), esas acciones no se pueden \"deshacer\" físicamente.\n3. **Riesgo de inanición:** Si siempre se elige al mismo proceso como víctima para rollback, nunca terminará.\n\n**Ventajas del Rollback:**\n1. **Ahorro de cómputo:** Evita abortar el proceso completamente, conservando todo el trabajo realizado hasta el último checkpoint.\n2. **Tolerancia a fallos:** Permite una recuperación elegante y automática del sistema operativo sin intervención manual del usuario ni caída del sistema.",
+            "createdAt": "2026-10-25T12:36:04.234Z",
+            "updatedAt": "2026-10-25T12:36:04.234Z"
+          },
+          {
+            "id": "9b68d616-4dd5-4ade-8c34-df4f5e3013ef",
+            "lessonId": "fd52ceaa-b50f-4a48-be7c-ad95ff374fbd",
+            "order": 13,
+            "instruction": "Problema 13: Modificaciones que Preservan la Seguridad en el Banquero",
+            "codeSnippet": null,
+            "explanation": "**Análisis para cada caso:**\n\n- **a) Incremento Disponible (nuevos recursos):** **SEGURO.** Disponer de más recursos libres nunca puede provocar que una secuencia previamente segura deje de serlo.\n- **b) Decremento Disponible:** **PUEDE SER INSEGURO.** Al tener menos recursos libres, alguna necesidad de los procesos puede no ser satisfecha.\n- **c) Incremento MAX:** **PUEDE SER INSEGURO.** Si un proceso declara que puede necesitar más recursos que antes, aumenta su matriz Need y puede romper secuencias seguras.\n- **d) Decremento MAX:** **SEGURO.** El proceso se compromete a requerir menos recursos; su vector Need se reduce, facilitando la búsqueda de secuencias seguras.\n- **e) Incremento del Número de Procesos:** **PUEDE SER INSEGURO.** Un nuevo competidor por los recursos existentes puede llevar al sistema a un estado inseguro.\n- **f) Decremento del Número de Procesos:** **SEGURO.** Al finalizar o eliminarse un proceso, se liberan sus recursos asignados y disminuye la competencia.",
+            "createdAt": "2026-10-25T12:36:04.400Z",
+            "updatedAt": "2026-10-25T12:36:04.400Z"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": "d0d02284-a283-4569-b862-45bb8d37cee6",
+    "title": "Exámenes y Evaluaciones",
+    "description": "Parciales y recuperatorios oficiales de la cátedra con resolución explicada paso a paso.",
+    "order": 100,
+    "createdAt": "2026-10-25T13:12:09.157Z",
+    "updatedAt": "2026-10-25T13:12:09.157Z",
+    "lessons": [
+      {
+        "id": "3f817263-a823-4360-aa55-94fc409b9fe4",
+        "unitId": "d0d02284-a283-4569-b862-45bb8d37cee6",
+        "title": "📋 Resumen Integral para Examen Parcial (Listo para Imprimir)",
+        "content": "# 🎓 Resumen Integral de Examen Parcial: Sistemas Operativos (UNS)\n> **Cátedra:** Sistemas Operativos — Departamento de Ciencias e Ingeniería de la Computación (UNS)  \n> **Bibliografía base:** Silberschatz, Galvin & Gagne (*Operating System Concepts*), Tanenbaum & Bos (*Modern Operating Systems*), Stallings (*Operating Systems: Internals and Design Principles*).  \n> **Formato:** Guía de estudio y resolución de exámenes parciales lista para imprimir.\n\n---\n\n## ÍNDICE RÁPIDO\n1. [Conceptos Generales, Modos de Operación y Arquitectura](#1-conceptos-generales-modos-de-operación-y-arquitectura)\n2. [Procesos, Hilos (Threads) y Comunicación (IPC)](#2-procesos-hilos-threads-y-comunicación-ipc)\n3. [Planificación de CPU y Sistemas de Tiempo Real](#3-planificación-de-cpu-y-sistemas-de-tiempo-real)\n4. [Sincronización, Sección Crítica y Problemas Clásicos](#4-sincronización-sección-crítica-y-problemas-clásicos)\n5. [Interbloqueos (Deadlocks) y Algoritmo del Banquero](#5-interbloqueos-deadlocks-y-algoritmo-del-banquero)\n6. [Formulario Mnemotécnico y Trucos de Parcial](#6-formulario-mnemotécnico-y-trucos-de-parcial)\n\n---\n\n## 1. CONCEPTOS GENERALES, MODOS DE OPERACIÓN Y ARQUITECTURA\n\n### 1.1 Funciones Principales de un Sistema Operativo\n1. **Administrador de Recursos (Resource Manager):** Asigna de forma eficiente, equitativa y segura los recursos físicos y lógicos (CPU, memoria, disco, red, periféricos de E/S) entre múltiples programas y usuarios en competencia.\n2. **Máquina Extendida / Abstracción (Virtual Machine):** Oculta las complejidades del hardware subyacente (registros de controladores, temporizadores, interrupciones) ofreciendo una interfaz limpia, uniforme y amigable (archivos, procesos, sockets) a través de llamadas al sistema (*System Calls*).\n\n### 1.2 Modo Dual de Operación (Modo Usuario vs Modo Kernel)\n* **¿Por qué es indispensable?** Para garantizar la **protección del sistema**. Impide que un programa de usuario con errores o malicioso tome el control total del procesador, lea memoria de otros procesos o destruya el sistema de archivos.\n* **Soporte de Hardware:** El procesador posee un registro de estado con un **bit de modo** (*Mode Bit*):\n  * `Bit = 1` → **Modo Usuario:** Las instrucciones privilegiadas están inhabilitadas.\n  * `Bit = 0` → **Modo Kernel / Monitor / Privilegiado:** La CPU tiene acceso irrestricto a todas las instrucciones de máquina, registros de control y al espacio completo de memoria.\n* **Instrucciones Privilegiadas (Solo Modo Kernel):**\n  * Modificar el temporizador de la CPU (*Timer*).\n  * Deshabilitar/habilitar interrupciones de hardware.\n  * Modificar registros de la tabla de páginas / registros base y límite de la MMU.\n  * Acceder directamente a puertos de E/S de hardware (`in`, `out`).\n  * Cambiar de modo usuario a modo kernel manualmente (solo el hardware conmuta a kernel ante eventos protegidos).\n* *Instrucciones NO Privilegiadas:* Leer el reloj del sistema, ejecutar operaciones aritméticas, invocar una llamada al sistema mediante trap, cambiar voluntariamente de modo kernel a modo usuario.\n\n### 1.3 Eventos que provocan la Transición de Modo Usuario a Modo Kernel\nExisten 3 eventos fundamentales:\n1. **Llamadas al Sistema (System Calls):** Solicitud voluntaria y sincrónica de software para pedir un servicio protegido (ej. `read()`, `write()`, `fork()`).\n2. **Interrupciones de Hardware:** Señales eléctricas asincrónicas originadas por dispositivos físicos externos (ej. fin de lectura de disco, pulsación de teclado, interrupción del timer de la CPU).\n3. **Excepciones o Traps:** Eventos sincrónicos generados por la propia CPU ante un error o condición anormal de la instrucción en ejecución (ej. división por cero, fallo de página / *page fault*, violación de segmento).\n\n> [!IMPORTANT]\n> **Pregunta de Parcial Típica: \"Describa cronológicamente las acciones del SO cuando un proceso ejecuta `read()` sobre un archivo de disco\"**\n> 1. El proceso en modo usuario coloca los argumentos (descriptor de archivo, buffer, tamaño) en registros o pila y ejecuta la instrucción trampa (`syscall` o `int 0x80`).\n> 2. El hardware cambia automáticamente el **bit de modo a 0 (Modo Kernel)**, salva el Program Counter (PC) y Stack Pointer (SP) del usuario en la pila del kernel, indexa la **Tabla de Vectores de Interrupción (IDT)** y salta al despachador de llamadas del SO.\n> 3. El SO valida los parámetros y permisos; el subsistema de archivos determina los bloques lógicos y solicita al controlador de disco la transferencia mediante **DMA** (*Direct Memory Access*).\n> 4. Como la E/S de disco es lenta, el planificador cambia el estado del proceso de **Ejecución a Bloqueado (Waiting)** y ejecuta un cambio de contexto despachando a otro proceso listo.\n> 5. Cuando el disco finaliza la transferencia física a la memoria RAM, el controlador emite una **Interrupción de Hardware**.\n> 6. La rutina de atención de la interrupción marca al proceso solicitante como **Listo (Ready)**.\n> 7. Cuando el planificador vuelve a otorgarle la CPU, el SO ejecuta `sysret` / `iret`: se restaura el contexto del proceso, el bit de modo vuelve a **1 (Modo Usuario)** y el proceso retoma inmediatamente después de la instrucción `read()`.\n\n### 1.4 Estructuras de Kernel: Monolítico vs Microkernel vs Modular\n| Criterio | Kernel Monolítico | Arquitectura Microkernel | Kernel Modular (Moderno) |\n| :--- | :--- | :--- | :--- |\n| **Componentes en Kernel** | Todo: Scheduler, Memoria, File System, Drivers de dispositivos, Red. | Mínimo indispensable: Scheduler básico, memoria virtual elemental e IPC. | Núcleo base con capacidad de cargar dinámicamente módulos (LKM). |\n| **Servicios del SO** | Ejecutan en el mismo espacio de direcciones del kernel. | Ejecutan como **procesos servidores en espacio de usuario** (FS, Drivers, Network). | Módulos cargados en espacio de kernel según necesidad (ej. Linux). |\n| **Comunicación** | Llamadas a funciones internas directas en memoria (muy rápido). | **Paso de Mensajes (IPC)** continuo a través del microkernel. | Enlace dinámico de símbolos y llamadas a funciones directas. |\n| **Robustez / Seguridad** | Baja: si un driver tiene un bug, corrompe la memoria del kernel y cuelga el SO. | **Alta:** si un driver o FS falla, solo se cae ese proceso servidor y se reinicia; el kernel sobrevive. | Intermedia: módulos no probados pueden causar *Kernel Panic*. |\n| **Rendimiento** | **Máximo** (sin overhead de IPC ni conmutación de contexto continua). | Menor: alto overhead por múltiples cambios de contexto y copias de mensajes. | Óptimo: flexibilidad sin el costo de IPC del microkernel. |\n\n---\n\n## 2. PROCESOS, HILOS (THREADS) Y COMUNICACIÓN (IPC)\n\n### 2.1 Concepto de Proceso vs Hilo\n* **Proceso:** Programa en ejecución. Unidad de asignación de recursos y protección (posee su propio espacio de direcciones virtuales, tablas de descriptores de archivos, variables globales y PCB).\n* **Hilo (Thread):** Unidad básica de utilización de la CPU. Un proceso puede contener múltiples hilos que **comparten**: código, variables globales (sección de datos), archivos abiertos y memoria dinámica (heap); pero cada hilo posee de forma **privada**:\n  * Identificador de hilo (TID).\n  * Contador de programa (PC).\n  * Conjunto de registros de CPU.\n  * Pila de ejecución propia (*Call Stack* para variables locales y llamadas a funciones).\n\n### 2.2 Diagrama de Estados de un Proceso\n```\n      [Admitir]               [Dispatch]\n(NUEVO) ------> [LISTO (Ready)] --------> [EJECUCIÓN (Running)] ------> (TERMINADO)\n                      ^                         |                [Exit]\n                      |    [Timer / Preemption] |\n                      +-------------------------+\n                      |                         |\n                      |   [Fin de Evento / E/S] | [Espera de Evento / E/S]\n                      +----------------- [BLOQUEADO (Waiting)]\n```\n\n* **Transiciones Clave:**\n  * **Listo → Ejecución:** El planificador (*Dispatcher*) elige al proceso y le asigna la CPU.\n  * **Ejecución → Listo:** Expiración del quantum de tiempo (Round Robin) o arribo de un proceso de mayor prioridad (Apropiación).\n  * **Ejecución → Bloqueado:** El proceso invoca una operación bloqueante (solicitud de E/S, `wait` de un semáforo en 0, `Sleep()`).\n  * **Bloqueado → Listo:** Ocurre el evento esperado (interrupción de fin de E/S, señal `signal` de semáforo). **¡NUNCA pasa directamente de Bloqueado a Ejecución!**\n\n### 2.3 Hilos de Usuario (ULT) vs Hilos de Kernel (KLT)\n| Característica | Hilos a Nivel de Usuario (ULT) | Hilos a Nivel de Kernel (KLT) |\n| :--- | :--- | :--- |\n| **Gestión** | Íntegramente por una librería en espacio de usuario (`pthreads` modo usuario). El kernel desconoce su existencia. | Directamente por las llamadas al sistema del kernel del SO. |\n| **Cambio de Contexto** | **Extremadamente rápido:** No requiere conmutar a modo kernel ni cambiar estructuras privilegiadas. | Más lento: Requiere trampa a modo kernel, salvar registros en el TCB y conmutar pilas de kernel. |\n| **Llamadas Bloqueantes** | **Crítico:** Si un ULT ejecuta una syscall bloqueante, el kernel **bloquea a todo el proceso** y a todos los demás hilos de usuario. | Ventajoso: El kernel solo bloquea al hilo específico y planifica otro hilo del mismo proceso. |\n| **Multiprocesamiento (SMP)** | **No aprovecha múltiples núcleos:** El kernel ve al proceso como un único hilo y solo lo ejecuta en 1 núcleo a la vez. | **Verdadero paralelismo:** El kernel puede despachar distintos hilos del mismo proceso en núcleos físicos distintos. |\n\n### 2.4 Modelos de Comunicación entre Procesos (IPC)\n* **Memoria Compartida (Shared Memory):**\n  * *Mecanismo:* Dos procesos mapean la misma región de memoria física en sus tablas de páginas.\n  * *Ventaja:* **Máxima velocidad**; los intercambios ocurren a velocidad de bus de memoria sin intervención del SO.\n  * *Desventaja:* La sincronización para evitar condiciones de carrera recae enteramente en el programador.\n* **Paso de Mensajes (Message Passing):**\n  * *Mecanismo:* Primitivas `send()` y `receive()` gestionadas por el SO.\n  * *Ventaja:* Muy estructurado, sin problemas de memoria compartida; extensible a sistemas distribuidos en red.\n  * *Desventaja:* Menor velocidad debido al overhead de copiar mensajes al buffer del kernel y ejecutar llamadas al sistema.\n\n---\n\n## 3. PLANIFICACIÓN DE CPU Y SISTEMAS DE TIEMPO REAL\n\n### 3.1 Criterios de Planificación\n* **Utilización de CPU:** Porcentaje de tiempo que la CPU está ocupada realizando trabajo útil (meta: maximizar, 40% a 90%).\n* **Throughput (Rendimiento):** Número de procesos completados por unidad de tiempo.\n* **Turnaround Time (Tiempo de Retorno):** Intervalo desde que un proceso llega hasta que finaliza (T_{retorno} = T_{fin} - T_{llegada}).\n* **Waiting Time (Tiempo de Espera):** Tiempo total que el proceso pasó esperando en la cola de Listos.\n* **Response Time (Tiempo de Respuesta):** Tiempo desde la solicitud hasta la **primera** respuesta visible (crítico en interactivos).\n\n### 3.2 Algoritmos Clásicos\n* **FCFS (First-Come, First-Served):** No apropiativo. Sufre del *Efecto Convoy* (procesos cortos esperando detrás de uno largo con alta ráfaga de CPU).\n* **SJF (Shortest Job First):** Minimiza el tiempo de espera promedio. En su versión apropiativa se denomina **SRTF** (*Shortest Remaining Time First*). Problema: Imposible conocer la duración exacta de la próxima ráfaga (se aproxima por media exponencial τ_(n+1) = α · t_n + (1 - α) · τ_n).\n* **Round Robin (RR):** Orientado a tiempo compartido. Utiliza una cola FIFO circular y un **Quantum de tiempo (q)**:\n  * Si q → ∞, RR degenera en **FCFS**.\n  * Si q es muy pequeño, el overhead por continuos cambios de contexto destruye el rendimiento. (Regla empírica: el 80% de las ráfagas de CPU deben ser más cortas que q).\n* **Planificación por Prioridades:** Puede ser apropiativa o no. Problema principal: **Inanición (Starvation)** de procesos de baja prioridad. Solución: **Envejecimiento (Aging)**, aumentando la prioridad con el paso del tiempo.\n\n### 3.3 Inversión de Prioridades y Protocolo de Herencia (PIP)\n> [!WARNING]\n> **Tema Clave de Examen:**\n> Ocurre cuando un proceso de alta prioridad (P3) requiere un recurso exclusivo que está en poder de un proceso de baja prioridad (P1). Un proceso de prioridad intermedia (P2) que no necesita el recurso expulsa a P1 de la CPU porque P_2 > P_1. En consecuencia, P2 se ejecuta libremente demorando a P1, lo que indirectamente mantiene bloqueado a P3 (¡un proceso de prioridad media posterga al de máxima prioridad!).\n\n* **Solución: Protocolo de Herencia de Prioridad (Priority Inheritance Protocol):**\n  * Cuando P3 se bloquea esperando el recurso retenido por P1, **P1 hereda temporalmente la prioridad de P3**.\n  * Ahora P1 tiene mayor prioridad que P2, impidiendo que P2 lo desaloje. P1 termina su sección crítica rápidamente, libera el recurso con `signal()`, recupera su prioridad baja original y P3 toma inmediatamente la CPU.\n* **¿Qué ocurre si la espera se implementa con Spinlocks (Espera Ocupada)?**\n  * Si P3 usa spinlock (`while(recurso_ocupado);`), al ser de mayor prioridad que P1, P3 **nunca cede la CPU**. Por lo tanto, P1 jamás puede ejecutar para liberar el recurso → **Bloqueo mutuo catastrófico e inanición permanente**.\n\n### 3.4 Sistemas de Tiempo Real: Rate Monotonic (RM) y Earliest Deadline First (EDF)\n* **Parámetros:** Para cada tarea periódica τ_i: Tiempo de cómputo (C_i o t_i), Período (T_i o p_i), Plazo (D_i). Si no se especifica lo contrario, D_i = T_i.\n* **Factor de Utilización Total:**\n  **U = Σ (Ci / Ti)**\n\n#### Algoritmo RM (Rate Monotonic) — Prioridades Estáticas\n* **Regla:** A menor período (T_i), **mayor prioridad** (tareas de mayor frecuencia tienen preferencia).\n* **Cota de Liu & Layland (Condición Suficiente):**\n  **U ≤ n · (2^(1/n) - 1)**\n  * Para n = 1 ⇒ U ≤ 1.0 (100%)\n  * Para n = 2 ⇒ U ≤ 2 · (√2 - 1) ≈ 0.8284 (82.8%)\n  * Para n = 3 ⇒ U ≤ 3 · (³√2 - 1) ≈ 0.7798 (78.0%)\n  * Para n → ∞ ⇒ U ≤ ln(2) ≈ 0.693 (69.3%)\n* **¿Qué pasa si U > Cota de Liu & Layland pero U ≤ 1.0?**\n  La cota es **suficiente pero no necesaria**. No se puede descartar la tarea; se debe realizar el **Análisis de Tiempo de Respuesta en el Peor Caso (RTA - Response Time Analysis)** de forma iterativa:\n  **R_i^(0) = C_i**\n  **R_i^(k+1) = C_i + Σ ( ⌈ R_i^(k) / T_j ⌉ · C_j )**\n  *(Donde hp(i) son las tareas de mayor prioridad que i). La iteración termina cuando R_i^{(k+1)} = R_i^{(k)}. Si R_i ≤ D_i, la tarea cumple su plazo.*\n\n#### Algoritmo EDF (Earliest Deadline First) — Prioridades Dinámicas\n* **Regla:** La tarea con el plazo absoluto más cercano (d_i) recibe la máxima prioridad en cada instante.\n* **Criterio Óptimo:** Un conjunto de tareas periódicas con D_i = T_i es planificable con EDF si y solo si:\n  **U ≤ 1.0 (100% de la CPU)**\n\n---\n\n## 4. SINCRONIZACIÓN, SECCIÓN CRÍTICA Y PROBLEMAS CLÁSICOS\n\n### 4.1 Requisitos de la Sección Crítica\n1. **Exclusión Mutua:** Si un proceso está ejecutando en su sección crítica, ningún otro proceso puede estar en ella.\n2. **Progreso:** Si ningún proceso está en su sección crítica y varios desean entrar, solo aquellos que no están en su sección restante pueden participar en la decisión de quién entra, y esta decisión no puede postergarse indefinidamente.\n3. **Espera Acotada (Bounded Waiting):** Existe un límite en el número de veces que otros procesos pueden entrar a la sección crítica después de que un proceso solicitó entrar y antes de que se le conceda (evita la inanición).\n\n### 4.2 Espera Ocupada (Spinlock) vs Bloqueo (Sleep/Wakeup)\n* **Espera Ocupada:** El proceso ejecuta un bucle continuo (`while`). \n  * *Preferible:* En sistemas **multiprocesador (SMP)** si el tiempo estimado de espera es **muy corto** (menor al costo de dos cambios de contexto), porque evita el costo de dormir y despertar al hilo.\n* **Bloqueo:** El proceso se desplanifica y entra a una cola de espera.\n  * *Preferible:* En sistemas **monoprocesador** o cuando el tiempo de espera es largo o indefinido (ej. operaciones de E/S).\n\n### 4.3 Primitivas de Sincronización\n* **Semáforos (Dijkstra):** Variable entera protegida con dos operaciones atómicas:\n  * `wait(S)` / `down(S)` / `P(S)`: Decrementa `S`. Si `S < 0`, el proceso se bloquea.\n  * `signal(S)` / `up(S)` / `V(S)`: Incrementa `S`. Si `S <= 0`, despierta a un proceso bloqueado.\n* **Semáforo Binario vs Mutex:**\n  * El **Mutex** posee **propiedad (ownership)**: solo el hilo que adquirió el cerrojo puede liberarlo.\n  * El **Semáforo Binario** no tiene dueño: un hilo puede hacer `down()` y otro hilo distinto o una interrupción puede hacer `up()`.\n* **Monitores:** Mecanismo estructurado de alto nivel soportado por el lenguaje/compilador. Garantiza **exclusión mutua automática** (solo un proceso activo dentro del monitor). Utiliza variables de tipo `condition` con operaciones:\n  * `c.wait()`: El proceso se bloquea y libera el cerrojo del monitor.\n  * `c.signal()`: Reanuda a un proceso suspendido en `c` (si no hay ninguno, la señal no tiene efecto; a diferencia del semáforo, **no tiene memoria**).\n\n### 4.4 Problemas Clásicos Resueltos\n\n#### A. Productor - Consumidor (Buffer Limitado)\n```c\nsemaphore mutex = 1;      // Protege el acceso al buffer\nsemaphore vacio = N;      // Cuenta lugares libres disponibles\nsemaphore lleno = 0;      // Cuenta elementos producidos disponibles\n\nvoid Productor() {\n    while(1) {\n        item = producir();\n        wait(vacio);      // 1° Asegurar espacio (¡NUNCA INVERTIR CON EL MUTEX!)\n        wait(mutex);      // 2° Exclusión mutua\n        insertar(item);\n        signal(mutex);\n        signal(lleno);    // Avisa que hay un nuevo elemento\n    }\n}\n\nvoid Consumidor() {\n    while(1) {\n        wait(lleno);      // 1° Asegurar que haya elementos\n        wait(mutex);      // 2° Exclusión mutua\n        item = remover();\n        signal(mutex);\n        signal(vacio);    // Avisa que se liberó un lugar\n        consumir(item);\n    }\n}\n```\n> [!CAUTION]\n> **Error típico de Parcial:** Si en el Productor se invierte el orden a `wait(mutex); wait(vacio);` y el buffer está lleno (`vacio = 0`), el productor toma el mutex y se duerme en `vacio`. Cuando el consumidor quiere vaciar un lugar, ejecuta `wait(lleno)` y luego `wait(mutex)`, pero se bloquea porque el productor retiene el mutex → **Deadlock permanente**.\n\n#### B. Lectores y Escritores (Preferencia Escritores con Monitores)\n* *Regla:* Múltiples lectores pueden leer a la vez. Si llega un escritor, los nuevos lectores se bloquean para evitar que los lectores monopolicen el archivo indefinidamente (*inanición de escritores*).\n\n#### C. Filósofos Comensales (Evitar Deadlock)\n* El deadlock ocurre si todos toman a la vez el tenedor izquierdo (espera circular).\n* **Soluciones para examen:**\n  1. **Ruptura de asimetría:** Filósofos pares toman primero izquierdo y luego derecho; filósofos impares toman primero derecho y luego izquierdo.\n  2. **Toma atómica:** Usar un mutex y un array `estado[N]` (Pensando, Hambriento, Comiendo) tomando ambos tenedores juntos mediante una función `test(i)`.\n  3. **Límite de comensales:** Permitir como máximo N-1 filósofos en la mesa usando un semáforo contador inicializado en N-1.\n\n---\n\n## 5. INTERBLOQUEOS (DEADLOCKS) Y ALGORITMO DEL BANQUERO\n\n### 5.1 Condiciones Necesarias de Coffman (Deben darse las 4 simultáneamente)\n1. **Exclusión Mutua:** Al menos un recurso no compartible.\n2. **Retención y Espera (Hold and Wait):** Un proceso retiene recursos mientras solicita otros adicionales.\n3. **No Expropiación (No Preemption):** Los recursos no pueden ser confiscados por la fuerza; solo se liberan voluntariamente.\n4. **Espera Circular:** Cadena cerrada {P0, P1, ..., Pn} tal que P0 espera por un recurso retenido por P1, y P_n espera por un recurso retenido por P0.\n\n### 5.2 Estrategias de Tratamiento\n* **Avestruz:** Ignorar el problema (Windows y Linux lo adoptan para no penalizar el rendimiento del sistema).\n* **Prevención:** Diseñar protocolos para invalidar a priori alguna de las 4 condiciones (ej. ordenar los recursos globalmente y obligar a pedirlos en orden estrictamente creciente para romper la espera circular).\n* **Evasión:** Algoritmo del Banquero de Dijkstra (requiere conocer la demanda máxima Max de antemano).\n* **Detección y Recuperación:** Se ejecuta periódicamente un algoritmo que busca ciclos en el grafo de recursos. Si hay deadlock, se recupera mediante:\n  1. Abortar todos los procesos del ciclo (muy destructivo).\n  2. Abortar procesos de a uno por costo hasta romper el ciclo.\n  3. Expropiar recursos y hacer **Rollback** a un *Checkpoint* seguro.\n\n### 5.3 Deadlock vs Inanición (Starvation)\n| Aspecto | Interbloqueo (Deadlock) | Inanición (Starvation) |\n| :--- | :--- | :--- |\n| **Definición** | Dos o más procesos están permanentemente bloqueados esperando eventos que solo los otros del conjunto pueden generar. | Un proceso listo es postergado indefinidamente porque el sistema siempre otorga preferencia a otros. |\n| **Actividad de la CPU** | Cero avance; ningún proceso del grupo progresa. | El sistema avanza y realiza trabajo útil continuo, pero ese proceso particular no. |\n| **Resolución** | Requiere intervención externa (abortar o expropiar). | Se corrige mediante envejecimiento (*aging*) o colas equitativas (FIFO). |\n\n### 5.4 Algoritmo del Banquero (Guía Práctica Paso a Paso)\n> [!IMPORTANT]\n> **Paso 1: Calcular la Matriz de Necesidad (Need)**\n> **Need[i, j] = Max[i, j] - Allocation[i, j]**\n\n> **Paso 2: Calcular el Vector Disponible (Available)**\n> **Available = Existencias_Totales - Σ Allocation**\n\n> **Paso 3: Algoritmo de Seguridad**\n> 1. Inicializar Work = Available y Finish[i] = false para todos los procesos.\n> 2. Buscar un proceso Pi tal que:\n>    **Finish[i] == false  y  Need_i ≤ Work**\n>    * Si no existe ninguno y todos tienen Finish == true, el sistema es **SEGURO**.\n>    * Si no existe ninguno y quedan procesos con Finish == false, el sistema es **INSEGURO**.\n> 3. Si se encuentra dicho Pi:\n>    **Work = Work + Allocation_i**\n>    **Finish[i] = true**\n>    Volver al paso 2.\n\n> **Paso 4: Evaluación de una Solicitud (Request_i)**\n> 1. Si Request_i ≤ Need_i (no pide más de lo declarado).\n> 2. Si Request_i ≤ Available (hay recursos libres suficientes).\n> 3. Simular la asignación:\n>    * Available' = Available - Request_i\n>    * Allocation_i' = Allocation_i + Request_i\n>    * Need_i' = Need_i - Request_i\n> 4. Aplicar el Algoritmo de Seguridad al estado simulado:\n>    * Si es **Seguro** → **Se concede la solicitud de inmediato**.\n>    * Si es **Inseguro** → **El proceso debe esperar** (la solicitud no se concede).\n\n---\n\n## 6. FORMULARIO MNEMOTÉCNICO Y TRUCOS DE PARCIAL\n\n### 📌 Fórmula de Cintas / Recursos Libres de Bloqueo\nSi hay m recursos idénticos y n procesos, donde cada proceso necesita a lo sumo K recursos:\n**Garantizado Libre de Deadlock si y solo si:  m ≥ n · (K - 1) + 1**\n*Ejemplo clásico de la UNS:* Si m = 6 unidades de cinta y cada proceso necesita K = 2:\n**6 ≥ n · (2 - 1) + 1  ⇒  6 ≥ n + 1  ⇒  n ≤ 5**\n*(Hasta 5 procesos concurrentes nunca se bloquearán; con 6 procesos puede haber deadlock).*\n\n### 📌 Modificaciones al Banquero que NUNCA provocan Estado Inseguro\n* ✅ **Incrementar Disponible:** Nuevos recursos físicos libres siempre aumentan o mantienen las secuencias seguras.\n* ✅ **Decrementar MAX:** Un proceso declara que necesitará menos recursos (reduce Need).\n* ✅ **Decrementar Número de Procesos:** Menos competencia y se liberan recursos al terminar.\n* ❌ *Decrementar Disponible, Incrementar MAX o Añadir Procesos PUEDEN pasar el sistema a Inseguro.*\n\n### 📌 Resumen de Sincronización y Flags\n* Si un código hace `up(&mutex)` **antes** de `test()` de los vecinos en los filósofos → **Condición de carrera**.\n* Si un productor hace `down(&mutex)` **antes** de `down(&vacio)` → **Riesgo de deadlock**.\n* Si la espera en herencia de prioridad se hace con **spinlocks** en monoprocesador → **Bloqueo mutuo permanente**.\n* Si un proceso libera un recurso A **antes** de solicitar el recurso B → **No hay espera circular con otro que pida B y luego A (No hay deadlock)**.\n",
+        "type": "SUMMARY",
+        "order": 0,
+        "createdAt": "2026-10-25T16:04:37.650Z",
+        "updatedAt": "2026-10-25T17:30:19.595Z",
+        "steps": []
+      },
+      {
+        "id": "c3967548-8ba1-427a-b311-d1705fa7b60a",
+        "unitId": "d0d02284-a283-4569-b862-45bb8d37cee6",
+        "title": "Parcial 2022",
+        "content": "### Examen Parcial 2022\n\n<iframe src=\"/material/Examenes/Parcial%202022.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Parcial 2022 (PDF)](/material/Examenes/Parcial%202022.pdf)",
+        "type": "PRACTICAL_WORK",
+        "order": 1,
+        "createdAt": "2026-10-25T13:12:09.603Z",
+        "updatedAt": "2026-10-25T13:12:09.603Z",
+        "steps": [
+          {
+            "id": "12408c98-d3d1-43ab-b71b-982dcad9d67b",
+            "lessonId": "c3967548-8ba1-427a-b311-d1705fa7b60a",
+            "order": 1,
+            "instruction": "Ejercicio 1: Modos de Operación y Relación de Algoritmos",
+            "codeSnippet": null,
+            "explanation": "**a) Transición de Modo Usuario a Modo Kernel:**\nLos eventos que provocan la transición son:\n1. **Llamadas al Sistema (System Calls):** Solicitud voluntaria de software (ej. `read()`, `fork()`).\n2. **Interrupciones de Hardware:** Señales asincrónicas de dispositivos externos (ej. timer, teclado, disco).\n3. **Excepciones / Traps:** Eventos sincrónicos de error o condición especial (ej. división por cero, fallo de página).\n\n*Explicación detallada de una System Call:* El proceso carga los parámetros y el número de llamada en registros y ejecuta una instrucción trampa (como `syscall` o `int 0x80`). El procesador cambia el bit de modo a 0 (modo kernel), guarda el Program Counter y Stack Pointer de usuario en la pila del kernel, indexa la tabla de vectores de interrupción (IDT) y salta a la rutina del despachador del SO. Al terminar la operación, se ejecuta `sysret` / `iret` restaurando el bit de modo a 1 y reanudando el proceso.\n\n**b) Relación entre algoritmos:**\n- **Prioridad y SJF:** SJF es un caso particular de planificación por prioridad, donde la prioridad $p_i$ es inversamente proporcional a la duración de la próxima ráfaga de CPU ($p_i = 1 / \\tau_i$).\n- **Prioridad y FCFS:** FCFS es un caso particular de prioridad donde la prioridad es el orden de llegada a la cola de listos (o tiempo de espera acumulado).\n- **RR y SJF:** No tienen relación de inclusión directa. RR busca interactividad equitativa con quantums de tiempo sin conocer la duración de las ráfagas, mientras que SJF busca minimizar el tiempo medio de espera basándose estrictamente en predicciones de ráfaga.",
+            "createdAt": "2026-10-25T13:12:09.916Z",
+            "updatedAt": "2026-10-25T13:12:09.916Z"
+          },
+          {
+            "id": "ee4d089e-08d5-45f2-86a4-9d35cf16bf19",
+            "lessonId": "c3967548-8ba1-427a-b311-d1705fa7b60a",
+            "order": 2,
+            "instruction": "Ejercicio 2: Políticas de Interbloqueo y Cálculo de Estado Seguro",
+            "codeSnippet": null,
+            "explanation": "**a) Políticas para tratamiento de interbloqueos:**\n1. *Algoritmo del Avestruz:* Ignorar el problema asumiendo que ocurre rara vez (utilizado en la mayoría de SO de propósito general).\n2. *Detección y Recuperación:* Monitorear periódicamente el estado y recuperar abortando procesos o expropiando recursos.\n3. *Evasión Dinámica (Banquero):* Asignar recursos únicamente si el estado resultante es seguro.\n4. *Prevención:* Diseñar el sistema para invalidar estructuralmente al menos una de las 4 condiciones de Coffman.\n\n**b) Cálculo del valor más pequeño de $x$ para Estado Seguro:**\n- Recursos disponibles = `[0, 0, x, 1, 1]`\n- Calculamos la matriz de Necesidad ($Need = Max - Alloc$):\n  - $Need_A = [1, 1, 2, 1, 2] - [1, 0, 2, 1, 1] = [0, 1, 0, 0, 1]$ (Requiere $R_2=1$; disponible tiene 0. No puede ejecutar primero).\n  - $Need_B = [2, 2, 2, 1, 0] - [2, 0, 1, 1, 0] = [0, 2, 1, 0, 0]$ (Requiere $R_2=2$; no puede ejecutar primero).\n  - $Need_C = [2, 1, 3, 1, 0] - [1, 1, 0, 1, 0] = [1, 0, 3, 0, 0]$ (Requiere $R_1=1$; disponible tiene 0. No puede ejecutar primero).\n  - $Need_D = [1, 1, 2, 2, 1] - [1, 1, 1, 1, 0] = [0, 0, 1, 1, 1]$\n- Para que **D** pueda ejecutar primero, debe cumplirse $Need_D \\le Disp$.\n  Observando $R_3$: $Need_D(R_3) = 1 \\le x \\implies x \\ge 1$.\n\n*Verificación con $x = 1$:*\n- $Disp = [0, 0, 1, 1, 1]$. $D$ ejecuta, termina y libera `Alloc_D [1, 1, 1, 1, 0]` $\\implies$ Nuevo Disp = `[1, 1, 2, 2, 1]`.\n- Ahora $Need_A = [0, 1, 0, 0, 1] \\le Disp \\implies A$ ejecuta y termina $\\implies$ Disp = `[2, 1, 4, 3, 2]`.\n- Ahora $Need_C = [1, 0, 3, 0, 0] \\le Disp \\implies C$ ejecuta y termina $\\implies$ Disp = `[3, 2, 4, 4, 2]`.\n- Finalmente $Need_B = [0, 2, 1, 0, 0] \\le Disp \\implies B$ termina.\n\n**Respuesta:** El valor más pequeño es **$x = 1$** (Secuencia segura: $\\langle D, A, C, B \\rangle$).",
+            "createdAt": "2026-10-25T13:12:10.311Z",
+            "updatedAt": "2026-10-25T13:12:10.311Z"
+          },
+          {
+            "id": "b4205e2a-5c7d-4cf0-b989-83a9c63581f1",
+            "lessonId": "c3967548-8ba1-427a-b311-d1705fa7b60a",
+            "order": 3,
+            "instruction": "Ejercicio 3: Diagrama de Estados e Inversión de Prioridades",
+            "codeSnippet": null,
+            "explanation": "**a) Diagrama de Estados:**\n- *Estados:* Nuevo, Listo, Ejecución, Bloqueado, Terminado.\n- *Transiciones:* Admitir (Nuevo $\\to$ Listo), Despachar (Listo $\\to$ Ejecución), Interrupción/Quantum (Ejecución $\\to$ Listo), Espera de E/S o evento (Ejecución $\\to$ Bloqueado), Fin de E/S o evento (Bloqueado $\\to$ Listo), Salida (Ejecución $\\to$ Terminado).\n\n**b) Inversión de prioridades (p0 < p1 < p2 < p3):**\n- p0 llega en $t=0$, adquiere el semáforo $s$ en $t=1$.\n- p1 llega en $t=2$ y expulsa a p0 por tener mayor prioridad.\n- p2 llega en $t=4$ y expulsa a p1.\n- p3 (máxima prioridad) llega en $t=7$, intenta hacer $P(s)$ y se **bloquea** porque p0 retiene $s$.\n\n**1) Sin herencia de prioridades:** Ocurre la inversión de prioridades. Como p0 tiene menor prioridad que p2 y p1, p2 y p1 continúan ejecutando mientras p3 (el más prioritario del sistema) queda bloqueado esperando a que los procesos de prioridad media terminen para que recién p0 pueda ejecutar y liberar $s$.\n\n**2) Con herencia de prioridades:** En $t=7$, al bloquearse p3 sobre $s$, p0 **hereda temporalmente la prioridad máxima de p3**. Esto le permite a p0 expulsar a p2 de la CPU, ejecutar sus 2 unidades de tiempo restantes, invocar $V(s)$ en $t=9$, recuperar su prioridad baja original y ceder inmediatamente la CPU a p3, eliminando el retraso indebido provocado por p1 y p2.",
+            "createdAt": "2026-10-25T13:12:10.771Z",
+            "updatedAt": "2026-10-25T13:12:10.771Z"
+          },
+          {
+            "id": "497a3b0a-fb89-4b54-acce-5821b9939add",
+            "lessonId": "c3967548-8ba1-427a-b311-d1705fa7b60a",
+            "order": 4,
+            "instruction": "Ejercicio 4: Grafo de Precedencia Cíclico con Mínimos Semáforos",
+            "codeSnippet": null,
+            "explanation": "**Grafo:** $I \\to p1 \\to \\{p2, p3, p4 \\to p5\\} \\to p6 \\to I$\n\nSe requiere sincronizar para que cicle indefinidamente con la menor cantidad de semáforos:\n\n```c\nsemaphore s_I = 1;  // Permite iniciar la primera iteración\nsemaphore s_p1 = 0, s_p5 = 0, s_fin = 0;\nint contador = 0;\nsemaphore mutex = 1;\n\n// Proceso I\nwhile(1) {\n    wait(s_I);\n    ejecutar_I();\n    signal(s_p1);\n}\n\n// Proceso p1\nwhile(1) {\n    wait(s_p1);\n    ejecutar_p1();\n    signal(s_p2); signal(s_p3); signal(s_p4);\n}\n\n// Procesos concurrentes p2, p3 y rama p4->p5 que convergen en p6\n// Al terminar p6, hace signal(s_I) cerrando el ciclo.\n```",
+            "createdAt": "2026-10-25T13:12:11.030Z",
+            "updatedAt": "2026-10-25T13:12:11.030Z"
+          }
+        ]
+      },
+      {
+        "id": "ba515187-de93-448f-8d34-a4953f28d283",
+        "unitId": "d0d02284-a283-4569-b862-45bb8d37cee6",
+        "title": "Parcial 2023",
+        "content": "### Examen Parcial 2023\n\n<iframe src=\"/material/Examenes/Parcial%202023.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Parcial 2023 (PDF)](/material/Examenes/Parcial%202023.pdf)",
+        "type": "PRACTICAL_WORK",
+        "order": 2,
+        "createdAt": "2026-10-25T13:12:11.272Z",
+        "updatedAt": "2026-10-25T13:12:11.272Z",
+        "steps": [
+          {
+            "id": "bc0e8481-19e9-486e-8229-d2e5e33670f4",
+            "lessonId": "ba515187-de93-448f-8d34-a4953f28d283",
+            "order": 1,
+            "instruction": "Ejercicio 1: Problema Lector-Escritor",
+            "codeSnippet": null,
+            "explanation": "**a) Rol de cada semáforo:**\n- `m1` y `m2`: Semáforos de exclusión mutua para proteger los contadores de lectores (`nr`) y escritores (`nw`) respectivamente.\n- `m3`: Semáforo torniquete (*turnstile*) para forzar el paso ordenado de lectores y evitar que los lectores monopolicen la entrada cuando hay escritores esperando.\n- `read`: Semáforo que utilizan los escritores para indicar que hay escritores activos o en cola, bloqueando la llegada de nuevos lectores.\n- `write`: Semáforo que garantiza la exclusión mutua directa para la escritura del recurso compartido.\n\n**b) Valor de cada semáforo en las secciones críticas:**\n- Cuando hay **Lectores leyendo:** `write = 0` (bloquea a cualquier escritor), `read = 1`, `m1 = 1`, `m2 = 1`, `m3 = 1`.\n- Cuando hay un **Escritor escribiendo:** `write = 0`, `read = 0` (los lectores no pueden avanzar de `wait(read)`), `m1 = 1`, `m2 = 1`, `m3 = 1`.\n\n**c) ¿A quién favorece la solución?**\nFavorece a los **Escritores**. Apenas un escritor entra a competir (`wait(read)`), impide que nuevos lectores adquieran el semáforo `read`, drenando a los lectores actuales y otorgando el paso prioritario al escritor.",
+            "createdAt": "2026-10-25T13:12:12.481Z",
+            "updatedAt": "2026-10-25T13:12:12.481Z"
+          },
+          {
+            "id": "df390c30-a1c5-48e0-9304-e818c0db808f",
+            "lessonId": "ba515187-de93-448f-8d34-a4953f28d283",
+            "order": 2,
+            "instruction": "Ejercicio 2: Hilos a Nivel Usuario (ULT) vs Kernel (KLT)",
+            "codeSnippet": null,
+            "explanation": "**a) Dos diferencias principales:**\n1. *Gestión y Estructuras:* Los ULT son gestionados íntegramente por una biblioteca en espacio de usuario (mediante un hilo/proceso kernel). Los KLT son creados, planificados y gestionados directamente por el kernel del SO.\n2. *Bloqueo por E/S:* En ULT, si un hilo hace una llamada bloqueante al sistema, el kernel bloquea al proceso completo. En KLT, el kernel solo bloquea al hilo específico y puede seguir ejecutando los demás hilos.\n\n**b) Concurrencia en Monoprocesador vs Multiprocesador:**\n- *Monoprocesador:* Ambos ofrecen concurrencia lógica. Sin embargo, ULT tiene ventaja de velocidad en cambios de contexto ya que no requiere conmutar a modo kernel.\n- *Multiprocesador:* Los ULT **no pueden aprovechar múltiples núcleos físicos** simultáneamente (todos corren sobre el mismo proceso kernel asignado). Los KLT **sí alcanzan verdadero paralelismo físico**, distribuyendo los hilos entre los distintos núcleos de la CPU.\n\n**c) Acciones para cambio de contexto entre KLT:**\n1. Salvar registros del procesador (PC, SP, registros generales) en el TCB (Thread Control Block) del hilo actual en el kernel.\n2. Actualizar el estado del hilo a Listo o Bloqueado.\n3. Ejecutar el planificador del kernel para elegir el próximo hilo a ejecutar.\n4. Conmutar a la pila de kernel del nuevo hilo y restaurar sus registros desde su TCB.\n*(Nota: A diferencia de un cambio de proceso, NO es necesario conmutar las tablas de páginas ni vaciar la TLB, ya que los hilos del mismo proceso comparten el mismo espacio de direcciones virtuales).*",
+            "createdAt": "2026-10-25T13:12:13.798Z",
+            "updatedAt": "2026-10-25T13:12:13.798Z"
+          },
+          {
+            "id": "cc73de0b-da1e-4179-9389-e047fb850d0a",
+            "lessonId": "ba515187-de93-448f-8d34-a4953f28d283",
+            "order": 3,
+            "instruction": "Ejercicio 3: Algoritmo de Detección de Deadlock",
+            "codeSnippet": null,
+            "explanation": "**Datos:** $E = [2, 4, 1, 4, 4]$.\n- Suma Alocada = $[0, 1, 1, 1, 2] + [0, 1, 0, 1, 0] + [0, 0, 0, 0, 1] + [2, 1, 0, 0, 0] = [2, 3, 1, 2, 3]$.\n- Vector Disponible = $E - \\text{Alloc} = [2, 4, 1, 4, 4] - [2, 3, 1, 2, 3] = [0, 1, 0, 2, 1]$.\n\n**a) Ejecución del Algoritmo de Detección:**\n1. Evaluamos procesos no marcados cuya solicitud $\\le Disp$:\n   - $Req_2 = [0, 1, 0, 2, 1] \\le [0, 1, 0, 2, 1] \\implies \\mathbf{P_2}$ **puede terminar.**\n   - Al terminar $P_2$, libera $Alloc_2 [0, 1, 0, 1, 0] \\implies Disp = [0, 2, 0, 3, 1]$.\n2. Con nuevo $Disp = [0, 2, 0, 3, 1]$:\n   - $Req_3 = [0, 2, 0, 3, 1] \\le [0, 2, 0, 3, 1] \\implies \\mathbf{P_3}$ **puede terminar.**\n   - Al terminar $P_3$, libera $Alloc_3 [0, 0, 0, 0, 1] \\implies Disp = [0, 2, 0, 3, 2]$.\n3. Verificamos los procesos restantes ($P_1$ y $P_4$):\n   - $Req_1 = [1, 1, 0, 2, 1]$ (Requiere $R_1=1$, pero $Disp(R_1) = 0$). No puede terminar.\n   - $Req_4 = [0, 2, 1, 1, 0]$ (Requiere $R_3=1$, pero $Disp(R_3) = 0$). No puede terminar.\n\n**Conclusión:** Se detecta un **Interbloqueo (Deadlock)**. Los procesos interbloqueados son **$\\{P_1, P_4\\}$**.\n\n**b) Estrategias de recuperación:**\n1. *Abortar procesos:* Abortar $P_1$ o $P_4$ para liberar sus recursos y permitir que el otro termine.\n2. *Expropiación de recursos con Rollback:* Quitar recursos a $P_1$ o $P_4$ y revertir su ejecución a un punto de control previo.",
+            "createdAt": "2026-10-25T13:12:14.445Z",
+            "updatedAt": "2026-10-25T13:12:14.445Z"
+          },
+          {
+            "id": "5dda3c31-6fd6-444f-a4b4-8827f38e9955",
+            "lessonId": "ba515187-de93-448f-8d34-a4953f28d283",
+            "order": 4,
+            "instruction": "Ejercicio 4: Planificación Monoprocesador y Tiempo Real (RM y EDF)",
+            "codeSnippet": null,
+            "explanation": "**a) Eventos y funciones en RR y Prioridades:**\n- *Round Robin:* Evento principal es la interrupción periódica del reloj (timer). La rutina atiende la expiración del quantum, pasa el proceso al final de la cola FIFO y despacha al siguiente.\n- *Prioridades:* Eventos de llegada de procesos o cambio de estado. Si es apropiativo, compara la prioridad del nuevo proceso con el actual y ejecuta un cambio de contexto inmediato si la del nuevo es superior.\n\n**b) Sistema de Tiempo Real:**\n- 2 tareas de voz: $C_1 = 1$ ms, $T_1 = 5$ ms. $C_2 = 1$ ms, $T_2 = 5$ ms.\n- 1 tarea de video: $C_3 = 11$ ms, $T_3 = 33$ ms.\n\n*1. Cálculo de Utilización de CPU ($U$):*\n$$U = \\frac{1}{5} + \\frac{1}{5} + \\frac{11}{33} = 0.20 + 0.20 + 0.3333 = 0.7333 \\quad (73.33\\%)$$\n\n- **Con EDF:** La condición necesaria y suficiente es $U \\le 1$. Como $0.7333 \\le 1$, **SÍ es planificable con EDF**.\n- **Con RM:** Cota de Liu & Layland para $n=3$:\n  $$U_{bound} = 3 \\cdot (2^{1/3} - 1) \\approx 0.7798$$\n  Como $U = 0.7333 \\le 0.7798$, se cumple la cota suficiente: **SÍ es planificable con RM**.\n\n*2. ¿Puede incorporar otra secuencia de voz ($C_4 = 1$ ms, $T_4 = 5$ ms)?*\n$$U_{nuevo} = 0.7333 + \\frac{1}{5} = 0.9333$$\n- **Con EDF:** $0.9333 \\le 1$, por lo que **SÍ se puede incorporar** y seguirá cumpliendo todos los deadlines.\n- **Con RM:** La cota para $n=4$ es $4 \\cdot (2^{1/4} - 1) \\approx 0.7568$. Como $0.9333 > 0.7568$, no se asegura por cota y mediante análisis de tiempo de respuesta (RTA) se verifica si el video de 11 ms logra terminar dentro de sus 33 ms.",
+            "createdAt": "2026-10-25T13:12:15.101Z",
+            "updatedAt": "2026-10-25T13:12:15.101Z"
+          }
+        ]
+      },
+      {
+        "id": "1bcd10f6-a3de-44a4-8a09-f02b955d9bf3",
+        "unitId": "d0d02284-a283-4569-b862-45bb8d37cee6",
+        "title": "Parcial 2024",
+        "content": "### Examen Parcial 2024\n\n<iframe src=\"/material/Examenes/Parcial%202024.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Parcial 2024 (PDF)](/material/Examenes/Parcial%202024.pdf)",
+        "type": "PRACTICAL_WORK",
+        "order": 3,
+        "createdAt": "2026-10-25T13:12:15.774Z",
+        "updatedAt": "2026-10-25T13:12:15.774Z",
+        "steps": [
+          {
+            "id": "2238296f-c587-4c70-bccd-1fc56e07a734",
+            "lessonId": "1bcd10f6-a3de-44a4-8a09-f02b955d9bf3",
+            "order": 1,
+            "instruction": "Ejercicio 1: Diagrama de 5 Estados e Inversión de Prioridades",
+            "codeSnippet": null,
+            "explanation": "**a) Diagrama de 5 Estados:**\n- Estados: *Nuevo (New), Listo (Ready), Ejecución (Running), Bloqueado (Waiting/Blocked), Terminado (Terminated)*.\n- Transiciones: Admisor (Nuevo $\\to$ Listo), Scheduler Dispatch (Listo $\\to$ Ejecución), Expiración de Timer o apropiación (Ejecución $\\to$ Listo), Solicitud de E/S o evento (Ejecución $\\to$ Bloqueado), Ocurrencia del evento/E/S (Bloqueado $\\to$ Listo), Exit (Ejecución $\\to$ Terminado).\n\n**b) El Problema de Inversión de Prioridades:**\nOcurre cuando un proceso de prioridad alta ($P_{alta}$) se ve indirectamente demorado por procesos de prioridad intermedia ($P_{media}$), debido a que un proceso de prioridad baja ($P_{baja}$) retiene un recurso exclusivo que $P_{alta}$ necesita.\n\n*Ejemplo clásico:* \n1. $P_{baja}$ está en Ejecución y adquiere un cerrojo mutex $M$.\n2. $P_{alta}$ pasa a Listo y expulsa a $P_{baja}$.\n3. $P_{alta}$ intenta adquirir $M$; como está ocupado, pasa a **Bloqueado**.\n4. $P_{baja}$ retoma la CPU para liberar $M$, pero antes de lograrlo, llega un proceso $P_{media}$ que no usa el recurso $M$.\n5. Como $Prioridad(P_{media}) > Prioridad(P_{baja})$, $P_{media}$ expulsa a $P_{baja}$ y se queda con la CPU.\n6. **Inversión:** $P_{media}$ ejecuta libremente mientras $P_{alta}$ está atrapado esperando a $P_{baja}$.\n*Solución:* Protocolo de Herencia de Prioridad (Priority Inheritance Protocol).",
+            "createdAt": "2026-10-25T13:12:16.461Z",
+            "updatedAt": "2026-10-25T13:12:16.461Z"
+          },
+          {
+            "id": "81f569d7-2f14-4127-845b-24d9b20facae",
+            "lessonId": "1bcd10f6-a3de-44a4-8a09-f02b955d9bf3",
+            "order": 2,
+            "instruction": "Ejercicio 2: Condiciones de Coffman, Estrategias e Inanición",
+            "codeSnippet": null,
+            "explanation": "**a) Condiciones necesarias para Interbloqueo (Condiciones de Coffman):**\n1. **Exclusión Mutua:** Al menos un recurso se comparte de forma no distribuible (solo un proceso a la vez).\n2. **Retención y Espera (Hold and Wait):** Un proceso retiene recursos mientras espera obtener otros adicionales.\n3. **No Expropiación (No Preemption):** Los recursos no pueden ser quitados por la fuerza; solo el proceso que los tiene los puede liberar voluntariamente.\n4. **Espera Circular:** Existe una cadena cerrada de procesos $\\{P_0, P_1, \\dots, P_n\\}$ donde cada uno espera un recurso retenido por el siguiente.\n\n**b) Estrategias para tratar interbloqueos:**\n- *Avestruz:* No hacer nada.\n- *Detección y Recuperación:* Dejar que ocurra, detectarlo y resolverlo (abortar o expropiar).\n- *Evasión:* Usar información previa de máximos requerimientos y el Algoritmo del Banquero.\n- *Prevención:* Negar a priori alguna de las 4 condiciones de Coffman.\n\n**c) Deadlock vs Inanición en los Filósofos:**\n- *Deadlock:* Todos los filósofos toman su tenedor izquierdo simultáneamente. Todos quedan bloqueados esperando el derecho. Ninguno come jamás ni el sistema avanza.\n- *Inanición:* La solución evita el deadlock, pero dos filósofos rápidos comen de forma alternada impidiendo que el filósofo del medio pueda conseguir ambos tenedores a la vez.",
+            "createdAt": "2026-10-25T13:12:17.424Z",
+            "updatedAt": "2026-10-25T13:12:17.424Z"
+          },
+          {
+            "id": "16eece16-9252-4793-b05a-4d377512ccd2",
+            "lessonId": "1bcd10f6-a3de-44a4-8a09-f02b955d9bf3",
+            "order": 3,
+            "instruction": "Ejercicio 3: Planificación de Tiempo Real (P1, P2, P3)",
+            "codeSnippet": null,
+            "explanation": "**Procesos independientes:**\n- $P_1$: Período $T_1 = 10$ ms, Servicio $C_1 = 3$ ms.\n- $P_2$: Período $T_2 = 15$ ms, Servicio $C_2 = 5$ ms.\n- $P_3$: Período $T_3 = 30$ ms, Servicio $C_3 = 9$ ms.\n\n*1. Factor de Utilización ($U$):*\n$$U = \\frac{3}{10} + \\frac{5}{15} + \\frac{9}{30} = 0.30 + 0.3333 + 0.30 = 0.9333 \\quad (93.33\\%)$$\n\n*2. Evaluación con EDF (Earliest Deadline First):*\n- En tareas periódicas con deadline igual al período ($D_i = T_i$), la condición necesaria y suficiente es $U \\le 1$.\n- Como $0.9333 \\le 1.0$, **SÍ es planificable con EDF**.\n\n*3. Evaluación con RM (Rate Monotonic):*\n- Cota de Liu & Layland ($n=3$): $3 \\cdot (2^{1/3}-1) \\approx 0.7798$.\n- Como $U = 0.9333 > 0.7798$, la cota no garantiza planificabilidad directa. Debemos aplicar el **Análisis de Tiempo de Respuesta (RTA)** asignando prioridades por período (Prioridad: $P_1 > P_2 > P_3$):\n  - $R_1 = C_1 = 3 \\le 10$ (Cumple plazo).\n  - $R_2 = 5 + \\lceil 5/10 \\rceil \\cdot 3 = 8 \\implies 5 + \\lceil 8/10 \\rceil \\cdot 3 = 8 \\le 15$ (Cumple plazo).\n  - $R_3^{(0)} = 9$\n  - $R_3^{(1)} = 9 + \\lceil 9/10 \\rceil \\cdot 3 + \\lceil 9/15 \\rceil \\cdot 5 = 9 + 3 + 5 = 17$\n  - $R_3^{(2)} = 9 + \\lceil 17/10 \\rceil \\cdot 3 + \\lceil 17/15 \\rceil \\cdot 5 = 9 + 6 + 10 = 25$\n  - $R_3^{(3)} = 9 + \\lceil 25/10 \\rceil \\cdot 3 + \\lceil 25/15 \\rceil \\cdot 5 = 9 + 9 + 10 = 28$\n  - $R_3^{(4)} = 9 + \\lceil 28/10 \\rceil \\cdot 3 + \\lceil 28/15 \\rceil \\cdot 5 = 9 + 9 + 10 = 28 \\le 30$ (Cumple plazo).\n\n**Conclusión:** Todos los procesos completan antes de su plazo. **También SÍ es planificable con RM**.",
+            "createdAt": "2026-10-25T13:12:17.985Z",
+            "updatedAt": "2026-10-25T13:12:17.985Z"
+          },
+          {
+            "id": "e9384e48-9e67-4581-8904-db760f05ec37",
+            "lessonId": "1bcd10f6-a3de-44a4-8a09-f02b955d9bf3",
+            "order": 4,
+            "instruction": "Ejercicio 4: Condición de Carrera en Alocación de Procesos",
+            "codeSnippet": null,
+            "explanation": "**a) Identificación de la Condición de Carrera:**\nLa variable compartida `numprocesses` es leída y modificada concurrentemente por `allocate_process()` y `release_process()`. Las operaciones `++numprocesses` y `--numprocesses` constan de 3 instrucciones máquina (Lectura, Modificación, Escritura). Si dos procesos ejecutan estas funciones a la vez, se produce una condición de carrera: una actualización puede sobreescribir a la otra o superar el límite `MAX_PROCESSES`.\n\n**b) Solución con Mutex:**\n```c\nmutex_t m;\n\nint allocate_process() {\n    int new_pid = -1;\n    mutex_lock(&m);\n    if (numprocesses < MAX_PROCESSES) {\n        /* alocar recursos */\n        ++numprocesses;\n        new_pid = obtener_pid();\n    }\n    mutex_unlock(&m);\n    return new_pid;\n}\n\nvoid release_process() {\n    mutex_lock(&m);\n    /* liberar recursos */\n    --numprocesses;\n    mutex_unlock(&m);\n}\n```\n\n**c) Metodología para evitar la variable entera compartida:**\nSe puede utilizar un **Semáforo Contador** inicializado en `MAX_PROCESSES` (`sem_t sem_procesos`).\n- En `allocate_process()`: se invoca `sem_trywait(&sem_procesos)`. Si retorna éxito, hay cupo disponible.\n- En `release_process()`: se invoca `sem_post(&sem_procesos)`.",
+            "createdAt": "2026-10-25T13:12:18.539Z",
+            "updatedAt": "2026-10-25T13:12:18.539Z"
+          }
+        ]
+      },
+      {
+        "id": "887af0cc-b3d7-4f7b-bbb2-56eaa6b3f1f6",
+        "unitId": "d0d02284-a283-4569-b862-45bb8d37cee6",
+        "title": "Parcial 2025",
+        "content": "### Examen Parcial 2025\n\n> [!NOTE]\n> Examen recuperado del archivo oficial `Parcial 2025.docx` de la cátedra.\n\n#### Enunciados de la Evaluación:\n\n* **Ejercicio 1:**\n  * a) Comparación entre hilos de usuario (ULT) e hilos de kernel (KLT) respecto a planificación, sincronización y cambio de contexto.\n  * b) Modos de operación (Usuario y Kernel) y acciones del SO al ejecutar `read()` sobre disco.\n* **Ejercicio 2:**\n  * Diagrama de tiempos con planificación por prioridades apropiativas con y sin herencia de prioridades (Procesos A, B y C compartiendo recurso).\n  * Problema de espera ocupada con spinlocks en prioridades.\n* **Ejercicio 3:**\n  * Sistemas de tiempo real: definición y criterios de aceptación para RM y EDF.\n* **Ejercicio 4:**\n  * Algoritmo del Banquero con existencias (7, 7, 10), matrices de asignación y máximos, y evaluación de solicitudes de P1, P2 y P3.\n\n<br/>[📥 Descargar Archivo Original (Parcial 2025.docx)](/material/Examenes/Parcial%202025.docx)",
+        "type": "PRACTICAL_WORK",
+        "order": 4,
+        "createdAt": "2026-10-25T13:12:19.244Z",
+        "updatedAt": "2026-10-25T13:12:19.244Z",
+        "steps": [
+          {
+            "id": "29ebe9a9-fec2-4efd-8545-f368da1936fc",
+            "lessonId": "887af0cc-b3d7-4f7b-bbb2-56eaa6b3f1f6",
+            "order": 1,
+            "instruction": "Ejercicio 1: ULT vs KLT y Operación read() en Disco",
+            "codeSnippet": null,
+            "explanation": "**a) Comparación ULT vs KLT:**\n- **Planificación:** Los ULT son planificados por una biblioteca en espacio de usuario sin conocimiento del SO; los KLT son planificados directamente por el Scheduler del kernel en los núcleos disponibles.\n- **Sincronización:** En ULT la sincronización es interna de la biblioteca (no causa cambio a modo kernel). En KLT se usan primitivas del sistema, permitiendo sincronizar hilos de diferentes procesos o hilos de kernel.\n- **Cambio de contexto:** En ULT es ultrarrápido (solo guarda registros de CPU en espacio de usuario). En KLT requiere una trampa a modo kernel, guardado del TCB y cambio de pila de kernel.\n\n**b) Modos de operación y llamada `read()`:**\n- **Modos:** Modo Usuario (bit de modo en 1, instrucciones privilegiadas deshabilitadas) y Modo Kernel (bit de modo en 0, acceso total al hardware). Soportados por hardware en el procesador.\n- **Acciones del SO al ejecutar `read()`:**\n  1. La biblioteca ejecuta la instrucción trampa (`syscall`) pasando el file descriptor y buffer.\n  2. El CPU pasa a modo kernel, valida los parámetros y verifica permisos.\n  3. El subsistema de archivos determina los bloques físicos de disco necesarios.\n  4. El SO solicita al driver del disco la lectura mediante DMA.\n  5. Como la E/S es lenta, el SO cambia el estado del proceso de **Ejecución a Bloqueado** y despacha a otro proceso.\n  6. Al finalizar la lectura física, el controlador de disco emite una interrupción de hardware.\n  7. La rutina de interrupción copia los datos al buffer del proceso, mueve el proceso a la cola de **Listos** y eventualmente reanuda su ejecución en modo usuario.",
+            "createdAt": "2026-10-25T13:12:19.954Z",
+            "updatedAt": "2026-10-25T13:12:19.954Z"
+          },
+          {
+            "id": "ecced70c-d8d7-466a-8110-ab1e68c1d5d5",
+            "lessonId": "887af0cc-b3d7-4f7b-bbb2-56eaa6b3f1f6",
+            "order": 2,
+            "instruction": "Ejercicio 2: Inversión de Prioridades y Spinlocks",
+            "codeSnippet": null,
+            "explanation": "**Datos del problema:**\n- Proceso A: CPU 8 ms, Recurso compartido (Baja, 1). Llega en $t=0$, usa recurso entre $t=1$ y $t=6$.\n- Proceso B: CPU 6 ms, Independiente (Media, 2). Llega en $t=2$.\n- Proceso C: CPU 6 ms, Recurso compartido (Alta, 3). Llega en $t=3$, usa recurso entre $t=1$ y $t=4$.\n\n**1) Planificación por prioridades apropiativas SIN herencia:**\n- En $t=0$: Ejecuta A. En $t=1$ toma el recurso compartido.\n- En $t=2$: Llega B (prioridad 2 > 1) y **expulsa a A**.\n- En $t=3$: Llega C (prioridad 3 > 2) y expulsa a B.\n- En $t=4$: C solicita el recurso compartido, pero lo tiene A $\\implies$ **C se bloquea**.\n- ¿Quién toma la CPU? Como A tiene prioridad 1 y B prioridad 2, **¡toma la CPU el proceso B!**\n- B ejecuta hasta $t=9$ y termina. Recién ahí ejecuta A para liberar el recurso en $t=14$, y recién entonces C puede ejecutar.\n- **Inconveniente:** Inversión de prioridades no acotada (el proceso de prioridad media B demoró al proceso de prioridad alta C).\n\n**2) Con Herencia de Prioridades:**\n- En $t=4$, cuando C se bloquea, A hereda temporalmente la prioridad Alta (3).\n- Esto evita que B tome la CPU. A continúa ejecutando con prioridad 3 hasta liberar el recurso, momento en el cual C se desbloquea y toma la CPU inmediatamente.\n\n**3) ¿Qué ocurre si la espera se implementa con spinlocks?**\n- Ocurre un **bloqueo mutuo catastrófico**: Si C hace espera ocupada (bucle `while`), como su prioridad (3) es mayor que la de A (1), C nunca suelta la CPU y A jamás podrá ejecutar para liberar el recurso. El sistema se congela.",
+            "createdAt": "2026-10-25T13:12:20.452Z",
+            "updatedAt": "2026-10-25T13:12:20.452Z"
+          },
+          {
+            "id": "0ae9f8ca-c34f-4ac1-a431-306143338512",
+            "lessonId": "887af0cc-b3d7-4f7b-bbb2-56eaa6b3f1f6",
+            "order": 3,
+            "instruction": "Ejercicio 3: Sistemas de Tiempo Real (RM y EDF)",
+            "codeSnippet": null,
+            "explanation": "**Definición:**\nUn sistema de tiempo real es aquel cuya corrección lógica depende no solo de la exactitud de los resultados computacionales, sino también del **instante de tiempo** en el cual se entregan dichos resultados (cumplimiento estricto de *Deadlines*).\n- *Hard Real-Time:* La violación de un plazo se considera un fallo catastrófico del sistema.\n- *Soft Real-Time:* Tolera pérdidas ocasionales de plazo con degradación de calidad.\n\n**Criterios de Aceptación y Planificación:**\n\n1. **Rate Monotonic (RM):**\n- *Algoritmo estático:* Asigna prioridades fijas inversamente proporcionales al período ($T_i$). Tareas con períodos más cortos tienen mayor prioridad.\n- *Criterio de aceptación (Cota de Liu & Layland):*\n  $$U = \\sum_{i=1}^n \\frac{C_i}{T_i} \\le n(2^{1/n} - 1)$$\n  Para $n \\to \\infty$, la cota tiende a $\\approx 0.693$.\n\n2. **Earliest Deadline First (EDF):**\n- *Algoritmo dinámico:* Asigna prioridades dinámicamente; la tarea cuyo plazo más próximo venza tiene la máxima prioridad en cada instante.\n- *Criterio de aceptación:* Es un algoritmo óptimo. Un conjunto de tareas periódicas es planificable si y solo si:\n  $$U = \\sum_{i=1}^n \\frac{C_i}{T_i} \\le 1.0 \\quad (100\\%\\text{ de la CPU})$$",
+            "createdAt": "2026-10-25T13:12:20.778Z",
+            "updatedAt": "2026-10-25T13:12:20.778Z"
+          },
+          {
+            "id": "3225ea39-dd3d-4e60-9462-bc2092708683",
+            "lessonId": "887af0cc-b3d7-4f7b-bbb2-56eaa6b3f1f6",
+            "order": 4,
+            "instruction": "Ejercicio 4: Algoritmo del Banquero con Existencias (7, 7, 10)",
+            "codeSnippet": null,
+            "explanation": "**Datos:** Existencias $E = [7, 7, 10]$.\n- Asignación actual: $P_1 = [2, 2, 3]$, $P_2 = [2, 0, 3]$, $P_3 = [1, 2, 3]$.\n- Suma asignada = $[5, 4, 9] \\implies$ **Disponible = $[2, 3, 1]$**.\n- Máximos: $P_1 = [3, 6, 8]$, $P_2 = [4, 3, 3]$, $P_3 = [3, 4, 4]$.\n- **Matriz Need ($Max - Alloc$):**\n  - $Need_1 = [1, 4, 5]$\n  - $Need_2 = [2, 3, 0]$\n  - $Need_3 = [2, 2, 1]$\n\n**1. ¿Es el estado actual seguro?**\n**SÍ.** Con $Disp = [2, 3, 1]$:\n- $Need_2 = [2, 3, 0] \\le [2, 3, 1] \\implies P_2$ termina y libera $[2, 0, 3] \\implies Disp = [4, 3, 4]$.\n- $Need_3 = [2, 2, 1] \\le [4, 3, 4] \\implies P_3$ termina y libera $[1, 2, 3] \\implies Disp = [5, 5, 7]$.\n- $Need_1 = [1, 4, 5] \\le [5, 5, 7] \\implies P_1$ termina.\n*Secuencia segura:* $\\langle P_2, P_3, P_1 \\rangle$.\n\n**2. Evaluación de las solicitudes:**\n- **$P_1$ solicita `(1, 1, 0)`:** Si se asigna, el nuevo Disponible sería $[2, 3, 1] - [1, 1, 0] = [1, 2, 1]$. \n  Verificamos necesidades: $Need_1=[0, 3, 5]$, $Need_2=[2, 3, 0]$, $Need_3=[2, 2, 1]$. ¡Ningún proceso puede satisfacer su necesidad con $[1, 2, 1]$! El estado es **inseguro**. $\\implies$ **NO puede concederse**.\n- **$P_3$ solicita `(0, 1, 0)`:** Si se asigna, nuevo Disponible = $[2, 2, 1]$ y $Need_3 = [2, 1, 1] \\le [2, 2, 1] \\implies P_3$ termina primero, luego $P_2$, luego $P_1$. El estado es **seguro**. $\\implies$ **SÍ puede concederse**.\n- **$P_2$ solicita `(0, 1, 0)`:** Si se asigna, nuevo Disponible = $[2, 2, 1]$ y $Need_2 = [2, 2, 0] \\le [2, 2, 1] \\implies P_2$ termina primero, luego $P_3$, luego $P_1$. El estado es **seguro**. $\\implies$ **SÍ puede concederse**.",
+            "createdAt": "2026-10-25T13:12:21.412Z",
+            "updatedAt": "2026-10-25T13:12:21.412Z"
+          }
+        ]
+      },
+      {
+        "id": "612ca261-41c1-4866-848b-541c26ed17a8",
+        "unitId": "d0d02284-a283-4569-b862-45bb8d37cee6",
+        "title": "Recuperatorio 2025",
+        "content": "### Examen Recuperatorio 2025\n\n<iframe src=\"/material/Examenes/Recuperatorio%202025.pdf\" width=\"100%\" height=\"700px\" style=\"border: 1px solid #e5e7eb; border-radius: 8px; margin-top: 20px;\"></iframe>\n\n<br/>[📥 Descargar Recuperatorio 2025 (PDF)](/material/Examenes/Recuperatorio%202025.pdf)",
+        "type": "PRACTICAL_WORK",
+        "order": 5,
+        "createdAt": "2026-10-25T13:12:22.972Z",
+        "updatedAt": "2026-10-25T13:12:22.972Z",
+        "steps": [
+          {
+            "id": "72a1b659-11ba-468e-b343-58c699019fce",
+            "lessonId": "612ca261-41c1-4866-848b-541c26ed17a8",
+            "order": 1,
+            "instruction": "Ejercicio 1: IPC, Microkernel e Interacción FS/TD",
+            "codeSnippet": null,
+            "explanation": "**a) Modelos de comunicación entre procesos (IPC):**\n1. *Memoria Compartida:* Los procesos mapean una misma región de memoria física. **Ventajas:** Máxima velocidad (la comunicación ocurre a velocidad de memoria sin intervención del kernel). **Desventajas:** La sincronización (evitar colisiones y condiciones de carrera) recae enteramente en el programador.\n2. *Paso de Mensajes (Message Passing):* Se comunican mediante primitivas `send()` y `receive()`. **Ventajas:** Muy seguro y estructurado; funciona en sistemas distribuidos y multicore sin memoria compartida. **Desventajas:** Menor rendimiento por el overhead de copias de memoria y llamadas al kernel.\n\n**b) Definición de Microkernel:**\nArquitectura que minimiza el código en modo kernel al mínimo indispensable (gestión básica de memoria virtual, planificación elemental de hilos y comunicación IPC). Todos los demás servicios (sistemas de archivos, drivers, red) corren como procesos servidores en espacio de usuario.\n- *Comparación:* Frente a kernels monolíticos, ofrece mayor robustez (si un driver falla, solo se reinicia ese proceso y el kernel sigue vivo), pero tiene menor rendimiento por los continuos cambios de contexto para IPC.\n\n**c) Interacción Aplicación - SO - FS - TD para abrir/leer un archivo:**\n1. La Aplicación envía un mensaje IPC al servidor **FS** solicitando `read()`.\n2. El Microkernel (**SO**) realiza el cambio de contexto y entrega el mensaje al proceso **FS**.\n3. El proceso **FS** procesa la solicitud lógica, traduce el archivo a bloques físicos de disco y envía un mensaje IPC al proceso **TD** (Tarea de Disco).\n4. El proceso **TD** programa el hardware del disco (o interactúa con el puerto I/O autorizado) para transferir los sectores.\n5. Al concluir la lectura, **TD** envía un mensaje de respuesta a **FS**, y **FS** envía el resultado a la **Aplicación** a través del Microkernel.",
+            "createdAt": "2026-10-25T13:12:24.642Z",
+            "updatedAt": "2026-10-25T13:12:24.642Z"
+          },
+          {
+            "id": "4e451487-e897-47b3-ac47-4ed80ab1f09e",
+            "lessonId": "612ca261-41c1-4866-848b-541c26ed17a8",
+            "order": 2,
+            "instruction": "Ejercicio 2: Tratamiento de Interbloqueos y Filósofos",
+            "codeSnippet": null,
+            "explanation": "**a) Métodos para el tratamiento de interbloqueos:**\n1. *Prevención:* Negar a priori una de las 4 condiciones de Coffman.\n2. *Evasión:* Algoritmo del Banquero en cada solicitud dinámica.\n3. *Detección y Recuperación:* Dejar operar libremente y resolver con abortos o rollback si se detecta un ciclo.\n4. *Avestruz:* Ignorar el problema.\n\n**b) Condiciones de interbloqueo en los Filósofos y cómo evitar cada una:**\n- **1. Exclusión Mutua:** Un tenedor solo puede ser usado por un filósofo a la vez. *Evitarla:* Físicamente imposible en este problema (dos personas no pueden sostener el mismo tenedor a la vez).\n- **2. Retención y Espera (Hold and Wait):** Un filósofo toma un tenedor y espera por el otro. *Evitarla:* Exigir que el filósofo tome **ambos tenedores a la vez en una sección crítica atómica**; si alguno no está disponible, no toma ninguno.\n- **3. No Expropiación:** Nadie le quita el tenedor a un filósofo comiendo. *Evitarla:* Si un filósofo retiene un tenedor y el otro está ocupado por más de $T$ tiempo, debe soltar su tenedor y volver a pensar.\n- **4. Espera Circular:** Filósofo $i$ espera el tenedor de $i+1$, formando un anillo cerrado. *Evitarla:* **Romper la asimetría:** hacer que los filósofos pares tomen primero el izquierdo y los impares primero el derecho, o permitir un máximo de $N-1$ filósofos sentados simultáneamente en la mesa.",
+            "createdAt": "2026-10-25T13:12:25.396Z",
+            "updatedAt": "2026-10-25T13:12:25.396Z"
+          },
+          {
+            "id": "c49bab5f-01ef-461a-a9e1-445302048df4",
+            "lessonId": "612ca261-41c1-4866-848b-541c26ed17a8",
+            "order": 3,
+            "instruction": "Ejercicio 3: Sección Crítica y Comparativa de Estrategias",
+            "codeSnippet": null,
+            "explanation": "**a) Sección Crítica:**\nEs la porción de código de un proceso donde se accede y manipula un recurso compartido (variables, archivos, estructuras de datos). Debe protegerse para garantizar la **consistencia de los datos** y evitar condiciones de carrera (Race Conditions).\n\n**b) Comparativa de Estrategias (Monoprocesador vs Multiprocesador):**\n\n1. **Deshabilitar Interrupciones:**\n- *Monoprocesador:* Muy eficiente y simple para el kernel; garantiza que ningún otro proceso pueda ser planificado.\n- *Multiprocesador:* Inútil y desaconsejado; solo deshabilita las interrupciones del núcleo local, los demás núcleos siguen corriendo y accediendo a memoria.\n\n2. **Spinlocks (Espera Ocupada con instrucciones atómicas):**\n- *Monoprocesador:* Ineficiente y riesgoso; el proceso en bucle consume el 100% de la única CPU impidiendo que el proceso que tiene el recurso pueda ejecutar para liberarlo.\n- *Multiprocesador:* Altamente eficiente cuando la sección crítica es muy corta, ya que evita la sobrecarga de poner a dormir al hilo y despertar al procesador.\n\n3. **Monitores:**\n- *Monoprocesador y Multiprocesador:* Es el mecanismo de más alto nivel y más estructurado. El compilador se encarga de inyectar la exclusión mutua automáticamente y proporciona variables de condición para suspender procesos sin desperdiciar CPU.",
+            "createdAt": "2026-10-25T13:12:26.807Z",
+            "updatedAt": "2026-10-25T13:12:26.807Z"
+          },
+          {
+            "id": "4d597af3-0baf-4049-b113-4ef13ee5ad08",
+            "lessonId": "612ca261-41c1-4866-848b-541c26ed17a8",
+            "order": 4,
+            "instruction": "Ejercicio 4: Planificación de Tiempo Real (T1, T2, T3)",
+            "codeSnippet": null,
+            "explanation": "**Datos de las tareas:**\n- Tarea 1: $t_1 = 20$, $p_1 = 100$\n- Tarea 2: $t_2 = 30$, $p_2 = 145$\n\n**a) ¿Pueden ser planificadas con RM?**\n- Factor de utilización: \n  $$U = \\frac{20}{100} + \\frac{30}{145} = 0.20 + 0.2069 = 0.4069 \\quad (40.69\\%)$$\n- Cota de Liu & Layland para $n=2$:\n  $$U_{bound} = 2 \\cdot (2^{1/2} - 1) \\approx 0.8284$$\n- Como $U = 0.4069 \\le 0.8284$, se cumple holgadamente la cota suficiente: **SÍ, pueden ser planificadas con RM**.\n\n**b) Si se agrega Tarea 3 ($t_3 = 68, p_3 = 150$):**\n- Nuevo factor de utilización:\n  $$U_{nuevo} = 0.4069 + \\frac{68}{150} = 0.4069 + 0.4533 = 0.8602 \\quad (86.02\\%)$$\n- Cota para $n=3$:\n  $$U_{bound} = 3 \\cdot (2^{1/3} - 1) \\approx 0.7798$$\n- Como $U = 0.8602 > 0.7798$, la condición de cota no es suficiente, por lo que pasamos a verificar los plazos por RTA.\n\n**c) Verificación de plazos ($D_1=100, D_2=145, D_3=150$):**\n- Prioridades en RM ($p_1 < p_2 < p_3 \\implies \\text{Prio}(T_1) > \\text{Prio}(T_2) > \\text{Prio}(T_3)$):\n  - $R_1 = 20 \\le 100$ (**Cumple $D_1$**)\n  - $R_2 = 30 + \\lceil 30/100 \\rceil \\cdot 20 = 50 \\implies 30 + \\lceil 50/100 \\rceil \\cdot 20 = 50 \\le 145$ (**Cumple $D_2$**)\n  - Para $T_3$:\n    - $R_3^{(0)} = 68$\n    - $R_3^{(1)} = 68 + \\lceil 68/100 \\rceil \\cdot 20 + \\lceil 68/145 \\rceil \\cdot 30 = 68 + 20 + 30 = 118$\n    - $R_3^{(2)} = 68 + \\lceil 118/100 \\rceil \\cdot 20 + \\lceil 118/145 \\rceil \\cdot 30 = 68 + 40 + 30 = 138$\n    - $R_3^{(3)} = 68 + \\lceil 138/100 \\rceil \\cdot 20 + \\lceil 138/145 \\rceil \\cdot 30 = 68 + 40 + 30 = 138 \\le 150$\n\n**Respuesta:** ¡El tiempo de respuesta del peor caso para la Tarea 3 es 138 ms, el cual es menor que su deadline de 150 ms! Por lo tanto, **SÍ se cumplen los tres plazos estrictamente**.",
+            "createdAt": "2026-10-25T13:12:27.507Z",
+            "updatedAt": "2026-10-25T13:12:27.507Z"
+          }
+        ]
+      }
+    ]
+  }
+]

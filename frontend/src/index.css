@@ -1,0 +1,106 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-gray-50 text-gray-900 font-sans;
+  }
+}
+
+@media print {
+  @page {
+    margin: 12mm 15mm;
+    size: auto;
+  }
+
+  /* Desactivar animaciones, transiciones y sombras que bloquean el rasterizador */
+  *, *::before, *::after {
+    animation: none !important;
+    transition: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  html, body, #root, .min-h-screen {
+    height: auto !important;
+    min-height: 0 !important;
+    background-color: white !important;
+    color: #0f172a !important;
+    overflow: visible !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  /* Ocultar elementos no imprimibles */
+  header, .print\:hidden, #chat-widget, [title*="Asistente"], [title*="chat"] {
+    display: none !important;
+  }
+
+  /* Aplanar contenedores para evitar cortes de tarjetas y bordes pesados */
+  main, main > div {
+    max-width: 100% !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    border: none !important;
+    box-shadow: none !important;
+    border-radius: 0 !important;
+    background: transparent !important;
+  }
+
+  article, .prose {
+    max-width: 100% !important;
+    width: 100% !important;
+    font-size: 11pt !important;
+    line-height: 1.5 !important;
+    color: #0f172a !important;
+  }
+
+  h1, h2, h3, h4 {
+    break-after: avoid !important;
+    page-break-after: avoid !important;
+    color: #0f172a !important;
+  }
+
+  pre {
+    background-color: #f8fafc !important;
+    color: #0f172a !important;
+    border: 1px solid #cbd5e1 !important;
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+    white-space: pre-wrap !important;
+    word-break: break-word !important;
+    padding: 8px 12px !important;
+    margin: 8px 0 !important;
+  }
+
+  code {
+    color: #0f172a !important;
+    font-size: 9pt !important;
+  }
+
+  /* Flujo natural de tablas: filas indivisibles pero tabla fluida entre hojas */
+  table {
+    border-collapse: collapse !important;
+    width: 100% !important;
+    break-inside: auto !important;
+    page-break-inside: auto !important;
+    margin: 10px 0 !important;
+  }
+
+  thead {
+    display: table-header-group !important;
+  }
+
+  tr {
+    break-inside: avoid !important;
+    page-break-inside: avoid !important;
+  }
+
+  th, td {
+    border: 1px solid #cbd5e1 !important;
+    padding: 6px 8px !important;
+    font-size: 9.5pt !important;
+  }
+}
