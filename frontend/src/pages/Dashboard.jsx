@@ -10,12 +10,12 @@ const Dashboard = () => {
   const { data: progress } = useProgress();
   const [activeTab, setActiveTab] = useState('plan'); // 'plan' | 'examenes'
 
-  const completedLessonIds = new Set(progress?.map(p => p.lessonId) || []);
+  const completedLessonIds = new Set(Array.isArray(progress) ? progress.map(p => p.lessonId) : []);
 
   if (loadingUnits) return <div className="p-8 text-center text-gray-500">Cargando contenido...</div>;
 
-  const planUnits = units?.filter(u => u.order < 100) || [];
-  const examUnits = units?.filter(u => u.order >= 100 || u.title.toLowerCase().includes('examen')) || [];
+  const planUnits = Array.isArray(units) ? units.filter(u => u.order < 100) : [];
+  const examUnits = Array.isArray(units) ? units.filter(u => u.order >= 100 || (u.title && u.title.toLowerCase().includes('examen'))) : [];
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">

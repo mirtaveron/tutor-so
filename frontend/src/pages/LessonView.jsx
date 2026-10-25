@@ -17,7 +17,7 @@ const LessonView = () => {
   if (isLoading) return <div className="p-8 text-center text-gray-500">Cargando contenido de la clase...</div>;
   if (!lesson) return <div className="p-8 text-center text-red-500 font-medium">Clase no encontrada</div>;
 
-  const isCompleted = progress?.some(p => p.lessonId === lesson.id);
+  const isCompleted = Array.isArray(progress) && progress.some(p => p.lessonId === lesson.id);
 
   const handleToggle = () => {
     toggleProgress(lesson.id);
