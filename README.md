@@ -20,14 +20,14 @@ El sistema implementa una arquitectura desacoplada de tres capas (Single Page Ap
 
 ```mermaid
 flowchart TD
-    Client["Cliente Web - Vercel<br/>React 18 + Vite SPA"]
-    API["Backend REST API - Render<br/>Node.js + Express 5"]
-    DB[("Base de Datos - Neon<br/>PostgreSQL + Prisma ORM")]
-    AI["Motor IA - Groq Cloud<br/>Llama 3.3 70B Versatile"]
+    Client["Cliente Web (Vercel)<br>React 18 + Vite SPA"]
+    API["Backend REST API (Render)<br>Node.js + Express 5"]
+    DB["Base de Datos (Neon)<br>PostgreSQL + Prisma ORM"]
+    AI["Motor IA (Groq Cloud)<br>Llama 3.3 70B Versatile"]
 
     Client -->|HTTPS / CORS| API
-    API -->|Prisma Client / Pooling| DB
-    API -->|Groq SDK / Chat| AI
+    API -->|Prisma Client| DB
+    API -->|Groq SDK| AI
 ```
 
 ### Componentes de la Arquitectura
