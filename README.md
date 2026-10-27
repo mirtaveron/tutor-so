@@ -19,15 +19,15 @@ La aplicación reúne el programa teórico completo, las resoluciones analítica
 El sistema implementa una arquitectura desacoplada de tres capas (Single Page Application + API Gateway REST + Base de Datos Serverless + Motor de Inferencia IA):
 
 ```mermaid
-graph TD
-    Client["📱 💻 Cliente Web (Vercel)<br/>React 18 + Vite SPA"]
-    API["⚙️ Backend REST API (Render)<br/>Node.js + Express 5"]
-    DB[("🐘 Base de Datos Serverless (Neon)<br/>PostgreSQL + Prisma ORM")]
-    AI["🧠 Motor de Inferencia IA (Groq Cloud)<br/>Llama 3.3 70B Versatile"]
+flowchart TD
+    Client["Cliente Web - Vercel<br/>React 18 + Vite SPA"]
+    API["Backend REST API - Render<br/>Node.js + Express 5"]
+    DB[("Base de Datos - Neon<br/>PostgreSQL + Prisma ORM")]
+    AI["Motor IA - Groq Cloud<br/>Llama 3.3 70B Versatile"]
 
-    Client -->|HTTPS / JSON / CORS| API
-    API -->|Prisma Client / Connection Pooling| DB
-    API -->|Groq SDK / Streaming & Chat| AI
+    Client -->|HTTPS / CORS| API
+    API -->|Prisma Client / Pooling| DB
+    API -->|Groq SDK / Chat| AI
 ```
 
 ### Componentes de la Arquitectura
