@@ -49,9 +49,14 @@ flowchart TD
    * Gestión de esquema, migraciones y tipos mediante **Prisma ORM**.
    * Mecanismo de sembrado (*seeding*) universal e idempotente para cargar automáticamente todo el currículum de la cátedra.
 
-4. **Capa de Inteligencia Artificial (Groq Cloud SDK):**
-   * Integración directa con **Llama 3.3 70B Versatile** mediante la infraestructura de aceleración de Groq (LPU).
-   * Respuestas contextualizadas con el rol de docente universitario de Sistemas Operativos UNS, enfatizando conceptos teóricos (Silberschatz, Tanenbaum) y comandos de terminal Linux (POSIX).
+4. **Capa de Inteligencia Artificial (Groq Cloud SDK + Motor Local):**
+   * **Inferencia de Ultra-Baja Latencia:** Procesamiento acelerado sobre LPUs de Groq (+250 tokens/segundo).
+   * **Selección Dinámica y Resiliente de Modelos:** Para prevenir fallos por cambios de catálogo, saturación o límites de cuota, el backend consulta en tiempo de ejecución los modelos activos en la API (`groq.models.list()`) y aplica una cascada de prioridad:
+     1. `llama-3.3-70b-versatile` *(Prioridad 1: máxima capacidad de razonamiento y precisión pedagógica)*.
+     2. `llama-3.1-8b-instant` *(Prioridad 2: menor latencia y alta disponibilidad)*.
+     3. `mixtral-8x7b-32768` *(Prioridad 3: arquitectura Mixture-of-Experts)*.
+     4. *Fallback Dinámico General:* Si los anteriores no están disponibles, selecciona automáticamente el primer LLM de texto activo en la cuenta (por ejemplo, modelos de la familia **Qwen 2.5**, Gemma o Llama), descartando modelos incompatibles de audio (`whisper`) o moderación (`guard`).
+   * **Motor Pedagógico Local de Respaldo:** Si la API externa no está disponible o se agota la cuota, el backend activa un motor propio con base de conocimiento estructurada de la cátedra UNS (cubriendo KLT/ULT, PIP, Banquero, Coffman, RM/EDF, Semáforos y contexto del ejercicio abierto en pantalla).
 
 ---
 
@@ -72,6 +77,7 @@ flowchart TD
 | **Acceso Libre (Sin Login)** | Se eliminó el flujo de autenticación forzada para que los estudiantes puedan ingresar desde cualquier dispositivo con un solo clic, sin perder tiempo en crear cuentas ni lidiar con tokens expirados. |
 | **PostgreSQL Serverless (Neon)** | Permite un escalado automático desde cero conexiones, almacenamiento seguro en la nube y compatibilidad nativa con Prisma ORM, evitando los bloqueos de concurrencia de SQLite en entornos distribuidos. |
 | **Groq LPU vs OpenAI/Anthropic** | Groq proporciona inferencia a más de 250 tokens/segundo con Llama 3.3 70B, brindando una experiencia de tutoría conversacional instantánea sin latencias perceptibles para el estudiante. |
+| **Descubrimiento Dinámico de Modelos** | Previene errores 404/429 si un modelo es discontinuado o satura su cuota. Consulta `groq.models.list()` en runtime para seleccionar el mejor LLM disponible (Llama 3.3 70B, Llama 3.1 8B, Qwen o Mixtral) con fallback a un motor pedagógico offline. |
 | **Arquitectura Desacoplada (Vercel + Render)** | Separar el frontend estático del backend permite despliegues atómicos instantáneos en Vercel, mientras el backend mantiene su ciclo de vida independiente en Render. |
 | **Idempotencia en Seeding (`seed.js`)** | Los scripts de carga de datos usan operaciones `upsert` y comparación de unicidad para permitir re-ejecutar el sembrado sin duplicar unidades, lecciones ni ejercicios. |
 | **CORS Dinámico y Trust Proxy** | Al alojar frontend y backend en dominios distintos (`vercel.app` y `onrender.com`), Express valida el origen de la solicitud y confía en el header `X-Forwarded-Proto` de Render para mantener compatibilidad HTTPS. |
