@@ -48,7 +48,10 @@ const getLessonById = async (req, res) => {
 const toggleLessonProgress = async (req, res) => {
   try {
     const { id } = req.params; // lessonId
-    const userId = req.user.userId;
+    const userId = req.user?.userId;
+    if (!userId) {
+      return res.status(200).json({ message: 'Modo sin login activo', completed: true });
+    }
 
     const existingProgress = await prisma.userProgress.findUnique({
       where: { userId_lessonId: { userId, lessonId: id } }
@@ -74,7 +77,10 @@ const toggleLessonProgress = async (req, res) => {
 // Obtener progreso del usuario (lista de IDs de lecciones completadas)
 const getUserProgress = async (req, res) => {
   try {
-    const userId = req.user.userId;
+    const userId = req.user?.userId;
+    if (!userId) {
+      return res.status(200).json([]);
+    }
     const progress = await prisma.userProgress.findMany({
       where: { userId },
       select: { lessonId: true, completedAt: true }

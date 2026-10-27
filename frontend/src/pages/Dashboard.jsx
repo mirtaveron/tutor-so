@@ -1,16 +1,11 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
-import useAuthStore from '../store/authStore';
-import { useUnits, useProgress } from '../hooks/useContent';
-import { CheckCircle, Circle, BookOpen, TerminalSquare, LogOut, GraduationCap, FileText } from 'lucide-react';
+import { useUnits } from '../hooks/useContent';
+import { BookOpen, TerminalSquare, GraduationCap, FileText, Sparkles } from 'lucide-react';
 
 const Dashboard = () => {
-  const { user, logout } = useAuthStore();
   const { data: units, isLoading: loadingUnits } = useUnits();
-  const { data: progress } = useProgress();
   const [activeTab, setActiveTab] = useState('plan'); // 'plan' | 'examenes'
-
-  const completedLessonIds = new Set(Array.isArray(progress) ? progress.map(p => p.lessonId) : []);
 
   if (loadingUnits) return <div className="p-8 text-center text-gray-500">Cargando contenido...</div>;
 
@@ -24,11 +19,10 @@ const Dashboard = () => {
           <h1 className="text-xl font-bold text-blue-600 flex items-center tracking-tight">
             TutorSO <span className="ml-2 text-xs font-medium text-slate-500 bg-slate-100 px-2 py-0.5 rounded-full border border-slate-200 hidden sm:inline-block">Sistemas Operativos UNS</span>
           </h1>
-          <div className="flex items-center space-x-4">
-            <span className="text-sm text-gray-600">{user?.email}</span>
-            <button onClick={logout} className="text-gray-500 hover:text-red-600 transition-colors" title="Cerrar sesión">
-              <LogOut size={20} />
-            </button>
+          <div className="flex items-center space-x-2">
+            <span className="inline-flex items-center px-3 py-1 rounded-full text-xs font-semibold bg-blue-50 text-blue-700 border border-blue-200">
+              <Sparkles size={13} className="mr-1.5 text-blue-600" /> Cátedra UNS 2026
+            </span>
           </div>
         </div>
       </header>
@@ -78,18 +72,17 @@ const Dashboard = () => {
                 
                 <div className="divide-y divide-gray-50">
                   {unit.lessons?.map((lesson) => {
-                    const isCompleted = completedLessonIds.has(lesson.id);
                     return (
                       <Link 
                         key={lesson.id} 
                         to={`/lesson/${lesson.id}`}
                         className="flex items-center px-6 py-4 hover:bg-gray-50 transition-colors"
                       >
-                        <div className="mr-4">
-                          {isCompleted ? (
-                            <CheckCircle className="text-green-500" size={24} />
+                        <div className="mr-4 p-2 rounded-lg bg-blue-50 text-blue-600">
+                          {lesson.type === 'SUMMARY' ? (
+                            <BookOpen size={20} />
                           ) : (
-                            <Circle className="text-gray-300" size={24} />
+                            <TerminalSquare size={20} />
                           )}
                         </div>
                         <div className="flex-1">
@@ -105,6 +98,9 @@ const Dashboard = () => {
                               </span>
                             )}
                           </div>
+                        </div>
+                        <div className="text-sm font-medium text-primary-600 hover:translate-x-1 transition-transform hidden sm:block">
+                          Ver clase &rarr;
                         </div>
                       </Link>
                     );
@@ -138,7 +134,6 @@ const Dashboard = () => {
               <div key={unit.id} className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
                 <div className="divide-y divide-gray-100">
                   {unit.lessons?.map((lesson) => {
-                    const isCompleted = completedLessonIds.has(lesson.id);
                     const isSummary = lesson.title.toLowerCase().includes('resumen');
                     const isRecup = lesson.title.toLowerCase().includes('recuperatorio');
 
@@ -152,11 +147,11 @@ const Dashboard = () => {
                             : 'hover:bg-gray-50'
                         }`}
                       >
-                        <div className="mr-4">
-                          {isCompleted ? (
-                            <CheckCircle className="text-green-500" size={26} />
+                        <div className="mr-4 p-2 rounded-lg bg-indigo-50 text-indigo-600">
+                          {isSummary ? (
+                            <FileText size={22} />
                           ) : (
-                            <Circle className="text-gray-300 group-hover:text-primary-400 transition-colors" size={26} />
+                            <GraduationCap size={22} />
                           )}
                         </div>
                         <div className="flex-1">
