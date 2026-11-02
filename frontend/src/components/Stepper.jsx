@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { ChevronLeft, ChevronRight } from 'lucide-react';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
+import rehypeRaw from 'rehype-raw';
 
 const Stepper = ({ steps }) => {
   const [currentStep, setCurrentStep] = useState(0);
@@ -48,7 +49,9 @@ const Stepper = ({ steps }) => {
         
         {step.explanation && (
           <div className="prose prose-primary max-w-none mb-6 text-gray-700">
-            <ReactMarkdown remarkPlugins={[remarkGfm]}>{step.explanation}</ReactMarkdown>
+            <ReactMarkdown remarkPlugins={[remarkGfm]} rehypePlugins={[rehypeRaw]}>
+              {step.explanation}
+            </ReactMarkdown>
           </div>
         )}
 
