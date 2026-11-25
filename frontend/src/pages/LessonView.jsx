@@ -69,7 +69,7 @@ const LessonView = () => {
             {lesson.content && (
               <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-8">
                 <h2 className="text-lg font-medium mb-4 text-gray-900">
-                  {lesson.title.toLowerCase().includes('parcial') || lesson.title.toLowerCase().includes('recuperatorio')
+                  {lesson.title.toLowerCase().includes('parcial') || lesson.title.toLowerCase().includes('recuperatorio') || lesson.title.toLowerCase().includes('laboratorio') || lesson.title.toLowerCase().includes('actividades')
                     ? 'Consigna de la Evaluación'
                     : 'Consigna del Trabajo Práctico'}
                 </h2>
@@ -81,7 +81,7 @@ const LessonView = () => {
             <div className="bg-white rounded-lg shadow-sm border border-gray-100 p-6">
               <h2 className="text-lg font-medium mb-2 text-gray-900">Resolución Paso a Paso</h2>
               <p className="text-gray-600">
-                {lesson.title.toLowerCase().includes('parcial') || lesson.title.toLowerCase().includes('recuperatorio')
+                {lesson.title.toLowerCase().includes('parcial') || lesson.title.toLowerCase().includes('recuperatorio') || lesson.title.toLowerCase().includes('laboratorio') || lesson.title.toLowerCase().includes('actividades')
                   ? 'Revisa cada ejercicio y problema de la evaluación con su justificación teórica y resolución analítica detallada.'
                   : 'Sigue las instrucciones cuidadosamente para completar este trabajo práctico en tu terminal o entorno de Linux.'}
               </p>

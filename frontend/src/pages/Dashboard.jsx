@@ -6,11 +6,27 @@ import { BookOpen, TerminalSquare, GraduationCap, FileText, Sparkles } from 'luc
 const Dashboard = () => {
   const { data: units, isLoading: loadingUnits } = useUnits();
   const [activeTab, setActiveTab] = useState('plan'); // 'plan' | 'examenes'
+  const [planFilter, setPlanFilter] = useState('all'); // 'all' | 'teoria' | 'practico'
 
   if (loadingUnits) return <div className="p-8 text-center text-gray-500">Cargando contenido...</div>;
 
   const planUnits = Array.isArray(units) ? units.filter(u => u.order < 100) : [];
   const examUnits = Array.isArray(units) ? units.filter(u => u.order >= 100 || (u.title && u.title.toLowerCase().includes('examen'))) : [];
+
+  const allPlanLessons = planUnits.flatMap(u => u.lessons || []);
+  const teoriaCount = allPlanLessons.filter(l => l.type === 'SUMMARY').length;
+  const practicoCount = allPlanLessons.filter(l => l.type !== 'SUMMARY').length;
+
+  const filteredPlanUnits = planUnits
+    .map(unit => {
+      const lessons = (unit.lessons || []).filter(lesson => {
+        if (planFilter === 'teoria') return lesson.type === 'SUMMARY';
+        if (planFilter === 'practico') return lesson.type !== 'SUMMARY';
+        return true;
+      });
+      return { ...unit, lessons };
+    })
+    .filter(unit => planFilter === 'all' || unit.lessons.length > 0);
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
@@ -57,11 +73,50 @@ const Dashboard = () => {
         {/* CONTENIDO PESTAÑA: PLAN DE ESTUDIO */}
         {activeTab === 'plan' && (
           <div className="space-y-6">
-            <div className="flex items-center justify-between mb-4">
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
               <h2 className="text-2xl font-bold">Unidades y Material de Estudio</h2>
+
+              {/* Filtro por Teoría / Práctico */}
+              <div className="inline-flex items-center bg-white p-1 rounded-lg border border-gray-200 shadow-xs self-start sm:self-auto">
+                <button
+                  type="button"
+                  onClick={() => setPlanFilter('all')}
+                  className={`px-3 py-1.5 rounded-md text-xs font-semibold transition-all ${
+                    planFilter === 'all'
+                      ? 'bg-gray-900 text-white shadow-xs'
+                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                  }`}
+                >
+                  Todos ({allPlanLessons.length})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setPlanFilter('teoria')}
+                  className={`px-3 py-1.5 rounded-md text-xs font-semibold flex items-center transition-all ${
+                    planFilter === 'teoria'
+                      ? 'bg-blue-600 text-white shadow-xs'
+                      : 'text-gray-600 hover:text-blue-700 hover:bg-blue-50'
+                  }`}
+                >
+                  <BookOpen size={13} className="mr-1.5" />
+                  Teoría ({teoriaCount})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setPlanFilter('practico')}
+                  className={`px-3 py-1.5 rounded-md text-xs font-semibold flex items-center transition-all ${
+                    planFilter === 'practico'
+                      ? 'bg-purple-600 text-white shadow-xs'
+                      : 'text-gray-600 hover:text-purple-700 hover:bg-purple-50'
+                  }`}
+                >
+                  <TerminalSquare size={13} className="mr-1.5" />
+                  Práctico ({practicoCount})
+                </button>
+              </div>
             </div>
             
-            {planUnits.map((unit) => (
+            {filteredPlanUnits.map((unit) => (
               <div key={unit.id} className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
                 <div className="bg-gray-50 px-6 py-4 border-b border-gray-100">
                   <h3 className="text-lg font-semibold">
@@ -100,7 +155,7 @@ const Dashboard = () => {
                           </div>
                         </div>
                         <div className="text-sm font-medium text-primary-600 hover:translate-x-1 transition-transform hidden sm:block">
-                          Ver clase &rarr;
+                          Ver clase →
                         </div>
                       </Link>
                     );
@@ -112,9 +167,13 @@ const Dashboard = () => {
               </div>
             ))}
 
-            {planUnits.length === 0 && (
+            {filteredPlanUnits.length === 0 && (
               <div className="text-center py-12 bg-white rounded-lg border border-dashed border-gray-300">
-                <p className="text-gray-500">Aún no hay unidades publicadas.</p>
+                <p className="text-gray-500">
+                  {planFilter === 'all'
+                    ? 'Aún no hay unidades publicadas.'
+                    : `No se encontraron clases de tipo ${planFilter === 'teoria' ? 'Teoría' : 'Práctico'}.`}
+                </p>
               </div>
             )}
           </div>
@@ -134,8 +193,10 @@ const Dashboard = () => {
               <div key={unit.id} className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
                 <div className="divide-y divide-gray-100">
                   {unit.lessons?.map((lesson) => {
-                    const isSummary = lesson.title.toLowerCase().includes('resumen');
-                    const isRecup = lesson.title.toLowerCase().includes('recuperatorio');
+                    const titleLower = lesson.title.toLowerCase();
+                    const isSummary = titleLower.includes('resumen');
+                    const isRecup = titleLower.includes('recuperatorio');
+                    const isLab = titleLower.includes('laboratorio') || titleLower.includes('actividades');
 
                     return (
                       <Link 
@@ -150,6 +211,8 @@ const Dashboard = () => {
                         <div className="mr-4 p-2 rounded-lg bg-indigo-50 text-indigo-600">
                           {isSummary ? (
                             <FileText size={22} />
+                          ) : isLab ? (
+                            <TerminalSquare size={22} />
                           ) : (
                             <GraduationCap size={22} />
                           )}
@@ -172,6 +235,10 @@ const Dashboard = () => {
                               <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-100 text-amber-800">
                                 <FileText size={12} className="mr-1.5" /> Examen Recuperatorio
                               </span>
+                            ) : isLab ? (
+                              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-100 text-emerald-800">
+                                <TerminalSquare size={12} className="mr-1.5" /> Laboratorio
+                              </span>
                             ) : (
                               <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-rose-100 text-rose-800">
                                 <GraduationCap size={12} className="mr-1.5" /> Examen Parcial
@@ -185,7 +252,7 @@ const Dashboard = () => {
                           </div>
                         </div>
                         <div className="text-sm font-medium text-primary-600 group-hover:translate-x-1 transition-transform hidden sm:block">
-                          {isSummary ? 'Abrir Resumen &rarr;' : 'Ver Resolución &rarr;'}
+                          {isSummary ? 'Abrir Resumen →' : 'Ver Resolución →'}
                         </div>
                       </Link>
                     );
