@@ -7,6 +7,7 @@ const Dashboard = () => {
   const { data: units, isLoading: loadingUnits } = useUnits();
   const [activeTab, setActiveTab] = useState('plan'); // 'plan' | 'examenes'
   const [planFilter, setPlanFilter] = useState('all'); // 'all' | 'teoria' | 'practico'
+  const [examFilter, setExamFilter] = useState('all'); // 'all' | 'parciales' | 'laboratorios' | 'recuperatorios' | 'resumen'
 
   if (loadingUnits) return <div className="p-8 text-center text-gray-500">Cargando contenido...</div>;
 
@@ -27,6 +28,37 @@ const Dashboard = () => {
       return { ...unit, lessons };
     })
     .filter(unit => planFilter === 'all' || unit.lessons.length > 0);
+
+  const allExamLessons = examUnits.flatMap(u => u.lessons || []);
+  const examParcialCount = allExamLessons.filter(l => {
+    const t = l.title.toLowerCase();
+    return !t.includes('resumen') && !t.includes('recuperatorio') && !t.includes('laboratorio') && !t.includes('actividades');
+  }).length;
+  const examLabCount = allExamLessons.filter(l => {
+    const t = l.title.toLowerCase();
+    return t.includes('laboratorio') || t.includes('actividades');
+  }).length;
+  const examRecupCount = allExamLessons.filter(l => l.title.toLowerCase().includes('recuperatorio')).length;
+  const examSummaryCount = allExamLessons.filter(l => l.title.toLowerCase().includes('resumen')).length;
+
+  const filteredExamUnits = examUnits
+    .map(unit => {
+      const lessons = (unit.lessons || []).filter(lesson => {
+        const titleLower = lesson.title.toLowerCase();
+        const isSummary = titleLower.includes('resumen');
+        const isRecup = titleLower.includes('recuperatorio');
+        const isLab = titleLower.includes('laboratorio') || titleLower.includes('actividades');
+        const isParcial = !isSummary && !isRecup && !isLab;
+
+        if (examFilter === 'parciales') return isParcial;
+        if (examFilter === 'laboratorios') return isLab;
+        if (examFilter === 'recuperatorios') return isRecup;
+        if (examFilter === 'resumen') return isSummary;
+        return true;
+      });
+      return { ...unit, lessons };
+    })
+    .filter(unit => examFilter === 'all' || unit.lessons.length > 0);
 
   return (
     <div className="min-h-screen bg-gray-50 text-gray-900">
@@ -182,14 +214,83 @@ const Dashboard = () => {
         {/* CONTENIDO PESTAÑA: EXÁMENES */}
         {activeTab === 'examenes' && (
           <div className="space-y-6">
-            <div className="mb-4">
-              <h2 className="text-2xl font-bold">Parciales y Recuperatorios</h2>
-              <p className="text-sm text-gray-500 mt-1">
-                Exámenes oficiales de la cátedra con sus enunciados completos y resolución analítica explicada paso a paso.
-              </p>
+            <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-4 mb-4">
+              <div>
+                <h2 className="text-2xl font-bold">Parciales y Evaluaciones</h2>
+                <p className="text-sm text-gray-500 mt-1">
+                  Exámenes oficiales de la cátedra con sus enunciados completos y resolución analítica explicada paso a paso.
+                </p>
+              </div>
+
+              {/* Filtro de Exámenes */}
+              <div className="inline-flex items-center bg-white p-1 rounded-lg border border-gray-200 shadow-xs flex-wrap gap-1 self-start sm:self-auto">
+                <button
+                  type="button"
+                  onClick={() => setExamFilter('all')}
+                  className={`px-3 py-1.5 rounded-md text-xs font-semibold transition-all ${
+                    examFilter === 'all'
+                      ? 'bg-gray-900 text-white shadow-xs'
+                      : 'text-gray-600 hover:text-gray-900 hover:bg-gray-50'
+                  }`}
+                >
+                  Todos ({allExamLessons.length})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setExamFilter('parciales')}
+                  className={`px-3 py-1.5 rounded-md text-xs font-semibold flex items-center transition-all ${
+                    examFilter === 'parciales'
+                      ? 'bg-rose-600 text-white shadow-xs'
+                      : 'text-gray-600 hover:text-rose-700 hover:bg-rose-50'
+                  }`}
+                >
+                  <GraduationCap size={13} className="mr-1.5" />
+                  Parciales ({examParcialCount})
+                </button>
+                <button
+                  type="button"
+                  onClick={() => setExamFilter('laboratorios')}
+                  className={`px-3 py-1.5 rounded-md text-xs font-semibold flex items-center transition-all ${
+                    examFilter === 'laboratorios'
+                      ? 'bg-emerald-600 text-white shadow-xs'
+                      : 'text-gray-600 hover:text-emerald-700 hover:bg-emerald-50'
+                  }`}
+                >
+                  <TerminalSquare size={13} className="mr-1.5" />
+                  Laboratorios ({examLabCount})
+                </button>
+                {examRecupCount > 0 && (
+                  <button
+                    type="button"
+                    onClick={() => setExamFilter('recuperatorios')}
+                    className={`px-3 py-1.5 rounded-md text-xs font-semibold flex items-center transition-all ${
+                      examFilter === 'recuperatorios'
+                        ? 'bg-amber-600 text-white shadow-xs'
+                        : 'text-gray-600 hover:text-amber-700 hover:bg-amber-50'
+                    }`}
+                  >
+                    <FileText size={13} className="mr-1.5" />
+                    Recuperatorios ({examRecupCount})
+                  </button>
+                )}
+                {examSummaryCount > 0 && (
+                  <button
+                    type="button"
+                    onClick={() => setExamFilter('resumen')}
+                    className={`px-3 py-1.5 rounded-md text-xs font-semibold flex items-center transition-all ${
+                      examFilter === 'resumen'
+                        ? 'bg-blue-600 text-white shadow-xs'
+                        : 'text-gray-600 hover:text-blue-700 hover:bg-blue-50'
+                    }`}
+                  >
+                    <FileText size={13} className="mr-1.5" />
+                    Guía Resumen ({examSummaryCount})
+                  </button>
+                )}
+              </div>
             </div>
 
-            {examUnits.map((unit) => (
+            {filteredExamUnits.map((unit) => (
               <div key={unit.id} className="bg-white rounded-lg shadow-sm border border-gray-100 overflow-hidden">
                 <div className="divide-y divide-gray-100">
                   {unit.lessons?.map((lesson) => {
@@ -259,16 +360,16 @@ const Dashboard = () => {
                   })}
                   {(!unit.lessons || unit.lessons.length === 0) && (
                     <div className="px-6 py-8 text-center text-gray-500 italic">
-                      No hay exámenes cargados aún.
+                      No hay exámenes con el filtro seleccionado.
                     </div>
                   )}
                 </div>
               </div>
             ))}
 
-            {examUnits.length === 0 && (
+            {filteredExamUnits.length === 0 && (
               <div className="text-center py-12 bg-white rounded-lg border border-dashed border-gray-300">
-                <p className="text-gray-500">No se encontraron evaluaciones registradas.</p>
+                <p className="text-gray-500">No se encontraron evaluaciones con el filtro seleccionado.</p>
               </div>
             )}
           </div>
