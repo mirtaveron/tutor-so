@@ -27,6 +27,9 @@ const getLessonById = async (req, res) => {
     const lesson = await prisma.lesson.findUnique({
       where: { id },
       include: {
+        unit: {
+          select: { id: true, title: true, order: true }
+        },
         steps: {
           orderBy: { order: 'asc' }
         }
