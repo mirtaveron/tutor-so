@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { useUnits } from '../hooks/useContent';
-import { BookOpen, TerminalSquare, GraduationCap, FileText, Sparkles } from 'lucide-react';
+import { BookOpen, TerminalSquare, GraduationCap, FileText, Sparkles, Printer, ClipboardList, BookMarked } from 'lucide-react';
 
 const Dashboard = () => {
   const { data: units, isLoading: loadingUnits } = useUnits();
@@ -283,8 +283,8 @@ const Dashboard = () => {
                         : 'text-gray-600 hover:text-blue-700 hover:bg-blue-50'
                     }`}
                   >
-                    <FileText size={13} className="mr-1.5" />
-                    Guía Resumen ({examSummaryCount})
+                    <BookMarked size={13} className="mr-1.5" />
+                    Resúmenes ({examSummaryCount})
                   </button>
                 )}
               </div>
@@ -296,6 +296,7 @@ const Dashboard = () => {
                   {unit.lessons?.map((lesson) => {
                     const titleLower = lesson.title.toLowerCase();
                     const isSummary = titleLower.includes('resumen');
+                    const isIntegral = isSummary && titleLower.includes('integral');
                     const isRecup = titleLower.includes('recuperatorio');
                     const isLab = titleLower.includes('laboratorio') || titleLower.includes('actividades');
 
@@ -304,33 +305,59 @@ const Dashboard = () => {
                         key={lesson.id} 
                         to={`/lesson/${lesson.id}`}
                         className={`flex items-center px-6 py-5 transition-colors group ${
-                          isSummary 
-                            ? 'bg-gradient-to-r from-blue-50/80 to-indigo-50/50 hover:bg-blue-100/60 border-l-4 border-l-blue-600' 
+                          isIntegral 
+                            ? 'bg-gradient-to-r from-blue-50/90 to-indigo-50/60 hover:bg-blue-100/60 border-l-4 border-l-blue-600'
+                            : isSummary
+                            ? 'bg-sky-50/40 hover:bg-sky-50/80 border-l-4 border-l-sky-500'
                             : 'hover:bg-gray-50'
                         }`}
                       >
-                        <div className="mr-4 p-2 rounded-lg bg-indigo-50 text-indigo-600">
-                          {isSummary ? (
-                            <FileText size={22} />
+                        <div className={`mr-4 p-2 rounded-lg ${
+                          isIntegral
+                            ? 'bg-blue-100 text-blue-700'
+                            : isSummary
+                            ? 'bg-sky-100 text-sky-700'
+                            : isLab
+                            ? 'bg-emerald-50 text-emerald-600'
+                            : isRecup
+                            ? 'bg-amber-50 text-amber-600'
+                            : 'bg-indigo-50 text-indigo-600'
+                        }`}>
+                          {isIntegral ? (
+                            <ClipboardList size={22} />
+                          ) : isSummary ? (
+                            <BookMarked size={22} />
                           ) : isLab ? (
                             <TerminalSquare size={22} />
+                          ) : isRecup ? (
+                            <FileText size={22} />
                           ) : (
                             <GraduationCap size={22} />
                           )}
                         </div>
                         <div className="flex-1">
-                          <h4 className="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors text-base flex items-center gap-2">
-                            {lesson.title}
+                          <h4 className="font-semibold text-gray-900 group-hover:text-primary-600 transition-colors text-base flex items-center gap-2 flex-wrap">
+                            <span>{lesson.title}</span>
                             {isSummary && (
-                              <span className="text-xs font-normal text-blue-600 bg-blue-100 px-2 py-0.5 rounded-md hidden sm:inline">
-                                🖨️ Formato Imprimible
+                              <span className="hidden sm:inline-flex items-center text-xs font-medium text-blue-700 bg-blue-100 px-2 py-0.5 rounded-md">
+                                <Printer size={12} className="mr-1" /> Formato Imprimible
                               </span>
                             )}
                           </h4>
                           <div className="flex items-center mt-2 space-x-2">
                             {isSummary ? (
-                              <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-bold bg-blue-600 text-white shadow-xs">
-                                📋 Guía Teórico-Práctica Completa
+                              <span className={`inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold text-white shadow-xs ${
+                                isIntegral ? 'bg-blue-600' : 'bg-sky-600'
+                              }`}>
+                                {isIntegral ? (
+                                  <>
+                                    <ClipboardList size={12} className="mr-1.5" /> Guía Teórico-Práctica Completa
+                                  </>
+                                ) : (
+                                  <>
+                                    <BookMarked size={12} className="mr-1.5" /> Resumen por Tema (Teoría + Práctico)
+                                  </>
+                                )}
                               </span>
                             ) : isRecup ? (
                               <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-amber-100 text-amber-800">

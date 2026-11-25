@@ -1,4 +1,4 @@
-# 🎓 Resumen Integral de Examen Parcial: Sistemas Operativos (UNS)
+# Resumen Integral de Examen Parcial: Sistemas Operativos (UNS)
 > **Cátedra:** Sistemas Operativos — Departamento de Ciencias e Ingeniería de la Computación (UNS)  
 > **Bibliografía base:** Silberschatz, Galvin & Gagne (*Operating System Concepts*), Tanenbaum & Bos (*Modern Operating Systems*), Stallings (*Operating Systems: Internals and Design Principles*).  
 > **Formato:** Guía de estudio y resolución de exámenes parciales lista para imprimir.
@@ -290,20 +290,20 @@ void Consumidor() {
 
 ## 6. FORMULARIO MNEMOTÉCNICO Y TRUCOS DE PARCIAL
 
-### 📌 Fórmula de Cintas / Recursos Libres de Bloqueo
+### Fórmula de Cintas / Recursos Libres de Bloqueo
 Si hay m recursos idénticos y n procesos, donde cada proceso necesita a lo sumo K recursos:
 **Garantizado Libre de Deadlock si y solo si:  m ≥ n · (K - 1) + 1**
 *Ejemplo clásico de la UNS:* Si m = 6 unidades de cinta y cada proceso necesita K = 2:
 **6 ≥ n · (2 - 1) + 1  ⇒  6 ≥ n + 1  ⇒  n ≤ 5**
 *(Hasta 5 procesos concurrentes nunca se bloquearán; con 6 procesos puede haber deadlock).*
 
-### 📌 Modificaciones al Banquero que NUNCA provocan Estado Inseguro
+### Modificaciones al Banquero que NUNCA provocan Estado Inseguro
 * ✅ **Incrementar Disponible:** Nuevos recursos físicos libres siempre aumentan o mantienen las secuencias seguras.
 * ✅ **Decrementar MAX:** Un proceso declara que necesitará menos recursos (reduce Need).
 * ✅ **Decrementar Número de Procesos:** Menos competencia y se liberan recursos al terminar.
 * ❌ *Decrementar Disponible, Incrementar MAX o Añadir Procesos PUEDEN pasar el sistema a Inseguro.*
 
-### 📌 Resumen de Sincronización y Flags
+### Resumen de Sincronización y Flags
 * Si un código hace `up(&mutex)` **antes** de `test()` de los vecinos en los filósofos → **Condición de carrera**.
 * Si un productor hace `down(&mutex)` **antes** de `down(&vacio)` → **Riesgo de deadlock**.
 * Si la espera en herencia de prioridad se hace con **spinlocks** en monoprocesador → **Bloqueo mutuo permanente**.
